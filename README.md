@@ -1,7 +1,7 @@
 # awesome-acl-2025-artist
 
-# ACL 2025 Long Papers - Master Index
-
+**ACL 2025 Long Papers - Master Index**
+---
 ## 📚 Complete Paper Index
 
 Total Papers: 1599
