@@ -1,0 +1,1444 @@
+# ACL 2025 Long Papers
+
+
+**Summary:** 1599 papers with extracted content:
+- 📊 Total images: 13877
+- 📋 Total tables: 16805
+- 📄 Total files: 3068
+---
+
+# ACL 2025 Long Papers - Part 9 of 50
+
+## 目录 (Table of Contents)
+
+1. [Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning](#Mitigating-Visual-Forgetting-via-Take-along-Visual-Conditioning-for-Multi-modal-LongCoTReasoning)
+2. [MoC: Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System](#MoC-Mixtures-of-Text-Chunking-Learners-for-Retrieval-Augmented-Generation-System)
+3. [Mitigating Selection Bias with Node Pruning and Auxiliary Options](#Mitigating-Selection-Bias-with-Node-Pruning-and-Auxiliary-Options)
+4. [Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model](#Dually-Self-Improved-Counterfactual-Data-Augmentation-Using-Large-Language-Model)
+5. [RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation](#RPO-Retrieval-Preference-Optimization-for-Robust-Retrieval-Augmented-Generation)
+6. [Learning to Reason from Feedback at Test-Time](#Learning-to-Reason-from-Feedback-at-Test-Time)
+7. [L-CiteEval: A Suite for Evaluating Fidelity of Long-context Models](#L-CiteEval-A-Suite-for-Evaluating-Fidelity-of-Long-context-Models)
+8. [SECRET: Semi-supervised Clinical Trial Document Similarity Search](#SECRET-Semi-supervised-Clinical-Trial-Document-Similarity-Search)
+9. [Geometric Signatures of Compositionality Across a Language Model’s Lifetime](#Geometric-Signatures-of-Compositionality-Across-a-Language-Models-Lifetime)
+10. [Pattern Recognition or Medical Knowledge? The Problem with Multiple-Choice Questions in Medicine](#Pattern-Recognition-or-Medical-Knowledge-The-Problem-with-Multiple-Choice-Questions-in-Medicine)
+11. [People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated text](#People-who-frequently-useChatGPTfor-writing-tasks-are-accurate-and-robust-detectors-ofAI-generated-text)
+12. [YuLan-Mini: Pushing the Limits of Open Data-efficient Language Model](#YuLan-Mini-Pushing-the-Limits-of-Open-Data-efficient-Language-Model)
+13. [Your Model is Overconfident, and Other Lies We Tell Ourselves](#Your-Model-is-Overconfident-and-Other-Lies-We-Tell-Ourselves)
+14. [Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention](#Bridging-the-Language-Gaps-in-Large-Language-Models-with-Inference-Time-Cross-Lingual-Intervention)
+15. [Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models](#Plug-in-and-Fine-tuning-Bridging-the-Gap-between-Small-Language-Models-and-Large-Language-Models)
+16. [What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma](#What-is-Stigma-Attributed-to-A-Theory-Grounded-Expert-Annotated-Interview-Corpus-for-Demystifying-Mental-Health-Stigma)
+17. [ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors](#ATRI-Mitigating-Multilingual-Audio-Text-Retrieval-Inconsistencies-by-Reducing-Data-Distribution-Errors)
+18. [Enhancing Transformers for Generalizable First-Order Logical Entailment](#Enhancing-Transformers-for-Generalizable-First-Order-Logical-Entailment)
+19. [Self-Taught Agentic Long Context Understanding](#Self-Taught-Agentic-Long-Context-Understanding)
+20. [Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training](#Hallucination-Detox-Sensitivity-Dropout-SenD-for-Large-Language-Model-Training)
+21. [OS-Genesis: AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis](#OS-Genesis-AutomatingGUIAgent-Trajectory-Construction-via-Reverse-Task-Synthesis)
+22. [CORAL: Learning Consistent Representations across Multi-step Training with Lighter Speculative Drafter](#CORAL-Learning-Consistent-Representations-across-Multi-step-Training-with-Lighter-Speculative-Drafter)
+23. [ConSim: Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability](#ConSim-Measuring-Concept-Based-Explanations-Effectiveness-with-Automated-Simulatability)
+24. [Decoding Reading Goals from Eye Movements](#Decoding-Reading-Goals-from-Eye-Movements)
+25. [Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Embedding Space](#Uncovering-Visual-Semantic-Psycholinguistic-Properties-from-the-Distributional-Structure-of-Text-Embedding-Space)
+26. [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent](#GUI-explorer-Autonomous-Exploration-and-Mining-of-Transition-aware-Knowledge-forGUIAgent)
+27. [P2Law: Scaling Law for Post-Training After Model Pruning](#P2Law-Scaling-Law-for-Post-Training-After-Model-Pruning)
+28. [MakingFETCH! Happen: Finding Emergent Dog Whistles Through Common Habitats](#MakingFETCH-Happen-Finding-Emergent-Dog-Whistles-Through-Common-Habitats)
+29. [Lost in the Context: Insufficient and Distracted Attention to Contexts in Preference Modeling](#Lost-in-the-Context-Insufficient-and-Distracted-Attention-to-Contexts-in-Preference-Modeling)
+30. [Entailment-Preserving First-order Logic Representations in Natural Language Entailment](#Entailment-Preserving-First-order-Logic-Representations-in-Natural-Language-Entailment)
+31. [Enhancing Multimodal Continual Instruction Tuning withBranchLoRA](#Enhancing-Multimodal-Continual-Instruction-Tuning-withBranchLoRA)
+32. [Enhancing Automated Interpretability with Output-Centric Feature Descriptions](#Enhancing-Automated-Interpretability-with-Output-Centric-Feature-Descriptions)
+
+---
+
+
+## Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning
+
+### Images
+
+![2639cd7bb6fcaa9e4993d4fa5eced1094ed702cf20bf5cd0b286e1150eec654f.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/2639cd7bb6fcaa9e4993d4fa5eced1094ed702cf20bf5cd0b286e1150eec654f.jpg)
+
+![8740f622a9386aeffa2aeb236ef9f2846c79a4039bb76d7cbfe49dbb769914d2.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/8740f622a9386aeffa2aeb236ef9f2846c79a4039bb76d7cbfe49dbb769914d2.jpg)
+
+![94b7c92f48f887a0f9c74be6d58781965f4312ce115566e5453dc677824d53b9.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/94b7c92f48f887a0f9c74be6d58781965f4312ce115566e5453dc677824d53b9.jpg)
+
+![cace291faabe82deb194ea62e9e88db1c698249d2719b4cf5415ec24e775c487.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/cace291faabe82deb194ea62e9e88db1c698249d2719b4cf5415ec24e775c487.jpg)
+
+![d052e2a4a1a172a647c2f7a9ff4abb85b66fb71feb721b039949cdc02acde1fb.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/d052e2a4a1a172a647c2f7a9ff4abb85b66fb71feb721b039949cdc02acde1fb.jpg)
+
+![e04d8ea718047d0bb9fb92db769141f1352707ff0b52e1fc7556308abbeced2d.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/e04d8ea718047d0bb9fb92db769141f1352707ff0b52e1fc7556308abbeced2d.jpg)
+
+![e44040c44dd47e8e32ef8a665eadcbf23aeed53861117b2f44a9cbc251aedcf3.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/e44040c44dd47e8e32ef8a665eadcbf23aeed53861117b2f44a9cbc251aedcf3.jpg)
+
+![e6572f55be1508b588aba539010ba3dbcf6d2d046f8560301e2205ed048dddc4.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/images/e6572f55be1508b588aba539010ba3dbcf6d2d046f8560301e2205ed048dddc4.jpg)
+
+### Tables
+
+![40c589670b6f8fdeaabd19947da44d10c771fdc356e4500fcae7203fd1c46de4.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/tables/40c589670b6f8fdeaabd19947da44d10c771fdc356e4500fcae7203fd1c46de4.jpg)
+
+![4f607ec807a678a5b0628831623746496aaee2fb741015eb06d5691495be2dde.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/tables/4f607ec807a678a5b0628831623746496aaee2fb741015eb06d5691495be2dde.jpg)
+
+![6d363cc7ecc64be9351e14ba52f38eb4f1947fc58063ab033c16224e8a64474a.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/tables/6d363cc7ecc64be9351e14ba52f38eb4f1947fc58063ab033c16224e8a64474a.jpg)
+
+![da2e232c60b080021d3723d54e1e46c0fb94060cb15e39c6ad896e9a62c6a97a.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/tables/da2e232c60b080021d3723d54e1e46c0fb94060cb15e39c6ad896e9a62c6a97a.jpg)
+
+![dd03adb24372e2035e8b15061e6f5bb2b899184604120f328a278d2f2be2794b.jpg](acl_results/257_Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal LongCoTReasoning/tables/dd03adb24372e2035e8b15061e6f5bb2b899184604120f328a278d2f2be2794b.jpg)
+
+## MoC: Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System
+
+### Images
+
+![07dde48f468f4dc2d70e3aed5e6beddc3cb23bc9d65ce738f86b951cccdc277a.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/07dde48f468f4dc2d70e3aed5e6beddc3cb23bc9d65ce738f86b951cccdc277a.jpg)
+
+![0cd657f788a49739f0b74f2ae606631fb4bbe8ffecfb1f59014381dda86d20b8.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/0cd657f788a49739f0b74f2ae606631fb4bbe8ffecfb1f59014381dda86d20b8.jpg)
+
+![139db981985634880ca5b2d19c5cfc1ee94345f709df031a432ac8847f7661e2.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/139db981985634880ca5b2d19c5cfc1ee94345f709df031a432ac8847f7661e2.jpg)
+
+![3110d6695eed7b8bed0ec19a085ffb881d38098123f370737f048e848997fbf0.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/3110d6695eed7b8bed0ec19a085ffb881d38098123f370737f048e848997fbf0.jpg)
+
+![39cbf2a2366929639cf960ac52e2b7b30f0a76ccdd3daf2e1f0f5b476a503d31.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/39cbf2a2366929639cf960ac52e2b7b30f0a76ccdd3daf2e1f0f5b476a503d31.jpg)
+
+![4e1c7f48ff7d5f86c3336979f11d3558aec6a9e501a58f167ecac24fc04f8b6a.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/4e1c7f48ff7d5f86c3336979f11d3558aec6a9e501a58f167ecac24fc04f8b6a.jpg)
+
+![55db7acefe97a53dc96b0b44539154d4630a7d6a9a09fb033fe117da94d3ca39.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/55db7acefe97a53dc96b0b44539154d4630a7d6a9a09fb033fe117da94d3ca39.jpg)
+
+![789ef15d5b9128b447e6250f6bf2b01ffef13159291fe9ae0a4e1b36b3fa369f.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/789ef15d5b9128b447e6250f6bf2b01ffef13159291fe9ae0a4e1b36b3fa369f.jpg)
+
+![88c1d977ea1ac7217292a87c44211114f1f140fad9921ca6d0df2cbb6ae44347.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/88c1d977ea1ac7217292a87c44211114f1f140fad9921ca6d0df2cbb6ae44347.jpg)
+
+![c7568c58e9631eb77c81e9da62aa5bac03d551dc35a43cc474d29e4ff2a70d5f.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/c7568c58e9631eb77c81e9da62aa5bac03d551dc35a43cc474d29e4ff2a70d5f.jpg)
+
+![d20e5be3deb8091bebc5fb6b2c5e6164a1c06f0f88765cb6c94eee95db5c0de7.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/images/d20e5be3deb8091bebc5fb6b2c5e6164a1c06f0f88765cb6c94eee95db5c0de7.jpg)
+
+### Tables
+
+![1342598ccfad904a2ea7f49bd4b8627914935a04c0be2375ea319b81cc9e78a4.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/1342598ccfad904a2ea7f49bd4b8627914935a04c0be2375ea319b81cc9e78a4.jpg)
+
+![1a7b97292b3af37969b27af365340670b4d6bd0a25b2b459ac0e111cf7c58322.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/1a7b97292b3af37969b27af365340670b4d6bd0a25b2b459ac0e111cf7c58322.jpg)
+
+![48049ee527dd3d78c2358c7e49e35d0b62ef9ca28589f46bd2e35160af95387d.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/48049ee527dd3d78c2358c7e49e35d0b62ef9ca28589f46bd2e35160af95387d.jpg)
+
+![4fb68754d4f644a1701d5694d3a57d61d3b6986e6946f8817424fa36e626187c.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/4fb68754d4f644a1701d5694d3a57d61d3b6986e6946f8817424fa36e626187c.jpg)
+
+![50f2aaf9dae86b87e53585a6581e59d5fba7e9b335beb4ef3861275dcca05f2a.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/50f2aaf9dae86b87e53585a6581e59d5fba7e9b335beb4ef3861275dcca05f2a.jpg)
+
+![52fc6df09fd8f7b138891498ea2bfd35295e4d960c6aa90d5aaac7f681d4b6f3.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/52fc6df09fd8f7b138891498ea2bfd35295e4d960c6aa90d5aaac7f681d4b6f3.jpg)
+
+![7ebc8c58b044a9dc075cd81f4b87979d0f37cb6314c6a41168a503f44ec3a034.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/7ebc8c58b044a9dc075cd81f4b87979d0f37cb6314c6a41168a503f44ec3a034.jpg)
+
+![85ea9cca6fffcf061c258187e7cb42b443f554c952d00bcddd7bfee3eed0cf03.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/85ea9cca6fffcf061c258187e7cb42b443f554c952d00bcddd7bfee3eed0cf03.jpg)
+
+![e70df3efb5056f2678de887d44183482d1b655fef484331514750df2f873d1aa.jpg](acl_results/258_MoC_ Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System/tables/e70df3efb5056f2678de887d44183482d1b655fef484331514750df2f873d1aa.jpg)
+
+## Mitigating Selection Bias with Node Pruning and Auxiliary Options
+
+### Images
+
+![3290275d1dcc52e50c3ec700b36d24ba926133b0a9949e34ac50b23de933a3a3.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/3290275d1dcc52e50c3ec700b36d24ba926133b0a9949e34ac50b23de933a3a3.jpg)
+
+![706325bdb7c04cddceb516a365e4c3660f668fffc10056cbab1b0fae0e2db3ce.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/706325bdb7c04cddceb516a365e4c3660f668fffc10056cbab1b0fae0e2db3ce.jpg)
+
+![795a52d8aba7e072553f1601ef85de218b1d32973258c595610339f801956ebf.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/795a52d8aba7e072553f1601ef85de218b1d32973258c595610339f801956ebf.jpg)
+
+![920dc6a4a35273d5251c21cf4c711ac70adf4485fd778d8c6f39bd8319c1826b.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/920dc6a4a35273d5251c21cf4c711ac70adf4485fd778d8c6f39bd8319c1826b.jpg)
+
+![9918e8aefb2d902f284c22ad904f4104d240dcbf2ca5bce707aa59556917ea73.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/9918e8aefb2d902f284c22ad904f4104d240dcbf2ca5bce707aa59556917ea73.jpg)
+
+![cecf72685ce931708324dfb8b975b075d16972da6adc9953d5559eb9bb77c8f0.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/cecf72685ce931708324dfb8b975b075d16972da6adc9953d5559eb9bb77c8f0.jpg)
+
+![e28faff037e3a4f984c347c0aa17f6d8df2f20c9bd13e859d26bf8be39bb58a9.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/e28faff037e3a4f984c347c0aa17f6d8df2f20c9bd13e859d26bf8be39bb58a9.jpg)
+
+![e5cd21bb7850817a4227a1049b86e8796ac438e767c9fb944b775f0bf683d419.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/e5cd21bb7850817a4227a1049b86e8796ac438e767c9fb944b775f0bf683d419.jpg)
+
+![fa9ddbf46ac870ba8a60eb40bb908d42745877b6e087533c5fd1ea571e9b17fe.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/images/fa9ddbf46ac870ba8a60eb40bb908d42745877b6e087533c5fd1ea571e9b17fe.jpg)
+
+### Tables
+
+![35dcaccde53ecea0bbc99e5769dbc68626a5e485d55c124b95c9fc10fa8bed6a.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/35dcaccde53ecea0bbc99e5769dbc68626a5e485d55c124b95c9fc10fa8bed6a.jpg)
+
+![444410705021925731b0490c058f0895ce5f34160f291a8f11d8ec076bd3f75d.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/444410705021925731b0490c058f0895ce5f34160f291a8f11d8ec076bd3f75d.jpg)
+
+![51ab04858e21a44acfdb8f29577bc29d7c43409a39323cf26bfebb74eb71a02a.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/51ab04858e21a44acfdb8f29577bc29d7c43409a39323cf26bfebb74eb71a02a.jpg)
+
+![52a7f1fbd87d5a9bb6c994c3cc472183d0a1667b0ba869fe7754b8e2f210bcd8.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/52a7f1fbd87d5a9bb6c994c3cc472183d0a1667b0ba869fe7754b8e2f210bcd8.jpg)
+
+![a784d86d73d4f54620793872860b8fc0c3ce40ccea7bf8ea19971ab91ad63e1a.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/a784d86d73d4f54620793872860b8fc0c3ce40ccea7bf8ea19971ab91ad63e1a.jpg)
+
+![aa2af6c4577f253d4bc4d83d7171797563dbb3fe11ce4bbc9c912aacf3aacd96.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/aa2af6c4577f253d4bc4d83d7171797563dbb3fe11ce4bbc9c912aacf3aacd96.jpg)
+
+![b654c5a1d0b40931aa982898824fbde50447bc61a77d348d82d174a7c6307be3.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/b654c5a1d0b40931aa982898824fbde50447bc61a77d348d82d174a7c6307be3.jpg)
+
+![ba135de11bec048fcbbca50a868636b4f7ef2f43fb46251465c1699f95e899b5.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/ba135de11bec048fcbbca50a868636b4f7ef2f43fb46251465c1699f95e899b5.jpg)
+
+![d764262f624d462d7f9d0e033266f06dd256e2bdb6494ea17e3a90976e90b284.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/d764262f624d462d7f9d0e033266f06dd256e2bdb6494ea17e3a90976e90b284.jpg)
+
+![d9dec92d0c30e0c785daa169a9ea5e26eee569a4a3cb4c38a5bc7757a46aecd5.jpg](acl_results/259_Mitigating Selection Bias with Node Pruning and Auxiliary Options/tables/d9dec92d0c30e0c785daa169a9ea5e26eee569a4a3cb4c38a5bc7757a46aecd5.jpg)
+
+## Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model
+
+### Images
+
+![1ed6e0be71a21ace15f52cf6151e3a404ef1ba7499ddc31c6e9a55261bedcb93.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/images/1ed6e0be71a21ace15f52cf6151e3a404ef1ba7499ddc31c6e9a55261bedcb93.jpg)
+
+![6b52b91244af94b55cda287c3502cb3a033eb4ae8005d9b6f5d82f9789fd1014.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/images/6b52b91244af94b55cda287c3502cb3a033eb4ae8005d9b6f5d82f9789fd1014.jpg)
+
+![7dd513012000410cf156701dfbbd06d09296496c1778ea767cfb3b746e944c87.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/images/7dd513012000410cf156701dfbbd06d09296496c1778ea767cfb3b746e944c87.jpg)
+
+![968396030e36145705a5e1d510eab19c71da0b2af790b71db2ab76bac4e27122.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/images/968396030e36145705a5e1d510eab19c71da0b2af790b71db2ab76bac4e27122.jpg)
+
+![96a3d1e302e92d0ebd644d20beb2c54c63d9c25ca774e8a17d5ba8541af0a596.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/images/96a3d1e302e92d0ebd644d20beb2c54c63d9c25ca774e8a17d5ba8541af0a596.jpg)
+
+### Tables
+
+![03313773ef2a7f911036ed0c90d21b9099ade77753322f60cec0bfa62cef4711.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/tables/03313773ef2a7f911036ed0c90d21b9099ade77753322f60cec0bfa62cef4711.jpg)
+
+![33c4c043801bcb7bd3ec7e31d1bf53921e1fa2903f7bcc5523538ed914521222.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/tables/33c4c043801bcb7bd3ec7e31d1bf53921e1fa2903f7bcc5523538ed914521222.jpg)
+
+![47edd8a7e32c66901da13e2f9b5edbb3421dfeea4c727a7fd5e8d8933de568ae.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/tables/47edd8a7e32c66901da13e2f9b5edbb3421dfeea4c727a7fd5e8d8933de568ae.jpg)
+
+![68eeea309a833219ac9f95156cee5d9d306f074ae969f534ad0aaeb26e79099a.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/tables/68eeea309a833219ac9f95156cee5d9d306f074ae969f534ad0aaeb26e79099a.jpg)
+
+![6e9729307ee266cfd9f12159adb75faa5e6e4260722b52703cb08f549d1ca6b3.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/tables/6e9729307ee266cfd9f12159adb75faa5e6e4260722b52703cb08f549d1ca6b3.jpg)
+
+![c89bbf2dc3585fd1cc6a0df060f22a877e54ca20ec34abfbef216dc37aac4d9f.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/tables/c89bbf2dc3585fd1cc6a0df060f22a877e54ca20ec34abfbef216dc37aac4d9f.jpg)
+
+![e567bffa3951f2e41c1c57b9db290bc1bac4eaf2b8fe7f23c0e5d0b400d830c0.jpg](acl_results/260_Dually Self-Improved Counterfactual Data Augmentation Using Large Language Model/tables/e567bffa3951f2e41c1c57b9db290bc1bac4eaf2b8fe7f23c0e5d0b400d830c0.jpg)
+
+## RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation
+
+### Images
+
+![ab084e72e1c7c0514f180060e0638b15616bba61c77cfba4e06e24da30859d7b.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/images/ab084e72e1c7c0514f180060e0638b15616bba61c77cfba4e06e24da30859d7b.jpg)
+
+![b5a6d923cd0a644a60e0c2cbf7c9e446b1801429e72a883bb11d8de9b08d63f3.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/images/b5a6d923cd0a644a60e0c2cbf7c9e446b1801429e72a883bb11d8de9b08d63f3.jpg)
+
+![eaed43bc17aa4cf61e7cc4963106e63040be74f69c286dda11ea3ecaaecfc066.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/images/eaed43bc17aa4cf61e7cc4963106e63040be74f69c286dda11ea3ecaaecfc066.jpg)
+
+### Tables
+
+![074d0f60c47ef484790e35be7c750f9db06797a714e07fffe380a1fac7612a9c.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/tables/074d0f60c47ef484790e35be7c750f9db06797a714e07fffe380a1fac7612a9c.jpg)
+
+![489cf18937eb11653f85aab1a823ecea1a34392347d6fb0ad77c890cd1300815.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/tables/489cf18937eb11653f85aab1a823ecea1a34392347d6fb0ad77c890cd1300815.jpg)
+
+![58738fd935007b72b52e6b8f6db8f71e620a59e107f879e5e2336f64e1d88f34.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/tables/58738fd935007b72b52e6b8f6db8f71e620a59e107f879e5e2336f64e1d88f34.jpg)
+
+![742b78c52f98155f4352ec79784e15459a40427a41d34f4069beb33f8a3ffb8b.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/tables/742b78c52f98155f4352ec79784e15459a40427a41d34f4069beb33f8a3ffb8b.jpg)
+
+![9b857f29d218e7c09ab6488b6dfa4fb43921104dd9765864a7a2099bb60bc444.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/tables/9b857f29d218e7c09ab6488b6dfa4fb43921104dd9765864a7a2099bb60bc444.jpg)
+
+![d268ad6416b251e0cf17ed8ee1b962eeef7299b9589ea7dcd7ff3a26d0da36c1.jpg](acl_results/261_RPO_ Retrieval Preference Optimization for Robust Retrieval-Augmented Generation/tables/d268ad6416b251e0cf17ed8ee1b962eeef7299b9589ea7dcd7ff3a26d0da36c1.jpg)
+
+## Learning to Reason from Feedback at Test-Time
+
+### Images
+
+![8f848dc810371c0d5497958e6faf2965080be25d4c8891ced62683fe5adeac92.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/images/8f848dc810371c0d5497958e6faf2965080be25d4c8891ced62683fe5adeac92.jpg)
+
+![95fd3f35f17c2f5fa40a3db068c7ca51c7786abf5f69de427c8e372c766ace01.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/images/95fd3f35f17c2f5fa40a3db068c7ca51c7786abf5f69de427c8e372c766ace01.jpg)
+
+![ce5417f29d879815603998e52a7242a89f1c97f795e70677f901a9384967dd93.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/images/ce5417f29d879815603998e52a7242a89f1c97f795e70677f901a9384967dd93.jpg)
+
+![d37e0cbf9f051d3b3c8fd59df42bdee7ad5a33dbef49dc4043536e63beb65d80.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/images/d37e0cbf9f051d3b3c8fd59df42bdee7ad5a33dbef49dc4043536e63beb65d80.jpg)
+
+![e86bb89c1c929f471187a0606cfff8b1dc2d8d0c3e597e6a212d1773e9a6ffff.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/images/e86bb89c1c929f471187a0606cfff8b1dc2d8d0c3e597e6a212d1773e9a6ffff.jpg)
+
+### Tables
+
+![0e4cebc2367e05337ae0b2bbdae1faddc0c2df0015d39614f7229a29d012671e.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/tables/0e4cebc2367e05337ae0b2bbdae1faddc0c2df0015d39614f7229a29d012671e.jpg)
+
+![2e70f4ae2828caa6d1f956e5e65f84e53b7642a48cdf7c523b48e46680934f18.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/tables/2e70f4ae2828caa6d1f956e5e65f84e53b7642a48cdf7c523b48e46680934f18.jpg)
+
+![65987bbc356845d3142fcf433f6ec9370b504102007441c2e422ee8702e05003.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/tables/65987bbc356845d3142fcf433f6ec9370b504102007441c2e422ee8702e05003.jpg)
+
+![b8fb58725ab1ec205765d78bd14374f921d3f3254e22afe6a100cea0a57ae77e.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/tables/b8fb58725ab1ec205765d78bd14374f921d3f3254e22afe6a100cea0a57ae77e.jpg)
+
+![f493758bb061073724ff8a486a7bbdd88f052761ca6529f703c2f7068434bc27.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/tables/f493758bb061073724ff8a486a7bbdd88f052761ca6529f703c2f7068434bc27.jpg)
+
+![fbb357ad19f6ab86b7c06e4453f7573b59a7bb536fe403f2330978e34fba4316.jpg](acl_results/262_Learning to Reason from Feedback at Test-Time/tables/fbb357ad19f6ab86b7c06e4453f7573b59a7bb536fe403f2330978e34fba4316.jpg)
+
+## L-CiteEval: A Suite for Evaluating Fidelity of Long-context Models
+
+### Images
+
+![0b3e8ab3f966f6a659d8d74f2cdc8a55a6ee58e4558fd40a7a2c0bd092f42789.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/images/0b3e8ab3f966f6a659d8d74f2cdc8a55a6ee58e4558fd40a7a2c0bd092f42789.jpg)
+
+![44e460542f9e437269c8af0efdaa2c080b3bb8344e47d53177acf12e23fc995d.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/images/44e460542f9e437269c8af0efdaa2c080b3bb8344e47d53177acf12e23fc995d.jpg)
+
+![5057ca9dd00f1e1fca666301b254c9eea69e055638279cac6b5f133f0fecf371.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/images/5057ca9dd00f1e1fca666301b254c9eea69e055638279cac6b5f133f0fecf371.jpg)
+
+![a24b97c978d60e47d6ed13c06428b40061dda5375b33d09b7f28b2a6f89a36e0.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/images/a24b97c978d60e47d6ed13c06428b40061dda5375b33d09b7f28b2a6f89a36e0.jpg)
+
+![b1be3e0b7929040228309bef47f93c6580d94e9a5093de26d1136725a4806849.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/images/b1be3e0b7929040228309bef47f93c6580d94e9a5093de26d1136725a4806849.jpg)
+
+![ef8a266e432e3f10f77472b7024d56b08ee44f89860aba938780e8c7e2e87532.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/images/ef8a266e432e3f10f77472b7024d56b08ee44f89860aba938780e8c7e2e87532.jpg)
+
+### Tables
+
+![00c012a3e50a16c3aad99f34dbf5147876bd323513073faee8c25819226191d8.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/00c012a3e50a16c3aad99f34dbf5147876bd323513073faee8c25819226191d8.jpg)
+
+![18c45e49ee25eecfe6f852dce15b0f47a34c86825d3ba60abaa0d1ff95bb7a36.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/18c45e49ee25eecfe6f852dce15b0f47a34c86825d3ba60abaa0d1ff95bb7a36.jpg)
+
+![2bb57d771ffcf973dff853667a35f674ec929bc5f688e463549ef02020edc0d6.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/2bb57d771ffcf973dff853667a35f674ec929bc5f688e463549ef02020edc0d6.jpg)
+
+![2ed92ecf09deb2c501ffa541c9ade5a1b3ef328fd6fd81e85d8ac6873f6249ad.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/2ed92ecf09deb2c501ffa541c9ade5a1b3ef328fd6fd81e85d8ac6873f6249ad.jpg)
+
+![3a4ef52a17a278cae5916852d9cc95bc320a6af30858a5a770d640382fbce6c9.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/3a4ef52a17a278cae5916852d9cc95bc320a6af30858a5a770d640382fbce6c9.jpg)
+
+![4365e6ab997575d233f27a712f83fe4f74c0eb2b6dc8a8989375b6e7573cefa4.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/4365e6ab997575d233f27a712f83fe4f74c0eb2b6dc8a8989375b6e7573cefa4.jpg)
+
+![51ebea0e056c9de156dd3fe4837ad04974e6a6ed8230a73e6b1cf10bc91fa525.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/51ebea0e056c9de156dd3fe4837ad04974e6a6ed8230a73e6b1cf10bc91fa525.jpg)
+
+![5afda2ab687ebe6f2c65e73dac32df67fb8c429d7f7bd7c907f62c709739f8ae.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/5afda2ab687ebe6f2c65e73dac32df67fb8c429d7f7bd7c907f62c709739f8ae.jpg)
+
+![5e66cf62d88554b38fb8c580fd983f0b9a96f8dbc3062d11fca1f0fbff7abc2b.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/5e66cf62d88554b38fb8c580fd983f0b9a96f8dbc3062d11fca1f0fbff7abc2b.jpg)
+
+![672b6ac8c6d2e17adae83692dd65ef207196e7ac733e3acc3a7564b953e2da82.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/672b6ac8c6d2e17adae83692dd65ef207196e7ac733e3acc3a7564b953e2da82.jpg)
+
+![6ac1c1b6fd0c49e8a681fa5824fdfd6fb22a2d49caa0b09184f7a15556e2c95c.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/6ac1c1b6fd0c49e8a681fa5824fdfd6fb22a2d49caa0b09184f7a15556e2c95c.jpg)
+
+![72ffa19659c17e6ee5aea15bda8da37e29703dec8a1adf6e2725f95a3e70513a.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/72ffa19659c17e6ee5aea15bda8da37e29703dec8a1adf6e2725f95a3e70513a.jpg)
+
+![9d51f653d27c8e0bda0b46ab92ef28e4241a1559db2d08a65f6fc17c78ca0e04.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/9d51f653d27c8e0bda0b46ab92ef28e4241a1559db2d08a65f6fc17c78ca0e04.jpg)
+
+![e22ccf5901b193628696dc9ed96ab60e764530870cd37ee4933cb2d1afbba375.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/e22ccf5901b193628696dc9ed96ab60e764530870cd37ee4933cb2d1afbba375.jpg)
+
+![f29a997d34cc3590152a633d4d48d0489d30183da7cb6d6f7d2c2491c2f4fc87.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/f29a997d34cc3590152a633d4d48d0489d30183da7cb6d6f7d2c2491c2f4fc87.jpg)
+
+![f8f164efc0ae951b117de555fc81228d571e8376406b0779917162bea25db847.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/f8f164efc0ae951b117de555fc81228d571e8376406b0779917162bea25db847.jpg)
+
+![fff75e5253e6c06f3d8e20f0bac5f6f51d0a86e3e3f4e2379d0320b45c708460.jpg](acl_results/263_L-CiteEval_ A Suite for Evaluating Fidelity of Long-context Models/tables/fff75e5253e6c06f3d8e20f0bac5f6f51d0a86e3e3f4e2379d0320b45c708460.jpg)
+
+## SECRET: Semi-supervised Clinical Trial Document Similarity Search
+
+### Images
+
+![23bb4b39c191554b5ed1311ae15bfcdd052fa888d972bdc31bef0f474ba79f31.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/23bb4b39c191554b5ed1311ae15bfcdd052fa888d972bdc31bef0f474ba79f31.jpg)
+
+![5bef1e07afd6b3fbd7ed26bf77df662bb9b14355eb56a88f9fb8da036d8c8abb.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/5bef1e07afd6b3fbd7ed26bf77df662bb9b14355eb56a88f9fb8da036d8c8abb.jpg)
+
+![8c6ecc9a033a83b6f286d84a7c92c887386841ac1fca96005194f37a2031d5ac.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/8c6ecc9a033a83b6f286d84a7c92c887386841ac1fca96005194f37a2031d5ac.jpg)
+
+![b132f0bfd2b2f2c0f24857503b40c6e77848560bae729a313d82bad70cff7f86.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/b132f0bfd2b2f2c0f24857503b40c6e77848560bae729a313d82bad70cff7f86.jpg)
+
+![b2198147ab1860036461c2f689a5ac549b1cd846569d77ab3551b211fab15398.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/b2198147ab1860036461c2f689a5ac549b1cd846569d77ab3551b211fab15398.jpg)
+
+![d0feb5dc08dcefba4f471bc657e5ec36f23b6d9a054c2a6d52c894714c157228.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/d0feb5dc08dcefba4f471bc657e5ec36f23b6d9a054c2a6d52c894714c157228.jpg)
+
+![d9deea5b78a73b206c5d246198171cb69c20d0bf19cffd518c6bba1a27f8f7d4.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/d9deea5b78a73b206c5d246198171cb69c20d0bf19cffd518c6bba1a27f8f7d4.jpg)
+
+![f16503f181283d3d02f5d0db7a939815e9322841f21dbd1fb786387bef40dbf4.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/images/f16503f181283d3d02f5d0db7a939815e9322841f21dbd1fb786387bef40dbf4.jpg)
+
+### Tables
+
+![0835af0f7775ee85a88eb26526c8263e2e933bc1a66f0f6c361f1ef7525946ff.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/0835af0f7775ee85a88eb26526c8263e2e933bc1a66f0f6c361f1ef7525946ff.jpg)
+
+![1f6f92af9e23d4897a8d1b147d96c0b9f40d33f58f0311508315c3742b72d24c.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/1f6f92af9e23d4897a8d1b147d96c0b9f40d33f58f0311508315c3742b72d24c.jpg)
+
+![4026373a6aa1686e3bdc3f841f8cb6a3c93cc56e223316a84a4243a80902d7f8.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/4026373a6aa1686e3bdc3f841f8cb6a3c93cc56e223316a84a4243a80902d7f8.jpg)
+
+![85f86da551b2f77a2efde38769152cd56ce6400d6844108393eea38be21c907c.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/85f86da551b2f77a2efde38769152cd56ce6400d6844108393eea38be21c907c.jpg)
+
+![871ca4b56ec5a96a8f1c5530ba82314fe44b1e166f7eb7232bad5e2071af8fab.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/871ca4b56ec5a96a8f1c5530ba82314fe44b1e166f7eb7232bad5e2071af8fab.jpg)
+
+![afcbee2660f1814e39bab6df40357c0e23949a48d75c86234cfa54f041e3d97e.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/afcbee2660f1814e39bab6df40357c0e23949a48d75c86234cfa54f041e3d97e.jpg)
+
+![e0d52b13d119ca7ae4000e0a6484912afe4da5492868fd617648a69238b38154.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/e0d52b13d119ca7ae4000e0a6484912afe4da5492868fd617648a69238b38154.jpg)
+
+![e1595e3cd1ee33d2ca6be2ea1dfb235da880b388948816d4019b3b7bb23ce9a4.jpg](acl_results/264_SECRET_ Semi-supervised Clinical Trial Document Similarity Search/tables/e1595e3cd1ee33d2ca6be2ea1dfb235da880b388948816d4019b3b7bb23ce9a4.jpg)
+
+## Geometric Signatures of Compositionality Across a Language Model’s Lifetime
+
+### Images
+
+![2983becffb768bb857826d161dff153e48f924c60dd0b72cbd03105bc1788612.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/2983becffb768bb857826d161dff153e48f924c60dd0b72cbd03105bc1788612.jpg)
+
+![2b323817b4f298af7dcfd08fb7147ab6ca467864ef0929d73e69c187d8963c12.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/2b323817b4f298af7dcfd08fb7147ab6ca467864ef0929d73e69c187d8963c12.jpg)
+
+![3b34d597f0b8748bd006649c5ec95818801158a6acc17c941fc291780915c6bc.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/3b34d597f0b8748bd006649c5ec95818801158a6acc17c941fc291780915c6bc.jpg)
+
+![3de1e3bfe849dcafc8b7a37299296d8243431808a9fbb4f80f67e8da633bb403.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/3de1e3bfe849dcafc8b7a37299296d8243431808a9fbb4f80f67e8da633bb403.jpg)
+
+![54f2cbb3f567ae9db35fd19997e78860e886869f2f9eba137167c5d9282df052.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/54f2cbb3f567ae9db35fd19997e78860e886869f2f9eba137167c5d9282df052.jpg)
+
+![5a27bce0b70946879958a0f05a4a5e1139822ab80cabebeb12b63aa4ee37a10b.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/5a27bce0b70946879958a0f05a4a5e1139822ab80cabebeb12b63aa4ee37a10b.jpg)
+
+![6bd9218dd7f450335867f911513255e99b545e57dd066b2580a9dd1c8d877f76.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/6bd9218dd7f450335867f911513255e99b545e57dd066b2580a9dd1c8d877f76.jpg)
+
+![7b8e70e001e11bc4e268508ed15807d598ad325ba539ffda6ff3bf25c71b6520.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/7b8e70e001e11bc4e268508ed15807d598ad325ba539ffda6ff3bf25c71b6520.jpg)
+
+![7f3ee4a1c0006bab94482e554921d377825789899be6dfb4c0e5f179e9ad4231.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/7f3ee4a1c0006bab94482e554921d377825789899be6dfb4c0e5f179e9ad4231.jpg)
+
+![8f960f49cae73842db273e9bf2d25190ea892991fda46bc8b71696c8d60ccdd6.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/8f960f49cae73842db273e9bf2d25190ea892991fda46bc8b71696c8d60ccdd6.jpg)
+
+![9937476d20b47ad97698a5c23c2bcb31617dca112bc7f0fd92b5a6aa1bd4271c.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/9937476d20b47ad97698a5c23c2bcb31617dca112bc7f0fd92b5a6aa1bd4271c.jpg)
+
+![9bdf6dab770a805f2236319f52d087f68c4ec0f36377ab49230694ff3df53be2.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/9bdf6dab770a805f2236319f52d087f68c4ec0f36377ab49230694ff3df53be2.jpg)
+
+![b7a8ba4068b4c7e1b713be9235b43e83d460e7a97b0d87a54fbc3e09ef9ed9a0.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/b7a8ba4068b4c7e1b713be9235b43e83d460e7a97b0d87a54fbc3e09ef9ed9a0.jpg)
+
+![bc7d5f49435f707e4394bd52189c3eb4ec89d95c08de5f9beb33ab1f754ac68b.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/bc7d5f49435f707e4394bd52189c3eb4ec89d95c08de5f9beb33ab1f754ac68b.jpg)
+
+![d14b4554b9bee1686dd89927093b14de596fb3305a8bb5dadb7fd90420133c20.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/d14b4554b9bee1686dd89927093b14de596fb3305a8bb5dadb7fd90420133c20.jpg)
+
+![de5409565ce002e30bad7ece3d04d872d6edbac6fe791225aec4db0d3eb6659b.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/de5409565ce002e30bad7ece3d04d872d6edbac6fe791225aec4db0d3eb6659b.jpg)
+
+![ded34b279a826955c0aab57bb841155448a5fe92dc2d48b2c0ffa3664aae361a.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/ded34b279a826955c0aab57bb841155448a5fe92dc2d48b2c0ffa3664aae361a.jpg)
+
+![f83ebfcb9d8ddddf4e48e96b0126dd87409b9117a9713dc1f1ee31e782d14683.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/f83ebfcb9d8ddddf4e48e96b0126dd87409b9117a9713dc1f1ee31e782d14683.jpg)
+
+![fca3bf6c3912727e1ccc2812eb7839b125709a94b107e7689d2e5e56f797a84c.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/images/fca3bf6c3912727e1ccc2812eb7839b125709a94b107e7689d2e5e56f797a84c.jpg)
+
+### Tables
+
+![1efe61442a560e91ae908696a792778e85bfaabb12e28a63c38be3078e80d8be.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/tables/1efe61442a560e91ae908696a792778e85bfaabb12e28a63c38be3078e80d8be.jpg)
+
+![8f0452667d07c07dd050772bffa0972ad4ee29aaf1f1756f0f07930088c268a0.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/tables/8f0452667d07c07dd050772bffa0972ad4ee29aaf1f1756f0f07930088c268a0.jpg)
+
+![945a5d612c93f4b870032d1216867ba257b5e72cea385c9d05abfb9be08775ed.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/tables/945a5d612c93f4b870032d1216867ba257b5e72cea385c9d05abfb9be08775ed.jpg)
+
+![afee6d22baee971baf9b4b5328a203192f627ca674560edaad3765f1be5f6b0c.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/tables/afee6d22baee971baf9b4b5328a203192f627ca674560edaad3765f1be5f6b0c.jpg)
+
+![f71ce85336993493f488293292743ddd964637f0d950a4693d980becda7d2032.jpg](acl_results/265_Geometric Signatures of Compositionality Across a Language Model’s Lifetime/tables/f71ce85336993493f488293292743ddd964637f0d950a4693d980becda7d2032.jpg)
+
+## Pattern Recognition or Medical Knowledge? The Problem with Multiple-Choice Questions in Medicine
+
+### Images
+
+![4b71c5d9aa32db0160fa42c747706de1f39cc7ae3d2b11c36bf6de1b6bd610d3.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/images/4b71c5d9aa32db0160fa42c747706de1f39cc7ae3d2b11c36bf6de1b6bd610d3.jpg)
+
+![c49038a8b967e8d276ca8ad4131beaffea0dab9cfc259933040e1cd16188df50.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/images/c49038a8b967e8d276ca8ad4131beaffea0dab9cfc259933040e1cd16188df50.jpg)
+
+![d60ebd11f3a0f0a3cfb7fc1151eb5232291fa5b57c0622630d4c0ef6a0cde6ff.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/images/d60ebd11f3a0f0a3cfb7fc1151eb5232291fa5b57c0622630d4c0ef6a0cde6ff.jpg)
+
+![e91e44cf433798962949bf3a397fc83ee28aeef1fcbd5b5467e0b41a9df9b008.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/images/e91e44cf433798962949bf3a397fc83ee28aeef1fcbd5b5467e0b41a9df9b008.jpg)
+
+### Tables
+
+![0e97070f484d4b8f9b6c1420bd668919268cce5e18350731834904462cc3e42f.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/0e97070f484d4b8f9b6c1420bd668919268cce5e18350731834904462cc3e42f.jpg)
+
+![29a971be6a0a470e45321c0f97e150d96de1fbc8629b9a6568b288e3defaa029.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/29a971be6a0a470e45321c0f97e150d96de1fbc8629b9a6568b288e3defaa029.jpg)
+
+![3c26206d50f3b94dd824fd0ebf70febfc41becc6c3e4e6780efddb73e8988399.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/3c26206d50f3b94dd824fd0ebf70febfc41becc6c3e4e6780efddb73e8988399.jpg)
+
+![793e1dcbe2ea9dc02761768e170791271f374b2bb19b65d83d5dc07f9621dad3.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/793e1dcbe2ea9dc02761768e170791271f374b2bb19b65d83d5dc07f9621dad3.jpg)
+
+![99865b133ec7aef7070844d0b5055f224fb175b7fdd3cbb6bf0870564a3bbd1b.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/99865b133ec7aef7070844d0b5055f224fb175b7fdd3cbb6bf0870564a3bbd1b.jpg)
+
+![a10d9628d25ea9dce44df33e3734bd029032716695bbd086f71d25bf5f1486ef.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/a10d9628d25ea9dce44df33e3734bd029032716695bbd086f71d25bf5f1486ef.jpg)
+
+![a253e11eef58872d27b43ea26f0d298c217cbca1d1c50546614387de8fdb16f0.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/a253e11eef58872d27b43ea26f0d298c217cbca1d1c50546614387de8fdb16f0.jpg)
+
+![e33a75f27ea2879d66153515485098f68b26a604645b6d6ddf5a3bc6ea7dff0e.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/e33a75f27ea2879d66153515485098f68b26a604645b6d6ddf5a3bc6ea7dff0e.jpg)
+
+![e493ddf4dfbc83a6261f009a4f53bd4d67ff6ba53a0c512c2f81f5130ac54840.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/e493ddf4dfbc83a6261f009a4f53bd4d67ff6ba53a0c512c2f81f5130ac54840.jpg)
+
+![f1624a20d809ac000e18c290db17792f68216b2239a9b7cef1fb7e21f948c1ee.jpg](acl_results/266_Pattern Recognition or Medical Knowledge_ The Problem with Multiple-Choice Questions in Medicine/tables/f1624a20d809ac000e18c290db17792f68216b2239a9b7cef1fb7e21f948c1ee.jpg)
+
+## People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated text
+
+### Images
+
+![249797ddcf860d41255523c5a8a725380fb0bf7b1ace4c37febb480eb7123646.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/249797ddcf860d41255523c5a8a725380fb0bf7b1ace4c37febb480eb7123646.jpg)
+
+![2d2e519bffd1ac209747d1913d945fb530e33918e0bcfbb04015ab1988f92f23.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/2d2e519bffd1ac209747d1913d945fb530e33918e0bcfbb04015ab1988f92f23.jpg)
+
+![33aec02c825f668ef14eb80d87d65348ef14425b240e4dd697a009c756550532.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/33aec02c825f668ef14eb80d87d65348ef14425b240e4dd697a009c756550532.jpg)
+
+![3fae769f6621d5d3773a211cf266a8dcf5df2a46d68628537d1b666087ed0e76.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/3fae769f6621d5d3773a211cf266a8dcf5df2a46d68628537d1b666087ed0e76.jpg)
+
+![42ee42c287cbdb3fcc7538c0e3b7c653eacfb20b5ca34da1d96f551b4707ccd3.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/42ee42c287cbdb3fcc7538c0e3b7c653eacfb20b5ca34da1d96f551b4707ccd3.jpg)
+
+![475be341100e1c0a48df48ecab5a378c74ca509eec1907389086bc71a98265b5.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/475be341100e1c0a48df48ecab5a378c74ca509eec1907389086bc71a98265b5.jpg)
+
+![7b7b89676c0ce716a44b698745c8ee6a2d93a703963a4659ae23dfedaabcb0bc.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/7b7b89676c0ce716a44b698745c8ee6a2d93a703963a4659ae23dfedaabcb0bc.jpg)
+
+![9a3c4a2003438106bec0ff73e28fda3cd815e6118b3a102433fd2bfcb14edbf4.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/9a3c4a2003438106bec0ff73e28fda3cd815e6118b3a102433fd2bfcb14edbf4.jpg)
+
+![a56abdfdf3e9307837e2426c837f1f5014142b081fbbff8fb17e593e1c42d399.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/a56abdfdf3e9307837e2426c837f1f5014142b081fbbff8fb17e593e1c42d399.jpg)
+
+![c953ac693b16ca1cd2ef6b9cd0d5988a073f61a3740561a0aa3c0d241799a76b.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/c953ac693b16ca1cd2ef6b9cd0d5988a073f61a3740561a0aa3c0d241799a76b.jpg)
+
+![de73359cd6cc76d5eac25ad91c2eec35798b84091a916319e96158f645d46fdb.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/de73359cd6cc76d5eac25ad91c2eec35798b84091a916319e96158f645d46fdb.jpg)
+
+![f8dec6492bac91a41042fd68b4b8a456f74883da1edccccf448e0411a0dccad7.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/images/f8dec6492bac91a41042fd68b4b8a456f74883da1edccccf448e0411a0dccad7.jpg)
+
+### Tables
+
+![0381ee057d65abbba1fe46f8752128f1e820e494e15caf5bc2e1150e62421044.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/0381ee057d65abbba1fe46f8752128f1e820e494e15caf5bc2e1150e62421044.jpg)
+
+![04eab808a3f8cb05c309335583cb303c7d3a7b2c6025b0263ba2d6666742e85e.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/04eab808a3f8cb05c309335583cb303c7d3a7b2c6025b0263ba2d6666742e85e.jpg)
+
+![26a83b58c0cb07256c99da68f0577a051f16d4035656b6999035095f4e3a95a3.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/26a83b58c0cb07256c99da68f0577a051f16d4035656b6999035095f4e3a95a3.jpg)
+
+![45e09be7ba4fed4d8488788c58b3044cd4282ca6990b967ff75e39aeeef6e46f.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/45e09be7ba4fed4d8488788c58b3044cd4282ca6990b967ff75e39aeeef6e46f.jpg)
+
+![535b4e458aabd1fdbe4903636d59085d2069ffe09c739a416344bb51c6f62373.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/535b4e458aabd1fdbe4903636d59085d2069ffe09c739a416344bb51c6f62373.jpg)
+
+![5b9408342aa587dac01f5ff538364606fa3677107a9d5872999501733a79f48d.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/5b9408342aa587dac01f5ff538364606fa3677107a9d5872999501733a79f48d.jpg)
+
+![60cab6b2e2e4859d704abac8131ca723ec3923f7fd6e15db95ddb0e71bea0b9d.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/60cab6b2e2e4859d704abac8131ca723ec3923f7fd6e15db95ddb0e71bea0b9d.jpg)
+
+![67ebe6334ba16317749c67a0994a84cf6ec65dd689d965a602fe7e2a34cc6bf9.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/67ebe6334ba16317749c67a0994a84cf6ec65dd689d965a602fe7e2a34cc6bf9.jpg)
+
+![86bb8add2e5fbd0abe3f9d8e40d3a8bdb7461ba64e602385d232ddd6172cfb64.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/86bb8add2e5fbd0abe3f9d8e40d3a8bdb7461ba64e602385d232ddd6172cfb64.jpg)
+
+![8dc8980271dc3a25ac0f3b5376f7c0a6c43878ed7ff92ef7bdc3638025c5f942.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/8dc8980271dc3a25ac0f3b5376f7c0a6c43878ed7ff92ef7bdc3638025c5f942.jpg)
+
+![8e606c36f3634eb1725ba6447651649463e024b1a000d31b52237a92aecb5577.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/8e606c36f3634eb1725ba6447651649463e024b1a000d31b52237a92aecb5577.jpg)
+
+![a53942d1d74575d8e880291ee8876910fbe998d15b1a073cabdb999b7ff0793d.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/a53942d1d74575d8e880291ee8876910fbe998d15b1a073cabdb999b7ff0793d.jpg)
+
+![c75a62659fd8b0c5a8b6d90e44abaec7105c0ee10e416f2eb8c0c51636d551d7.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/c75a62659fd8b0c5a8b6d90e44abaec7105c0ee10e416f2eb8c0c51636d551d7.jpg)
+
+![cf9a989c793deb537d40b3213012358a2d08d9117406332548f043a17e64ba15.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/cf9a989c793deb537d40b3213012358a2d08d9117406332548f043a17e64ba15.jpg)
+
+![d0cb896bd850302bea50b297eed9fe7c0146f4894da85b2488114e375425988f.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/d0cb896bd850302bea50b297eed9fe7c0146f4894da85b2488114e375425988f.jpg)
+
+![d1cd6c117cf5fc978ea0914aa0c22235b8961f45d6e84c02c5eaa14082820f73.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/d1cd6c117cf5fc978ea0914aa0c22235b8961f45d6e84c02c5eaa14082820f73.jpg)
+
+![d1f4b5dce7491da196631265f835dd1087c44fe64907e19ae790ed6e0cf3fed3.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/d1f4b5dce7491da196631265f835dd1087c44fe64907e19ae790ed6e0cf3fed3.jpg)
+
+![e6c672aa2f2536d10d7578624938400e3e527900a398a155d5af98e9c8c73f94.jpg](acl_results/267_People who frequently useChatGPTfor writing tasks are accurate and robust detectors ofAI-generated t/tables/e6c672aa2f2536d10d7578624938400e3e527900a398a155d5af98e9c8c73f94.jpg)
+
+## YuLan-Mini: Pushing the Limits of Open Data-efficient Language Model
+
+### Images
+
+![14f5ffdafab64b1bd00e03e39a18ac4ac2999fc64f44c12b2101b1942c1a7d96.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/14f5ffdafab64b1bd00e03e39a18ac4ac2999fc64f44c12b2101b1942c1a7d96.jpg)
+
+![1ab0476b91554e6bb60225b9200bb2380ba52f44d4ab0e7bd419024009dd6aba.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/1ab0476b91554e6bb60225b9200bb2380ba52f44d4ab0e7bd419024009dd6aba.jpg)
+
+![27ea34c007665e977fec8d81cd97f42e28fd9df3bc62f0a31ebdcb4d9edc6e55.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/27ea34c007665e977fec8d81cd97f42e28fd9df3bc62f0a31ebdcb4d9edc6e55.jpg)
+
+![3404e01612def61fdfe028c261314d58daeea4c8b40619631512e060f1f7acc0.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/3404e01612def61fdfe028c261314d58daeea4c8b40619631512e060f1f7acc0.jpg)
+
+![6f9bc01762107a0ccf039f8f3c1c71e841e5a1c2e2c6a636aca9f2e5aa1a9177.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/6f9bc01762107a0ccf039f8f3c1c71e841e5a1c2e2c6a636aca9f2e5aa1a9177.jpg)
+
+![7b1258e1e92dfac9a6a1202b0cea210bd17d8277281b99dc3a7055a8328ac59e.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/7b1258e1e92dfac9a6a1202b0cea210bd17d8277281b99dc3a7055a8328ac59e.jpg)
+
+![9fe39f1fd0457a80726a2b14d41e037463867431d52143169a47d7cd2e3d1e54.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/9fe39f1fd0457a80726a2b14d41e037463867431d52143169a47d7cd2e3d1e54.jpg)
+
+![b296545f55105b1ff62095e58689fd26c7fcd203aacd5e85dbf47b8fd559b17f.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/b296545f55105b1ff62095e58689fd26c7fcd203aacd5e85dbf47b8fd559b17f.jpg)
+
+![bb8510f21d4b3c77dcea954638ef3c55bd568e01e76193dabbfdb599ade1ddff.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/bb8510f21d4b3c77dcea954638ef3c55bd568e01e76193dabbfdb599ade1ddff.jpg)
+
+![bddf9a72b6cf62f77892b8b8432459b4edf27cbcdc34dccd02f8cd78fc3009f8.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/bddf9a72b6cf62f77892b8b8432459b4edf27cbcdc34dccd02f8cd78fc3009f8.jpg)
+
+![c27ce26954819c5608e3bfce315bf0b06664924aa3a6383ae95dd1492a36ceae.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/c27ce26954819c5608e3bfce315bf0b06664924aa3a6383ae95dd1492a36ceae.jpg)
+
+![d430ba9e39cf34243e67e7c199fea2e69e0da46636abbdb3325aed0ebde3546e.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/d430ba9e39cf34243e67e7c199fea2e69e0da46636abbdb3325aed0ebde3546e.jpg)
+
+![f5411b50a353eb5c0452afc85e748a4f36ded41fb49e49903575d876fccb3481.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/images/f5411b50a353eb5c0452afc85e748a4f36ded41fb49e49903575d876fccb3481.jpg)
+
+### Tables
+
+![08dff30362bc8d0cd96153235ea105d2144d13da163191dada1b216fdef7004b.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/08dff30362bc8d0cd96153235ea105d2144d13da163191dada1b216fdef7004b.jpg)
+
+![1734af6c79fb4a7adfa2bf9627e1a59f640db01048718f3347a75407d7ac8032.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/1734af6c79fb4a7adfa2bf9627e1a59f640db01048718f3347a75407d7ac8032.jpg)
+
+![19e0a693670e1801123cc07e739e10712b54635957377023a6523436b8c404be.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/19e0a693670e1801123cc07e739e10712b54635957377023a6523436b8c404be.jpg)
+
+![1f62df7e0fa59d81322964ffac3f0cef1f4d343abb07a6fadbc44e4e2fe3d6d6.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/1f62df7e0fa59d81322964ffac3f0cef1f4d343abb07a6fadbc44e4e2fe3d6d6.jpg)
+
+![2407dc5af5775f92e25db2c354da9f2a7a9e1545c9d9cdaa9111d56cd8f3cc24.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/2407dc5af5775f92e25db2c354da9f2a7a9e1545c9d9cdaa9111d56cd8f3cc24.jpg)
+
+![4204ca3ef9b8e50756f75486564d62349a87876cfffd02004ee3400f2b281db8.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/4204ca3ef9b8e50756f75486564d62349a87876cfffd02004ee3400f2b281db8.jpg)
+
+![b43124575cd27ccf13e25f5392a487ba5406127f26e4c093558db66e35bb4a7d.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/b43124575cd27ccf13e25f5392a487ba5406127f26e4c093558db66e35bb4a7d.jpg)
+
+![bcf6c15f4b3bc714b88be688e1cf29a962f9a32ef3779630047d7f4283bd74c5.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/bcf6c15f4b3bc714b88be688e1cf29a962f9a32ef3779630047d7f4283bd74c5.jpg)
+
+![cfd8d66f190accc9bedac587b313428fc39eda5f45c5d46ed8274fc2e7c1c0ac.jpg](acl_results/268_YuLan-Mini_ Pushing the Limits of Open Data-efficient Language Model/tables/cfd8d66f190accc9bedac587b313428fc39eda5f45c5d46ed8274fc2e7c1c0ac.jpg)
+
+## Your Model is Overconfident, and Other Lies We Tell Ourselves
+
+### Images
+
+![d32e75c6fb6f04fa04b28f3b72d427e27599fd256c616069afc88865bcd56c61.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/images/d32e75c6fb6f04fa04b28f3b72d427e27599fd256c616069afc88865bcd56c61.jpg)
+
+### Tables
+
+![16a4a2f538c90d009ebfbabaa10067d93761b468e4ec94a7b9afa9f4a3b9e84a.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/16a4a2f538c90d009ebfbabaa10067d93761b468e4ec94a7b9afa9f4a3b9e84a.jpg)
+
+![1f01c04d6a439664af11e8810798544f2606624ece0fb3c750218005045e07ed.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/1f01c04d6a439664af11e8810798544f2606624ece0fb3c750218005045e07ed.jpg)
+
+![2d8b7405b5ab9daf007a74ffad9720e0c498dcba0e382601c388faf8cfd72adf.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/2d8b7405b5ab9daf007a74ffad9720e0c498dcba0e382601c388faf8cfd72adf.jpg)
+
+![2f77565e31b99207f067c24e38e4897d1e56477b21faa26e18b78832eb54b734.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/2f77565e31b99207f067c24e38e4897d1e56477b21faa26e18b78832eb54b734.jpg)
+
+![3a739458004846dcd1b5d1cd381b9ce2feeff2cf197ed782b992354083d25d39.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/3a739458004846dcd1b5d1cd381b9ce2feeff2cf197ed782b992354083d25d39.jpg)
+
+![3fab9b3cac23e24f0900bc7f922615f056e46f63df291c0c2e97afaaccb58c75.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/3fab9b3cac23e24f0900bc7f922615f056e46f63df291c0c2e97afaaccb58c75.jpg)
+
+![456a6b19f7fafdce8ab24aee2dd5ea54ffc0f5167df4ab4ce7fa482edc08465c.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/456a6b19f7fafdce8ab24aee2dd5ea54ffc0f5167df4ab4ce7fa482edc08465c.jpg)
+
+![47768d1f7205c8a8026681564a9567201d9eaee0aeb30491820d2cd0ac3b87d8.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/47768d1f7205c8a8026681564a9567201d9eaee0aeb30491820d2cd0ac3b87d8.jpg)
+
+![48044856bc8eceee84d9a0dda51718e3deb316b5dc90181759db0ebe3a61c909.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/48044856bc8eceee84d9a0dda51718e3deb316b5dc90181759db0ebe3a61c909.jpg)
+
+![545aa8bd8e6618161235903e3ed6bcf0b62355c097bcb27aca5863cfde2a793c.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/545aa8bd8e6618161235903e3ed6bcf0b62355c097bcb27aca5863cfde2a793c.jpg)
+
+![552688bb1e61548493a6ab58a494aeb858e06953a581efb3d4f1d8746f67380a.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/552688bb1e61548493a6ab58a494aeb858e06953a581efb3d4f1d8746f67380a.jpg)
+
+![5b4865eea470ea03a3ac863d38224b76dd139dde8d527e231f14588c9145368f.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/5b4865eea470ea03a3ac863d38224b76dd139dde8d527e231f14588c9145368f.jpg)
+
+![5fd665716ba5e0947c344c2f3008537fcc632e31e59099f6b5cb323bd23582d8.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/5fd665716ba5e0947c344c2f3008537fcc632e31e59099f6b5cb323bd23582d8.jpg)
+
+![62ad82a81031a48a94beae93c54d0023026463565315137d98d9534ce48d79ba.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/62ad82a81031a48a94beae93c54d0023026463565315137d98d9534ce48d79ba.jpg)
+
+![6a798f0667b3c2e6d1765296f539a4410c3145df8bd69e1d46c215d813847f43.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/6a798f0667b3c2e6d1765296f539a4410c3145df8bd69e1d46c215d813847f43.jpg)
+
+![6daafe6b6f20d5b4806c5bf6892694f726fe292338f23ea5096faadb7c0677b2.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/6daafe6b6f20d5b4806c5bf6892694f726fe292338f23ea5096faadb7c0677b2.jpg)
+
+![9210c5e06c32c93696972cbf1523bcdce3e4808a115fe9c3e6e585020908312f.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/9210c5e06c32c93696972cbf1523bcdce3e4808a115fe9c3e6e585020908312f.jpg)
+
+![952852a228552fc4386a5b3fcd5238897be4b6d921438c72c0b4618914e09864.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/952852a228552fc4386a5b3fcd5238897be4b6d921438c72c0b4618914e09864.jpg)
+
+![aea0b5332cc8575833266d7e51f3f600c19f4d5228264523020af17a00b36b89.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/aea0b5332cc8575833266d7e51f3f600c19f4d5228264523020af17a00b36b89.jpg)
+
+![b1185b096e82ca96f21276fe01acaa1e6264fb631f098a4fdfdf6653fdde204a.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/b1185b096e82ca96f21276fe01acaa1e6264fb631f098a4fdfdf6653fdde204a.jpg)
+
+![b81a43304ea895caa8be2fafe6ea1ef0648de549a4d66d6b0676f5bbf7bbf1e2.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/b81a43304ea895caa8be2fafe6ea1ef0648de549a4d66d6b0676f5bbf7bbf1e2.jpg)
+
+![bea654e696cef1fc39dc9bf3869a3e1d3f620a8409990e87132c032bd982d956.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/bea654e696cef1fc39dc9bf3869a3e1d3f620a8409990e87132c032bd982d956.jpg)
+
+![c0822143f55f6de406e0fc55b491f6619ba3d63f8f0dc1a77fcaa39105879bd8.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/c0822143f55f6de406e0fc55b491f6619ba3d63f8f0dc1a77fcaa39105879bd8.jpg)
+
+![cc45632803712104af4274dec9f8befa1729c36a124249e4baf544336861daeb.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/cc45632803712104af4274dec9f8befa1729c36a124249e4baf544336861daeb.jpg)
+
+![d773b94ae00ce5de98338adc69b490c2a42d5af19c31664007ec081666c9f382.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/d773b94ae00ce5de98338adc69b490c2a42d5af19c31664007ec081666c9f382.jpg)
+
+![ebf49f4e21722d9e14477795282f361964c45c4bd3b2133d0f7ba33411cc9928.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/ebf49f4e21722d9e14477795282f361964c45c4bd3b2133d0f7ba33411cc9928.jpg)
+
+![edc43ed3fd16920f15cd9a72809fa6aff56f00c03cc52c7dc8d7433fc7a15ae9.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/edc43ed3fd16920f15cd9a72809fa6aff56f00c03cc52c7dc8d7433fc7a15ae9.jpg)
+
+![eec5faae159faebd81ae8151b50ac239e07466f47affb42ef03fd250fa828378.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/eec5faae159faebd81ae8151b50ac239e07466f47affb42ef03fd250fa828378.jpg)
+
+![f19a1d132dfa61ff2096b817edecdb60ccbe90a586b42504a99065c8896d15b6.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/f19a1d132dfa61ff2096b817edecdb60ccbe90a586b42504a99065c8896d15b6.jpg)
+
+![f2ae1628edebdd672369580995c7cd7f75599e749e8b1697cacd9080b2ef9f04.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/f2ae1628edebdd672369580995c7cd7f75599e749e8b1697cacd9080b2ef9f04.jpg)
+
+![f83f5d6474e6397998c885e1d5ca534bbfc2c3fae15e59bd3e5000502d24f143.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/f83f5d6474e6397998c885e1d5ca534bbfc2c3fae15e59bd3e5000502d24f143.jpg)
+
+![faac5559f2db83553af13c23ad0fd1089b584cb18332bb3b9c30d5ffaf5e0243.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/faac5559f2db83553af13c23ad0fd1089b584cb18332bb3b9c30d5ffaf5e0243.jpg)
+
+![fce4d99f6c0427961658828366d914bb14e35b261c3875870e8d5bc732bae7e3.jpg](acl_results/269_Your Model is Overconfident, and Other Lies We Tell Ourselves/tables/fce4d99f6c0427961658828366d914bb14e35b261c3875870e8d5bc732bae7e3.jpg)
+
+## Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention
+
+### Images
+
+![1d60ff281a9e248a4f94f02cc37e6cbc251db0297aa8ae0248eac5c31cd98d46.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/images/1d60ff281a9e248a4f94f02cc37e6cbc251db0297aa8ae0248eac5c31cd98d46.jpg)
+
+![51cc5babc8ad94cbe3c686dca6920f50ac736f521b244dbc3451a448e5f4873a.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/images/51cc5babc8ad94cbe3c686dca6920f50ac736f521b244dbc3451a448e5f4873a.jpg)
+
+![5331e72f62bfb0317357139d2a7606971bb065157a09b7632f7c051956b3b392.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/images/5331e72f62bfb0317357139d2a7606971bb065157a09b7632f7c051956b3b392.jpg)
+
+![7dbf6b5547c3872b42158cb64f6d8e286511ca41993f9d26e84ade064805d767.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/images/7dbf6b5547c3872b42158cb64f6d8e286511ca41993f9d26e84ade064805d767.jpg)
+
+![971a6996a3340a8420c254d81682f5ff256a9f7dd37febf577dc08b005d0e274.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/images/971a6996a3340a8420c254d81682f5ff256a9f7dd37febf577dc08b005d0e274.jpg)
+
+![bba24b61ca4231cbfed238cf5127017af1395fcc2819d81ee5602affa8c2d0da.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/images/bba24b61ca4231cbfed238cf5127017af1395fcc2819d81ee5602affa8c2d0da.jpg)
+
+### Tables
+
+![0b22c95731822caac41437589f5b16f5c114a979ea045424610ea571669bd12e.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/0b22c95731822caac41437589f5b16f5c114a979ea045424610ea571669bd12e.jpg)
+
+![0f351b2d7ac97d6b951e3b247cdd7e99d59edc2e8f1954812feb0dfe6369be6b.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/0f351b2d7ac97d6b951e3b247cdd7e99d59edc2e8f1954812feb0dfe6369be6b.jpg)
+
+![440ecf6bc15e44d5653d2219e5cf407ebed7a740d2d8f5606159334f7d824bc1.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/440ecf6bc15e44d5653d2219e5cf407ebed7a740d2d8f5606159334f7d824bc1.jpg)
+
+![669e31eb12e0864d43a44780d1bd3bb0c8ca7525096d4b37e096cae91f17babb.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/669e31eb12e0864d43a44780d1bd3bb0c8ca7525096d4b37e096cae91f17babb.jpg)
+
+![812cd4723979edc01208006bd2c0a66a9b115843b2f19d451ccb5eb87196f8be.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/812cd4723979edc01208006bd2c0a66a9b115843b2f19d451ccb5eb87196f8be.jpg)
+
+![963f5efe4ba81294bb862c4dfb335510cc9dc508223a0d6545824a7045aff686.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/963f5efe4ba81294bb862c4dfb335510cc9dc508223a0d6545824a7045aff686.jpg)
+
+![98963d63c96de3cf550287d36b6203f3427046508d16e615f25e976b64c59954.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/98963d63c96de3cf550287d36b6203f3427046508d16e615f25e976b64c59954.jpg)
+
+![c3566bd675bca238a05515e32f6333dbe365229e13bd178efdfd74dbd0e24b29.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/c3566bd675bca238a05515e32f6333dbe365229e13bd178efdfd74dbd0e24b29.jpg)
+
+![c8a7a47dd05502030d40d648a4c0e0cc2f624432a015c9689267024940119940.jpg](acl_results/270_Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention/tables/c8a7a47dd05502030d40d648a4c0e0cc2f624432a015c9689267024940119940.jpg)
+
+## Plug-in and Fine-tuning: Bridging the Gap between Small Language Models and Large Language Models
+
+### Images
+
+![784fb25a90cad4a6ce0f4276b9621ada2487e9d82449448dcc50fa3b7433bac9.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/images/784fb25a90cad4a6ce0f4276b9621ada2487e9d82449448dcc50fa3b7433bac9.jpg)
+
+![b14431c209da85970c50786b7d6a69cea4f68c858a9fdb635cac3107109c7ccd.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/images/b14431c209da85970c50786b7d6a69cea4f68c858a9fdb635cac3107109c7ccd.jpg)
+
+![b197df2f59bccc9b8f1d9a4ef3f1cbfffeae19923faf32e26424ed076fc0f2fa.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/images/b197df2f59bccc9b8f1d9a4ef3f1cbfffeae19923faf32e26424ed076fc0f2fa.jpg)
+
+### Tables
+
+![10d70820905a7d12998bcea9a47808d0054e225c2e45eeeff5e1bfc4198cfbcb.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/10d70820905a7d12998bcea9a47808d0054e225c2e45eeeff5e1bfc4198cfbcb.jpg)
+
+![1b48c87f7d410c7061f85e316e6fd7528736e497b856ddb14ba228d58c562911.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/1b48c87f7d410c7061f85e316e6fd7528736e497b856ddb14ba228d58c562911.jpg)
+
+![34fd103e8ce50b1a0984ca5eab9768e5183a7e06a48b7c07b585e289db4dce27.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/34fd103e8ce50b1a0984ca5eab9768e5183a7e06a48b7c07b585e289db4dce27.jpg)
+
+![39a6bc97a27d569efeca8e915f9781392cdabfbd4bcdd2884169fb32912ea7fb.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/39a6bc97a27d569efeca8e915f9781392cdabfbd4bcdd2884169fb32912ea7fb.jpg)
+
+![3a7ded19ce1942c1522a794ad4323f763a11ab70b6df2949771a684096c41394.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/3a7ded19ce1942c1522a794ad4323f763a11ab70b6df2949771a684096c41394.jpg)
+
+![55703aba48141add44f4634d9d9299f29e03d7243ea0b90341ceccaad7165ac3.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/55703aba48141add44f4634d9d9299f29e03d7243ea0b90341ceccaad7165ac3.jpg)
+
+![6510da0bbe1e8b025a4a7387f9f9a26f0bddb72fe4614ca98814a727c64b2c89.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/6510da0bbe1e8b025a4a7387f9f9a26f0bddb72fe4614ca98814a727c64b2c89.jpg)
+
+![6921d78e2c5cfe5ef5168541ccc626844d9084bb660b804f97f8350822ecfa89.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/6921d78e2c5cfe5ef5168541ccc626844d9084bb660b804f97f8350822ecfa89.jpg)
+
+![866b625802478caa3bc13b410f9b5319e357a9ecebc8ee90384bae9d2185dc29.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/866b625802478caa3bc13b410f9b5319e357a9ecebc8ee90384bae9d2185dc29.jpg)
+
+![8ee1824599d59a3a10eed9c4b3fa5fe929628eb7ecf40073763413b569641fac.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/8ee1824599d59a3a10eed9c4b3fa5fe929628eb7ecf40073763413b569641fac.jpg)
+
+![9159bf25664c919cc9dc5ab7a5539eea0e92af1c11a45ff036fe3c1e03139a08.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/9159bf25664c919cc9dc5ab7a5539eea0e92af1c11a45ff036fe3c1e03139a08.jpg)
+
+![a75a5b0b343ac25f2ce09ea618a17e9d6448f51b1248fa3257862bcfc6889dfa.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/a75a5b0b343ac25f2ce09ea618a17e9d6448f51b1248fa3257862bcfc6889dfa.jpg)
+
+![bcda8ef33630a0628d272a0cd4a683ce78bc18d56290e430e23b7b80a4d31c2c.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/bcda8ef33630a0628d272a0cd4a683ce78bc18d56290e430e23b7b80a4d31c2c.jpg)
+
+![c4844f16e2f60e4746531c52a90d1b0baa311447bb5d812cd519d1cf81b5d17a.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/c4844f16e2f60e4746531c52a90d1b0baa311447bb5d812cd519d1cf81b5d17a.jpg)
+
+![db0c6de6295041e355b174076a5349796fde29142f47bd7e849d3693982dc1b7.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/db0c6de6295041e355b174076a5349796fde29142f47bd7e849d3693982dc1b7.jpg)
+
+![e594e6fdfbc5276caa4f127f5f54873d0a325d0448801c80a36a986b2adf2141.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/e594e6fdfbc5276caa4f127f5f54873d0a325d0448801c80a36a986b2adf2141.jpg)
+
+![ecad1b2450ad341bea2291d3d5899c487384f381fd4752b1f563a462e8188ab9.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/ecad1b2450ad341bea2291d3d5899c487384f381fd4752b1f563a462e8188ab9.jpg)
+
+![ef1d95eb128877b3a50b06c584f810b412910095e15a1737ffc87d68cd2bef24.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/ef1d95eb128877b3a50b06c584f810b412910095e15a1737ffc87d68cd2bef24.jpg)
+
+![f6473712b28b1b291080583e3bb8e3c4b6f2ea7c34211d220a15f13d751ba5d5.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/f6473712b28b1b291080583e3bb8e3c4b6f2ea7c34211d220a15f13d751ba5d5.jpg)
+
+![fc250d625a868a2fd8e2ba6f52a6d095fc00dd285f26fd1e9a755975d032c797.jpg](acl_results/271_Plug-in and Fine-tuning_ Bridging the Gap between Small Language Models and Large Language Models/tables/fc250d625a868a2fd8e2ba6f52a6d095fc00dd285f26fd1e9a755975d032c797.jpg)
+
+## What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma
+
+### Images
+
+![2753a1cd887e87d3797911aaa8e508aba202e70e6a07b055859079aa2abc14b8.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/2753a1cd887e87d3797911aaa8e508aba202e70e6a07b055859079aa2abc14b8.jpg)
+
+![3bcb41211a16554126fce5a7e47172e89dbc491f4d943868ac544934d332f71d.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/3bcb41211a16554126fce5a7e47172e89dbc491f4d943868ac544934d332f71d.jpg)
+
+![3e69d8e60d61331f6e80616fd6fbde8a16648c008fa18e7d57feedab6b6aa70e.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/3e69d8e60d61331f6e80616fd6fbde8a16648c008fa18e7d57feedab6b6aa70e.jpg)
+
+![a5d1b49b56fc611f971f37f75ea98f422e0f246502cc61d7425a995561ddb1cc.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/a5d1b49b56fc611f971f37f75ea98f422e0f246502cc61d7425a995561ddb1cc.jpg)
+
+![bde13cc4fd5513a1bda99efa4668f1f96fa0b352eb5be15380c262d2750c8c12.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/bde13cc4fd5513a1bda99efa4668f1f96fa0b352eb5be15380c262d2750c8c12.jpg)
+
+![c21476586ed40d574a05f97f33357e26c90d39f0e61395ed630e430deffefed2.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/c21476586ed40d574a05f97f33357e26c90d39f0e61395ed630e430deffefed2.jpg)
+
+![e894553e340abf99cbc40a55e74f86f330bcda88bfa13926dcd767dc072fb23b.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/e894553e340abf99cbc40a55e74f86f330bcda88bfa13926dcd767dc072fb23b.jpg)
+
+![efafee3f700ea61b96bdb38d544f83c54a86373550db14279ebfd0010f9ac22f.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /images/efafee3f700ea61b96bdb38d544f83c54a86373550db14279ebfd0010f9ac22f.jpg)
+
+### Tables
+
+![0f0f2e69fb253caaffe6ec1768f97532f994572e1c5bb00a3db4e15c6681673b.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/0f0f2e69fb253caaffe6ec1768f97532f994572e1c5bb00a3db4e15c6681673b.jpg)
+
+![1b29e5df1b72a4d7269695e6c84d821f752e3e7c2f8cbfe0f11fe584fb27e951.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/1b29e5df1b72a4d7269695e6c84d821f752e3e7c2f8cbfe0f11fe584fb27e951.jpg)
+
+![240c08c9006c85947dc0a20ff2db1b2fad96ae3305fb1b52af19b6a89d9c1f61.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/240c08c9006c85947dc0a20ff2db1b2fad96ae3305fb1b52af19b6a89d9c1f61.jpg)
+
+![26b42edb5c0ac338e49c123b3372888ca06a3792a399a25fde73c3ba3d57c135.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/26b42edb5c0ac338e49c123b3372888ca06a3792a399a25fde73c3ba3d57c135.jpg)
+
+![292800be7481f46648127afed699f25c6290b4abd963827d1d9da9bb6794a38f.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/292800be7481f46648127afed699f25c6290b4abd963827d1d9da9bb6794a38f.jpg)
+
+![2c6b6eb961db4e1276014be9abcdadd1f068f36c743e4ca78e4468aa5f44c410.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/2c6b6eb961db4e1276014be9abcdadd1f068f36c743e4ca78e4468aa5f44c410.jpg)
+
+![38d4f42080ff7fcc1f373f40f836d288b3e6e00302d2d0aa3706edf1f32a45c0.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/38d4f42080ff7fcc1f373f40f836d288b3e6e00302d2d0aa3706edf1f32a45c0.jpg)
+
+![5902167acb73ec854e07ad2404c71180a9c0675e166bfd8c84b92af69bad15e2.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/5902167acb73ec854e07ad2404c71180a9c0675e166bfd8c84b92af69bad15e2.jpg)
+
+![783d2fb10830d7625c1f0e3768bf74ce22b2fe8484e539304cc935d1eac056d1.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/783d2fb10830d7625c1f0e3768bf74ce22b2fe8484e539304cc935d1eac056d1.jpg)
+
+![78e4642e629051b2e27a036ca9dd90a5185cc5a5883f9be8f00816516d5d0c78.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/78e4642e629051b2e27a036ca9dd90a5185cc5a5883f9be8f00816516d5d0c78.jpg)
+
+![799c3f9d5cd49ceb3d8b189b320d358a4f39dc9988d27be98a326c349cdb556d.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/799c3f9d5cd49ceb3d8b189b320d358a4f39dc9988d27be98a326c349cdb556d.jpg)
+
+![7f82e0bfcd50169a5fa9ce5cfbddbadb35309f6596e34c8ab3392e1c23016c28.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/7f82e0bfcd50169a5fa9ce5cfbddbadb35309f6596e34c8ab3392e1c23016c28.jpg)
+
+![8273e99824697c21622bf6df98aeffcd00315b2486c0a66f905ce0815cbcd575.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/8273e99824697c21622bf6df98aeffcd00315b2486c0a66f905ce0815cbcd575.jpg)
+
+![82b68791fd81e5dd8aafc3af6a8f6caa678d5e8cb1a0c1238e2a9cc8eafac2a2.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/82b68791fd81e5dd8aafc3af6a8f6caa678d5e8cb1a0c1238e2a9cc8eafac2a2.jpg)
+
+![90c0e3a79a852ef7893dcfd646374b0fe6e2588ff42a18a01a2d3769a35490a5.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/90c0e3a79a852ef7893dcfd646374b0fe6e2588ff42a18a01a2d3769a35490a5.jpg)
+
+![9af12cb40bf600cd0c5a1a8f0fa2bc8cb14cf88945483c802621cdde3809300a.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/9af12cb40bf600cd0c5a1a8f0fa2bc8cb14cf88945483c802621cdde3809300a.jpg)
+
+![af1313655d22d15005fcd9e1d067091320f6a64bd35ed9db5affd18d3051927d.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/af1313655d22d15005fcd9e1d067091320f6a64bd35ed9db5affd18d3051927d.jpg)
+
+![bd68e8032e4fbc612a71e0338327a850ab0d65d46072c6477675375d0f5eefcf.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/bd68e8032e4fbc612a71e0338327a850ab0d65d46072c6477675375d0f5eefcf.jpg)
+
+![cdd02f16f65376ce740cb1c4012145448a8d4e7ba7d1339f80c6eaba18f20e21.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/cdd02f16f65376ce740cb1c4012145448a8d4e7ba7d1339f80c6eaba18f20e21.jpg)
+
+![cfb8d33146993d5e80b2e64fff3da0d3d82f682020a5c71a15a604e28eb9e993.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/cfb8d33146993d5e80b2e64fff3da0d3d82f682020a5c71a15a604e28eb9e993.jpg)
+
+![d583449166f3a29c23887f2b7c93507c58e7c8f01c378ffdf5366298d98b7771.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/d583449166f3a29c23887f2b7c93507c58e7c8f01c378ffdf5366298d98b7771.jpg)
+
+![daaf1c8a2f9c5d0c4e16a6520766e86814d562120e372b1ba2bd9a3cf231ac81.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/daaf1c8a2f9c5d0c4e16a6520766e86814d562120e372b1ba2bd9a3cf231ac81.jpg)
+
+![f055f14812be6150d00413c48ea84b6af7739235201b2a4aba0981b57f13a560.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/f055f14812be6150d00413c48ea84b6af7739235201b2a4aba0981b57f13a560.jpg)
+
+![f34046fd4c146b38e0eea986ad3bec675fb066feb8e0fea12e4400675ed37eb2.jpg](acl_results/272_What is Stigma Attributed to_ A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying /tables/f34046fd4c146b38e0eea986ad3bec675fb066feb8e0fea12e4400675ed37eb2.jpg)
+
+## ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors
+
+### Images
+
+![4c026902c05ba5a79ecbd49aac70ba51abb81d990dca8edfac1e5358e160907d.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/images/4c026902c05ba5a79ecbd49aac70ba51abb81d990dca8edfac1e5358e160907d.jpg)
+
+![4e7fcc1d8a81e67ce8170a96be170bc745a5056948d1d8aa2058464a987deebb.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/images/4e7fcc1d8a81e67ce8170a96be170bc745a5056948d1d8aa2058464a987deebb.jpg)
+
+![8081bcf60ac85555b6da6b4ed5c769bfad0b28c6270918ca5b471242ffd27a2c.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/images/8081bcf60ac85555b6da6b4ed5c769bfad0b28c6270918ca5b471242ffd27a2c.jpg)
+
+![ae723bd245076e3ea5f644a433940898842b57e44950bee9cc3bb3de8a3d755a.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/images/ae723bd245076e3ea5f644a433940898842b57e44950bee9cc3bb3de8a3d755a.jpg)
+
+![bfa44ecfc3e051297f7b4665448a9c12474a532ce6bf2b263a2b6d42179afe9c.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/images/bfa44ecfc3e051297f7b4665448a9c12474a532ce6bf2b263a2b6d42179afe9c.jpg)
+
+![ea186c2f3026dadde8db5344b48d34961659cf6e01f6aec755b8622ad8bab1a5.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/images/ea186c2f3026dadde8db5344b48d34961659cf6e01f6aec755b8622ad8bab1a5.jpg)
+
+### Tables
+
+![2303d1c1c5861dd264065353ed2bffe16ff286906791c9605155fd75341d8d79.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/2303d1c1c5861dd264065353ed2bffe16ff286906791c9605155fd75341d8d79.jpg)
+
+![4a40ab7332926290e553a87168a60d942df9d2d23069ddab811e825f03837237.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/4a40ab7332926290e553a87168a60d942df9d2d23069ddab811e825f03837237.jpg)
+
+![4c2cf32761044c30a6a45cd13dd0676689075f74ba9c3af3133a27392b75f438.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/4c2cf32761044c30a6a45cd13dd0676689075f74ba9c3af3133a27392b75f438.jpg)
+
+![62e1be28759577222d4449b66dff9625d2c046a8497efb21e302e7f5a379ee8d.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/62e1be28759577222d4449b66dff9625d2c046a8497efb21e302e7f5a379ee8d.jpg)
+
+![85dfbf4652c59136a0aa1cb03004657f3b68c9f7dd3b6896304bc0b809fcfc90.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/85dfbf4652c59136a0aa1cb03004657f3b68c9f7dd3b6896304bc0b809fcfc90.jpg)
+
+![ae4a112b17df53126077542bd0e0fc7426549232d39aab3da232fe5cba0ee9c8.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/ae4a112b17df53126077542bd0e0fc7426549232d39aab3da232fe5cba0ee9c8.jpg)
+
+![af6015b153a8e0c2a7521711c7a37a13a8b3eecdc6916bb0780221438cdfa8cc.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/af6015b153a8e0c2a7521711c7a37a13a8b3eecdc6916bb0780221438cdfa8cc.jpg)
+
+![c3983268c4cb83791c8b98373d998157836a464e1ee4605ed7af068d631bd10f.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/c3983268c4cb83791c8b98373d998157836a464e1ee4605ed7af068d631bd10f.jpg)
+
+![d00457ea50dbb9f1cbadf62dd587853ac031a9abec4a62d3ab93961b05ea0097.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/d00457ea50dbb9f1cbadf62dd587853ac031a9abec4a62d3ab93961b05ea0097.jpg)
+
+![dbbcef99d626ccec0e183ec58f0d24941dd32adc0913f1dc95ea767e2c656383.jpg](acl_results/273_ATRI_ Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Err/tables/dbbcef99d626ccec0e183ec58f0d24941dd32adc0913f1dc95ea767e2c656383.jpg)
+
+## Enhancing Transformers for Generalizable First-Order Logical Entailment
+
+### Images
+
+![151a2c118c2671c1659155fe047ee978b5eadf90eae101d4d6bf6c332ec6566d.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/images/151a2c118c2671c1659155fe047ee978b5eadf90eae101d4d6bf6c332ec6566d.jpg)
+
+![412562a3447049f77ea70c021fdf9f90ab45432c25a9ca8c577303fbc4c508a4.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/images/412562a3447049f77ea70c021fdf9f90ab45432c25a9ca8c577303fbc4c508a4.jpg)
+
+![52bb7fec0bcd2ea7ad09ca1401c372ebf2901548243c5818e9e7bc2163068e78.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/images/52bb7fec0bcd2ea7ad09ca1401c372ebf2901548243c5818e9e7bc2163068e78.jpg)
+
+### Tables
+
+![00c7768cc743450bf8b764dd34b3f7185f4fa4ee327dfa5a52290b3140c60701.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/00c7768cc743450bf8b764dd34b3f7185f4fa4ee327dfa5a52290b3140c60701.jpg)
+
+![0a5203c84da139e41b553db4c15f0eee7f16b2314cd18f2a72f47b1d57f44f31.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/0a5203c84da139e41b553db4c15f0eee7f16b2314cd18f2a72f47b1d57f44f31.jpg)
+
+![1cede6568593d23eb38499dfcc630bdbf18605d2ba6afdfa056effc48564584f.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/1cede6568593d23eb38499dfcc630bdbf18605d2ba6afdfa056effc48564584f.jpg)
+
+![1e4e94b6de8ef3045e2f77071f11cc2e439a60caa4ce9bdde55424a449462f49.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/1e4e94b6de8ef3045e2f77071f11cc2e439a60caa4ce9bdde55424a449462f49.jpg)
+
+![374a6bd8f912592fe0a1d398b5a830b1746efd091b979c38c29dfddf458ba40f.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/374a6bd8f912592fe0a1d398b5a830b1746efd091b979c38c29dfddf458ba40f.jpg)
+
+![388e285836088f05df4705ea0608dc1f56de687fbdbfa38aba41bf8be353ede1.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/388e285836088f05df4705ea0608dc1f56de687fbdbfa38aba41bf8be353ede1.jpg)
+
+![4184f5e688add379b4fedd1e6f017d6b6beba908a3ca0efdfc1121cd474e2232.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/4184f5e688add379b4fedd1e6f017d6b6beba908a3ca0efdfc1121cd474e2232.jpg)
+
+![4525fec0674b95b7cce1c9b3f9c9291f04141b57e03d0925e86b49acf4e551f0.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/4525fec0674b95b7cce1c9b3f9c9291f04141b57e03d0925e86b49acf4e551f0.jpg)
+
+![5e87eab62de69fc31935157fca150b402138e2ca397ae1eaaffa1270f6784ecd.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/5e87eab62de69fc31935157fca150b402138e2ca397ae1eaaffa1270f6784ecd.jpg)
+
+![659c19ab01d86a4f12d8099eed76017029b3346002208e8c6aa3c0721db3353b.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/659c19ab01d86a4f12d8099eed76017029b3346002208e8c6aa3c0721db3353b.jpg)
+
+![6ed7ac0edeb8bb3a2db7ec756072a5b110b2a34c037851e71a6f83e55241d607.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/6ed7ac0edeb8bb3a2db7ec756072a5b110b2a34c037851e71a6f83e55241d607.jpg)
+
+![72469b76749eec39266ee0ad00a43acd68e23880f725749ec3dd3a0534572c7d.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/72469b76749eec39266ee0ad00a43acd68e23880f725749ec3dd3a0534572c7d.jpg)
+
+![93d78239da6f2b4bc6756fc717ef0520a70afa7e6e18ceef5f7418a48a84603a.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/93d78239da6f2b4bc6756fc717ef0520a70afa7e6e18ceef5f7418a48a84603a.jpg)
+
+![9caf8377edface27284d0d8c9c6f1ecd392297cb4f887a7ee1d48dd6dfb752c9.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/9caf8377edface27284d0d8c9c6f1ecd392297cb4f887a7ee1d48dd6dfb752c9.jpg)
+
+![a139f3cdf3481458dd6d9409fc71dfacb95c7e79cf5eebe87061a779e82c8d11.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/a139f3cdf3481458dd6d9409fc71dfacb95c7e79cf5eebe87061a779e82c8d11.jpg)
+
+![c456d86bb28521753715cc59c8dc679c32f52921ac69e42de52dca9e57bc8e84.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/c456d86bb28521753715cc59c8dc679c32f52921ac69e42de52dca9e57bc8e84.jpg)
+
+![c4bccf1c6847ea6e2452d39f69a318e79ab37071c98f9447ef295e49c4b50b31.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/c4bccf1c6847ea6e2452d39f69a318e79ab37071c98f9447ef295e49c4b50b31.jpg)
+
+![f4d5e2cd0e717104c08c387aac930c14d9c12e2187da4e1e5b4d1ac0e2b40bc5.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/f4d5e2cd0e717104c08c387aac930c14d9c12e2187da4e1e5b4d1ac0e2b40bc5.jpg)
+
+![f9d95ee1d8a7044322818b7e6e90454b2b08674149affb7fb1dfb85460865d4e.jpg](acl_results/274_Enhancing Transformers for Generalizable First-Order Logical Entailment/tables/f9d95ee1d8a7044322818b7e6e90454b2b08674149affb7fb1dfb85460865d4e.jpg)
+
+## Self-Taught Agentic Long Context Understanding
+
+### Images
+
+![9d1566a5c3bb551b7821e99f18128f97128889c614b178ae35238b2167c1d54f.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/images/9d1566a5c3bb551b7821e99f18128f97128889c614b178ae35238b2167c1d54f.jpg)
+
+![9ea1235a9803d4c94a2f0db2762220a6c4caf2e55a56d0d92154b088639e84bf.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/images/9ea1235a9803d4c94a2f0db2762220a6c4caf2e55a56d0d92154b088639e84bf.jpg)
+
+![d1213170d96ca3f6ea6cdac87b409df1b19438cbd71ce0315c7c0f754c67848c.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/images/d1213170d96ca3f6ea6cdac87b409df1b19438cbd71ce0315c7c0f754c67848c.jpg)
+
+### Tables
+
+![0d1427d567d62ceb3caeb1fbcfce6fb89c9ff2faa23069c77ef1da534529d52f.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/0d1427d567d62ceb3caeb1fbcfce6fb89c9ff2faa23069c77ef1da534529d52f.jpg)
+
+![0efa421f2f08c9b44dec03c03df08368386a17ae458745e94233438e28bfb435.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/0efa421f2f08c9b44dec03c03df08368386a17ae458745e94233438e28bfb435.jpg)
+
+![2444bbab4fbe4573144553edfe0438403e218cb335c0c4cd70fcefa77280bb67.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/2444bbab4fbe4573144553edfe0438403e218cb335c0c4cd70fcefa77280bb67.jpg)
+
+![5a7e8d7d172b68087542477e5724714a3fc9025ddef7bb735b264519ba66093e.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/5a7e8d7d172b68087542477e5724714a3fc9025ddef7bb735b264519ba66093e.jpg)
+
+![77dfd7e878ee5e938969bf981a42611e6068f7b51244fc0554345ad4e5706238.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/77dfd7e878ee5e938969bf981a42611e6068f7b51244fc0554345ad4e5706238.jpg)
+
+![7d5b7b3c546eb4d7fee422c485c2ab1618fac1e3e770089f8845de2847436fca.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/7d5b7b3c546eb4d7fee422c485c2ab1618fac1e3e770089f8845de2847436fca.jpg)
+
+![80a73d50ea69f148f199edb7e4551305f2495d0ba2d079af453c255d8157681a.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/80a73d50ea69f148f199edb7e4551305f2495d0ba2d079af453c255d8157681a.jpg)
+
+![8e40130879fc591d6da1bef17a463a03b69dba1dcb5784d09973777b02eb025d.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/8e40130879fc591d6da1bef17a463a03b69dba1dcb5784d09973777b02eb025d.jpg)
+
+![9e6c29080aa79a391d89cea20e102910c120338fcde22a272a27e85185c49d65.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/9e6c29080aa79a391d89cea20e102910c120338fcde22a272a27e85185c49d65.jpg)
+
+![ac90ada769f94a9f4d81a00d6b90c95460a89b49cb67129aeb2514dcd8bba55f.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/ac90ada769f94a9f4d81a00d6b90c95460a89b49cb67129aeb2514dcd8bba55f.jpg)
+
+![c1e73117f9ab2094aabd0ec237f5c671fb9d4b24000672f90ab70ef0a3065303.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/c1e73117f9ab2094aabd0ec237f5c671fb9d4b24000672f90ab70ef0a3065303.jpg)
+
+![c60d79bc7e8c33b9b323bb4e0c9022dfac738b3c5be7ed0cc5afde14d34698f9.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/c60d79bc7e8c33b9b323bb4e0c9022dfac738b3c5be7ed0cc5afde14d34698f9.jpg)
+
+![d536bf282ebad0207962d60b7c8cb2d37b2e9ae33cccc77a760e1346ceb064b9.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/d536bf282ebad0207962d60b7c8cb2d37b2e9ae33cccc77a760e1346ceb064b9.jpg)
+
+![dd4d0287d260989d193df7cde89c0d57dadc8dad1e22d694037ce4f512640354.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/dd4d0287d260989d193df7cde89c0d57dadc8dad1e22d694037ce4f512640354.jpg)
+
+![e2039a8256f702fbaa164c68c25c7c42e3529bccfd9cd9fc73ec49340b0e7b69.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/e2039a8256f702fbaa164c68c25c7c42e3529bccfd9cd9fc73ec49340b0e7b69.jpg)
+
+![ffc5f1bbcad6a427ee02e2dee6cc8b126dd35ac8b206215c7ed511b3a41d84c4.jpg](acl_results/275_Self-Taught Agentic Long Context Understanding/tables/ffc5f1bbcad6a427ee02e2dee6cc8b126dd35ac8b206215c7ed511b3a41d84c4.jpg)
+
+## Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training
+
+### Images
+
+![10d04f456e69953b62983835cdd8bc5f77a470eaeee9d57a22931cc4cca11894.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/10d04f456e69953b62983835cdd8bc5f77a470eaeee9d57a22931cc4cca11894.jpg)
+
+![1885d0db9f5141b8e27bf9bf625d499cf77aa9cf9d9adc1218bcd37b1817a691.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/1885d0db9f5141b8e27bf9bf625d499cf77aa9cf9d9adc1218bcd37b1817a691.jpg)
+
+![3faf097f9e880babc764869bb0c4c7eb66fc29356e2590ba9ed9ee9b972ba32b.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/3faf097f9e880babc764869bb0c4c7eb66fc29356e2590ba9ed9ee9b972ba32b.jpg)
+
+![693b069894ccdff49719bb8ce0f86f1d6f2cae5b4f8f5a4e971752f90b404f13.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/693b069894ccdff49719bb8ce0f86f1d6f2cae5b4f8f5a4e971752f90b404f13.jpg)
+
+![6cc8a47e91501592539c3d6660b13b1012b848175b1d3d696c17de381c84edb8.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/6cc8a47e91501592539c3d6660b13b1012b848175b1d3d696c17de381c84edb8.jpg)
+
+![9e2ff944d04a9f36c56facd86c4d7cb323e7e778f887888e5140d590c4be75ee.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/9e2ff944d04a9f36c56facd86c4d7cb323e7e778f887888e5140d590c4be75ee.jpg)
+
+![a7dfe743b09dc019995042ea6c9227a0a519c40a51fdbdd42fae6c1c7770916e.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/a7dfe743b09dc019995042ea6c9227a0a519c40a51fdbdd42fae6c1c7770916e.jpg)
+
+![bfb4c40041ec0b039a7718b7d9a460c2843b1c1ab2cbe820774511a61c66b86c.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/bfb4c40041ec0b039a7718b7d9a460c2843b1c1ab2cbe820774511a61c66b86c.jpg)
+
+![d61c9261e66502d3265d641aac91bd9ed83e9a5ec77a131b209e1d86ccee42f3.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/d61c9261e66502d3265d641aac91bd9ed83e9a5ec77a131b209e1d86ccee42f3.jpg)
+
+![d6a88e484d96ac6b7a362407e950b26f58c4d0b0341a429d19ba9fd42d8058c1.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/d6a88e484d96ac6b7a362407e950b26f58c4d0b0341a429d19ba9fd42d8058c1.jpg)
+
+![edf5d6a5ef16145857c71ef5a7870995e0faa7fe73c218adea4e01282118558c.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/edf5d6a5ef16145857c71ef5a7870995e0faa7fe73c218adea4e01282118558c.jpg)
+
+![ee87c7f63b03ccd800f1fe50527387474580b87fde5ea8d11eb17112b1542e01.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/ee87c7f63b03ccd800f1fe50527387474580b87fde5ea8d11eb17112b1542e01.jpg)
+
+![f71bb47eac9a956c0aa08d4cca516e9c50d801d7e9864e52c4ba11ff732ec939.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/images/f71bb47eac9a956c0aa08d4cca516e9c50d801d7e9864e52c4ba11ff732ec939.jpg)
+
+### Tables
+
+![372d4e532e46843c2c9a158d525e27f8c50f19a3630752dadbc0a09cbdd4bc62.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/tables/372d4e532e46843c2c9a158d525e27f8c50f19a3630752dadbc0a09cbdd4bc62.jpg)
+
+![4e8c08947f875f96ca8bde93b1f1a2468acc2d4747246908b640329bb2203cc3.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/tables/4e8c08947f875f96ca8bde93b1f1a2468acc2d4747246908b640329bb2203cc3.jpg)
+
+![9251c85ed5e2929f0ca56fd38a5b9b281eb441e13d081d02335b0e9460a092a6.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/tables/9251c85ed5e2929f0ca56fd38a5b9b281eb441e13d081d02335b0e9460a092a6.jpg)
+
+![dcc777977d587289ad6a009559732cbaadeef1b797f034d0e720da3fef22518f.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/tables/dcc777977d587289ad6a009559732cbaadeef1b797f034d0e720da3fef22518f.jpg)
+
+![e322fb607d250080eff88d9d94358d1119fcad82b1aed50e025662426ede5f64.jpg](acl_results/276_Hallucination Detox_ Sensitivity Dropout (SenD) for Large Language Model Training/tables/e322fb607d250080eff88d9d94358d1119fcad82b1aed50e025662426ede5f64.jpg)
+
+## OS-Genesis: AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis
+
+### Images
+
+![0bcdaa4940b970851f231a2ed7ba4e9b74aa1ec59906614680dad38473b3ec8c.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/0bcdaa4940b970851f231a2ed7ba4e9b74aa1ec59906614680dad38473b3ec8c.jpg)
+
+![2931f31440db2151968e219c5299c85b2b21ead9e21341a9638ac6935d930115.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/2931f31440db2151968e219c5299c85b2b21ead9e21341a9638ac6935d930115.jpg)
+
+![2bafd5f5472874ce26944c82a557a619c378779db06eaf59fe7f50ad203f7bc9.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/2bafd5f5472874ce26944c82a557a619c378779db06eaf59fe7f50ad203f7bc9.jpg)
+
+![3d35d408720451bb93f9e9ec39c2b0305e61084b081d16476361d28f7387ce1d.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/3d35d408720451bb93f9e9ec39c2b0305e61084b081d16476361d28f7387ce1d.jpg)
+
+![436f7c1e3daa685b8a8e35dcbef116458209efdebb744ab3d94660bdacf88f54.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/436f7c1e3daa685b8a8e35dcbef116458209efdebb744ab3d94660bdacf88f54.jpg)
+
+![8ae6adea4335a94a172a572339a552fd458e0abb15257273ea818e6d16678124.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/8ae6adea4335a94a172a572339a552fd458e0abb15257273ea818e6d16678124.jpg)
+
+![b442b5163316eec5c7fe0998b7573417a531613067e2923aef5c8c5d750be3c3.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/b442b5163316eec5c7fe0998b7573417a531613067e2923aef5c8c5d750be3c3.jpg)
+
+![ba38133bafa7bd04a28a68db0904e98000ab2057586f9786816b0f562e9091d8.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/ba38133bafa7bd04a28a68db0904e98000ab2057586f9786816b0f562e9091d8.jpg)
+
+![d3919d9a6432c32d7267e4bcd220cf666c913ee94b6ec645e107c9961c9f0ca2.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/d3919d9a6432c32d7267e4bcd220cf666c913ee94b6ec645e107c9961c9f0ca2.jpg)
+
+![e68c68a0d65fdeb2884704272d8394d22981c87e4dd148d3d8dc3c6fb954a258.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/e68c68a0d65fdeb2884704272d8394d22981c87e4dd148d3d8dc3c6fb954a258.jpg)
+
+![e928a024684d1b26fbe5633953a3a93e4aab744fa2a7f56154818b906b4b8ed5.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/e928a024684d1b26fbe5633953a3a93e4aab744fa2a7f56154818b906b4b8ed5.jpg)
+
+![efeaebced439114a1505205a6c0840f435d221a86db68b411f3df9fe7466286a.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/images/efeaebced439114a1505205a6c0840f435d221a86db68b411f3df9fe7466286a.jpg)
+
+### Tables
+
+![16861251d45b1c3b3f29aafc95621aec160060feabdec421db51a3ee395c96fd.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/16861251d45b1c3b3f29aafc95621aec160060feabdec421db51a3ee395c96fd.jpg)
+
+![1a4f8c2a640b5326d49d6033868f7ad961fe489397de3b356a8e2c37252c3e08.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/1a4f8c2a640b5326d49d6033868f7ad961fe489397de3b356a8e2c37252c3e08.jpg)
+
+![2b1cfd5ffea1c65723a50b510028381f1f1d46582a5f8ab8694f94473bb67cf4.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/2b1cfd5ffea1c65723a50b510028381f1f1d46582a5f8ab8694f94473bb67cf4.jpg)
+
+![32171fbced7ac50626212d4b08de4f38e4af5cd719e9e29bdcc7457b59939ab2.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/32171fbced7ac50626212d4b08de4f38e4af5cd719e9e29bdcc7457b59939ab2.jpg)
+
+![5ec3ab0648f0a30a3bde32370afc7d38be2d965344bd53eff5d265ee216f5adf.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/5ec3ab0648f0a30a3bde32370afc7d38be2d965344bd53eff5d265ee216f5adf.jpg)
+
+![a37fe742205715900ef418bc9eaac5bdf45a4dd4b1aff5c84a25b71b2a21d517.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/a37fe742205715900ef418bc9eaac5bdf45a4dd4b1aff5c84a25b71b2a21d517.jpg)
+
+![aac786288e7dff2d432781e8b7f6f6dcd195c3beb21585c07dbae368f129fa66.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/aac786288e7dff2d432781e8b7f6f6dcd195c3beb21585c07dbae368f129fa66.jpg)
+
+![f34901f28b3a146eb2dd5c2681a8b47df7a48801544d0e47301f70685185398d.jpg](acl_results/277_OS-Genesis_ AutomatingGUIAgent Trajectory Construction via Reverse Task Synthesis/tables/f34901f28b3a146eb2dd5c2681a8b47df7a48801544d0e47301f70685185398d.jpg)
+
+## CORAL: Learning Consistent Representations across Multi-step Training with Lighter Speculative Drafter
+
+### Images
+
+![031f6f86e0d65c6a4276e2c8200509debc6aaf54125e597f5fd6ab1aa709bfc2.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/images/031f6f86e0d65c6a4276e2c8200509debc6aaf54125e597f5fd6ab1aa709bfc2.jpg)
+
+![035983c6222ec762fd6d0253971f1407b874d3aa8cb8d60c2b6844c672f5eb2f.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/images/035983c6222ec762fd6d0253971f1407b874d3aa8cb8d60c2b6844c672f5eb2f.jpg)
+
+![19f518ff39ca10a8c047b8088045dcc6c848b72e1111b8061670c6738447f5bc.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/images/19f518ff39ca10a8c047b8088045dcc6c848b72e1111b8061670c6738447f5bc.jpg)
+
+![4f5ab58fab2e4910c7c23005b516ebc82dce16094a7859aeab74d4dc5f4e0813.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/images/4f5ab58fab2e4910c7c23005b516ebc82dce16094a7859aeab74d4dc5f4e0813.jpg)
+
+![7819c97ceb4d1ca6b88c52775eb96da6e3a1f96f567f24975b9ed6f7591ecce7.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/images/7819c97ceb4d1ca6b88c52775eb96da6e3a1f96f567f24975b9ed6f7591ecce7.jpg)
+
+![c02cb9f7e90483dd1e62b949c9bb7de4e65f965e4260351f61afac92bd16b27d.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/images/c02cb9f7e90483dd1e62b949c9bb7de4e65f965e4260351f61afac92bd16b27d.jpg)
+
+### Tables
+
+![020eb87d4910436698254754855b80b12e5d12a1a9191c558c4eca913d29286a.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/020eb87d4910436698254754855b80b12e5d12a1a9191c558c4eca913d29286a.jpg)
+
+![1cc880db623cd7aeb2b966e1efd38fa01df13034ce1f26105d023618294eda53.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/1cc880db623cd7aeb2b966e1efd38fa01df13034ce1f26105d023618294eda53.jpg)
+
+![3b1bd4cb25c82d4bca9fe218108f39e63cd2c1b3eb3ff1e74b6e2492ae8673af.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/3b1bd4cb25c82d4bca9fe218108f39e63cd2c1b3eb3ff1e74b6e2492ae8673af.jpg)
+
+![66e355f4f3646ea0550dd46c3c1a517a9e7a3ce686c3dc0cf9595d053e6ca98b.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/66e355f4f3646ea0550dd46c3c1a517a9e7a3ce686c3dc0cf9595d053e6ca98b.jpg)
+
+![7ad12315fbd3804a64a3b5d534280bba3759d1b085972a178b7d4cc2458b8c3a.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/7ad12315fbd3804a64a3b5d534280bba3759d1b085972a178b7d4cc2458b8c3a.jpg)
+
+![9047e843089e132301559418e6998599485a5b0a7a5b86342145361208092d7c.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/9047e843089e132301559418e6998599485a5b0a7a5b86342145361208092d7c.jpg)
+
+![bd2455d99866485d5d398842179078b14eb32a6a73f9217d565360f8489b71c7.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/bd2455d99866485d5d398842179078b14eb32a6a73f9217d565360f8489b71c7.jpg)
+
+![c856ae9cde732adbb6ea645305ab6d8e446be4b04fe4bf09bc0dc52692d254b3.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/c856ae9cde732adbb6ea645305ab6d8e446be4b04fe4bf09bc0dc52692d254b3.jpg)
+
+![cf102e13df9c68632e50d382ff3f25d8ebb50fd41cd23580bfc42ce50920d84d.jpg](acl_results/278_CORAL_ Learning Consistent Representations across Multi-step Training with Lighter Speculative Draft/tables/cf102e13df9c68632e50d382ff3f25d8ebb50fd41cd23580bfc42ce50920d84d.jpg)
+
+## ConSim: Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability
+
+### Images
+
+![0044f5c317f469d64cda0da54599950fa66677caaf014495ce11533eb9c3413f.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/0044f5c317f469d64cda0da54599950fa66677caaf014495ce11533eb9c3413f.jpg)
+
+![1d3e98c54192c7497fe8d291550a0ad077f85a9f56eeaa541411107b8aa3cff5.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/1d3e98c54192c7497fe8d291550a0ad077f85a9f56eeaa541411107b8aa3cff5.jpg)
+
+![4f7579f227e3c350f141837d3bc9bb3e0fb7a883699e75aa20d0c262e7c60be7.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/4f7579f227e3c350f141837d3bc9bb3e0fb7a883699e75aa20d0c262e7c60be7.jpg)
+
+![6dea2ee1692feb5efb69a2668d3014439e32892c4d35423d6dce8071e5bfc993.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/6dea2ee1692feb5efb69a2668d3014439e32892c4d35423d6dce8071e5bfc993.jpg)
+
+![89e5d40f9ff29bb0d28fe8a9eb831567ab46c8b132dcd79c993b05e61e6e5eb4.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/89e5d40f9ff29bb0d28fe8a9eb831567ab46c8b132dcd79c993b05e61e6e5eb4.jpg)
+
+![a4f07092cfb6917778eb9b0109518ed4e1eb1387c5fc35b5a027eb66b5d65934.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/a4f07092cfb6917778eb9b0109518ed4e1eb1387c5fc35b5a027eb66b5d65934.jpg)
+
+![acd0e41e0ae6312db714a46aed98555228b7a3af3619e93d5238daa0e846426b.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/acd0e41e0ae6312db714a46aed98555228b7a3af3619e93d5238daa0e846426b.jpg)
+
+![ae02eeac4aa25f74e4fac6d80a870186804ae6d42a38adb7436e8b32e738852c.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/ae02eeac4aa25f74e4fac6d80a870186804ae6d42a38adb7436e8b32e738852c.jpg)
+
+![b478260312fc2cc1c4957457cfd42c2a24f50ef285357be2ce6e253acbfa3a7b.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/b478260312fc2cc1c4957457cfd42c2a24f50ef285357be2ce6e253acbfa3a7b.jpg)
+
+![efb8e2add58dc5051edf067b85e2d36b33fb70df8b02aff9f25dd0ca66615ea1.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/images/efb8e2add58dc5051edf067b85e2d36b33fb70df8b02aff9f25dd0ca66615ea1.jpg)
+
+### Tables
+
+![157c25a397822a1dd960dc180e1c0057ce48a9bcf36dc79004a2f365f1f1bb90.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/tables/157c25a397822a1dd960dc180e1c0057ce48a9bcf36dc79004a2f365f1f1bb90.jpg)
+
+![59a590abcb10f5554c6695d38661ac2e3671ad78a75d5a98fb4d19023e4e1f96.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/tables/59a590abcb10f5554c6695d38661ac2e3671ad78a75d5a98fb4d19023e4e1f96.jpg)
+
+![6d1b042c6b0cf1a3340c4b658090f408c0b730f7cb4619edcb8cf1b5110786e6.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/tables/6d1b042c6b0cf1a3340c4b658090f408c0b730f7cb4619edcb8cf1b5110786e6.jpg)
+
+![7c13a885fb2e2a0f9de5dc746cae45371c96aab46968a4be0984304385566e45.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/tables/7c13a885fb2e2a0f9de5dc746cae45371c96aab46968a4be0984304385566e45.jpg)
+
+![87d6b9d26985ef2958af8c3cdfdf09d16908345f334cdbe5d4d196e32adf2c83.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/tables/87d6b9d26985ef2958af8c3cdfdf09d16908345f334cdbe5d4d196e32adf2c83.jpg)
+
+![c2316afb63090c4587d576acbfea5b65c3e88c10bb9b0cb41278240afb3e2fb1.jpg](acl_results/279_ConSim_ Measuring Concept-Based Explanations’ Effectiveness with Automated Simulatability/tables/c2316afb63090c4587d576acbfea5b65c3e88c10bb9b0cb41278240afb3e2fb1.jpg)
+
+## Decoding Reading Goals from Eye Movements
+
+### Images
+
+![1df7a73b9fa64219c6b8c51342aa1d961a24c1d04e22bafbced8bb4d57437c55.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/1df7a73b9fa64219c6b8c51342aa1d961a24c1d04e22bafbced8bb4d57437c55.jpg)
+
+![60e8989c5c2c9f2a538f1b0771bc78c2b3834d1edcc5b41b3d3f7769ff660e10.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/60e8989c5c2c9f2a538f1b0771bc78c2b3834d1edcc5b41b3d3f7769ff660e10.jpg)
+
+![7ad5b70e0a12c0962c4f33cb0fb768db906c4ff745f846b830e6e8e1e830bc80.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/7ad5b70e0a12c0962c4f33cb0fb768db906c4ff745f846b830e6e8e1e830bc80.jpg)
+
+![8e3c2c8c12b212611c362e71e75cf8cf4fb99e004b81b864b0024e60ccd71460.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/8e3c2c8c12b212611c362e71e75cf8cf4fb99e004b81b864b0024e60ccd71460.jpg)
+
+![a5be630327cfd1dd052e595f316a9e0cc7be652a485498e1c7abfc2a85b1ac1b.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/a5be630327cfd1dd052e595f316a9e0cc7be652a485498e1c7abfc2a85b1ac1b.jpg)
+
+![caad204415bc5543f54fbc84da1411af9fc970708ea4632f59094472e6278b70.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/caad204415bc5543f54fbc84da1411af9fc970708ea4632f59094472e6278b70.jpg)
+
+![d956dedca808d26c6fe8c3490cd197f85a83b1e5588e896a79db18916b2ebca2.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/d956dedca808d26c6fe8c3490cd197f85a83b1e5588e896a79db18916b2ebca2.jpg)
+
+![f1d5657d6f46218a0fe38490815a827c98642e05115187173d941c6de385330e.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/images/f1d5657d6f46218a0fe38490815a827c98642e05115187173d941c6de385330e.jpg)
+
+### Tables
+
+![1c92b71a2a8bc5ca9600add0c61cfb4fca5b0c588cc157b7baa4a54c596e1122.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/tables/1c92b71a2a8bc5ca9600add0c61cfb4fca5b0c588cc157b7baa4a54c596e1122.jpg)
+
+![25f531fecba2d3121a3130f459ec4bb7541fd616984698808c17096ca9ec8b9f.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/tables/25f531fecba2d3121a3130f459ec4bb7541fd616984698808c17096ca9ec8b9f.jpg)
+
+![39261ebb8c33f5b74c0fc8dc85422de6772bd2c6c0038f750ca7aca8d98ef5b0.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/tables/39261ebb8c33f5b74c0fc8dc85422de6772bd2c6c0038f750ca7aca8d98ef5b0.jpg)
+
+![9e51bd23e0ee3aadfe68ef43de807e23e8e0ed30eb2820860ffb5c666dccddd5.jpg](acl_results/280_Decoding Reading Goals from Eye Movements/tables/9e51bd23e0ee3aadfe68ef43de807e23e8e0ed30eb2820860ffb5c666dccddd5.jpg)
+
+## Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Embedding Space
+
+### Images
+
+![44ee24374a8bc9c2700b2bcd9fe0ec71485c52cdc4f2bad241c57087556631e7.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/images/44ee24374a8bc9c2700b2bcd9fe0ec71485c52cdc4f2bad241c57087556631e7.jpg)
+
+![48df48372a3de5cdbdcdd4fc465844928238e7706d03fbb4811acc3b473f89da.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/images/48df48372a3de5cdbdcdd4fc465844928238e7706d03fbb4811acc3b473f89da.jpg)
+
+![85efb9fb2e650f50ad664073503052587d06d79105fa0f7cebb6e300faef61d3.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/images/85efb9fb2e650f50ad664073503052587d06d79105fa0f7cebb6e300faef61d3.jpg)
+
+![8a22114d5b030df520ceece74c1718b1e5a996f61a1af3cc46441763261457a7.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/images/8a22114d5b030df520ceece74c1718b1e5a996f61a1af3cc46441763261457a7.jpg)
+
+![949c01a22d946e31a06843d0a6960c2ce74ff116c9077060b05028ccf89924c9.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/images/949c01a22d946e31a06843d0a6960c2ce74ff116c9077060b05028ccf89924c9.jpg)
+
+### Tables
+
+![094453f1974f0cd2b121e13f1215572d8eba2ea1579b80fca001d1936e9de4f1.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/tables/094453f1974f0cd2b121e13f1215572d8eba2ea1579b80fca001d1936e9de4f1.jpg)
+
+![50923a1b838673b344d0b5d14c6d5a2586b4e6d1979151a20c5c15cf2681d546.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/tables/50923a1b838673b344d0b5d14c6d5a2586b4e6d1979151a20c5c15cf2681d546.jpg)
+
+![d8b35e38d663454b7d159488aaf58bd2d99b3b4eac8a7aedba7b9fddf772c78e.jpg](acl_results/281_Uncovering Visual-Semantic Psycholinguistic Properties from the Distributional Structure of Text Emb/tables/d8b35e38d663454b7d159488aaf58bd2d99b3b4eac8a7aedba7b9fddf772c78e.jpg)
+
+## GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent
+
+### Images
+
+![4eda7c2484b947f0702f7c95185d8c02d8b3f99c076d4b3b99dd4eaaf921f43c.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/images/4eda7c2484b947f0702f7c95185d8c02d8b3f99c076d4b3b99dd4eaaf921f43c.jpg)
+
+![5294d7ee616ceb9ecc65a8cd8dde22ea9c15d636d3f85c365f011f8cb93232c6.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/images/5294d7ee616ceb9ecc65a8cd8dde22ea9c15d636d3f85c365f011f8cb93232c6.jpg)
+
+![6a6cb8aeb6f8751e515b57d8bb9783eb7d6abb60c5daafa55f166551543445d7.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/images/6a6cb8aeb6f8751e515b57d8bb9783eb7d6abb60c5daafa55f166551543445d7.jpg)
+
+![7931188e90e1c2b783c4ddd938deadc412244f7e704c228a51b72a69d3a6ee88.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/images/7931188e90e1c2b783c4ddd938deadc412244f7e704c228a51b72a69d3a6ee88.jpg)
+
+![92ec492b0a55c585ad10bdaace3d4fe3819be0271d26629d8134447fbae93885.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/images/92ec492b0a55c585ad10bdaace3d4fe3819be0271d26629d8134447fbae93885.jpg)
+
+![ddf6d1904a25e813b96d030a2861a65f00b6c4fdf69d37aa3046b92a2cd7e9b1.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/images/ddf6d1904a25e813b96d030a2861a65f00b6c4fdf69d37aa3046b92a2cd7e9b1.jpg)
+
+![e74a4fd8fa24e00971f2dcd691d85b3bdd1a6c3d86a00e7282dc1702c37cc8e6.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/images/e74a4fd8fa24e00971f2dcd691d85b3bdd1a6c3d86a00e7282dc1702c37cc8e6.jpg)
+
+### Tables
+
+![3f85d20189a8ca187cf5730413f0f8136ef66d18ef056c796a569a137ee48e4e.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/3f85d20189a8ca187cf5730413f0f8136ef66d18ef056c796a569a137ee48e4e.jpg)
+
+![4a995f2f6b3a9db94448753286d9b2aa81e93537a2430fff40fa8a15b9dcffe3.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/4a995f2f6b3a9db94448753286d9b2aa81e93537a2430fff40fa8a15b9dcffe3.jpg)
+
+![58d6949eb4f706cd9399b3cead44abb0033e9457b72e1f06342e51486b27dff3.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/58d6949eb4f706cd9399b3cead44abb0033e9457b72e1f06342e51486b27dff3.jpg)
+
+![7e3d689a35cb92f7ae74c3c3add9eb91333e77ade3cb8622f3b3b1ecf8392fed.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/7e3d689a35cb92f7ae74c3c3add9eb91333e77ade3cb8622f3b3b1ecf8392fed.jpg)
+
+![8c32d33d5d4adad6db174ccc6905f330732b9cea0188a969a571c2d4f9a0f269.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/8c32d33d5d4adad6db174ccc6905f330732b9cea0188a969a571c2d4f9a0f269.jpg)
+
+![dc86e4199640c76306b245f25ec8040c6b9cf2c3b7076105f926d3544b5b4158.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/dc86e4199640c76306b245f25ec8040c6b9cf2c3b7076105f926d3544b5b4158.jpg)
+
+![df55cc369603c4d0c2d037fd6d25dd364cbd5081feb3dd4f2e91db97ed345a45.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/df55cc369603c4d0c2d037fd6d25dd364cbd5081feb3dd4f2e91db97ed345a45.jpg)
+
+![e0df3f46b13fbb79de0b80be5bbcdc6b63cbb099bd3a11f2d3dcd20b58f908f7.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/e0df3f46b13fbb79de0b80be5bbcdc6b63cbb099bd3a11f2d3dcd20b58f908f7.jpg)
+
+![f28b5149982fbfba8dc221ce802dabdae45fd18bfc5a98f7423e85b0e98c1b4f.jpg](acl_results/282_GUI-explorer_ Autonomous Exploration and Mining of Transition-aware Knowledge forGUIAgent/tables/f28b5149982fbfba8dc221ce802dabdae45fd18bfc5a98f7423e85b0e98c1b4f.jpg)
+
+## P2Law: Scaling Law for Post-Training After Model Pruning
+
+### Images
+
+![05226d0007da34afa9ee55fef5991b1606a5bdbc0f6997d3d1b11147a4d7eb86.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/05226d0007da34afa9ee55fef5991b1606a5bdbc0f6997d3d1b11147a4d7eb86.jpg)
+
+![0731e30aeca718e056d4e007ffaba1ef38b1dcc5855e03df4422c0978e9b2f53.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/0731e30aeca718e056d4e007ffaba1ef38b1dcc5855e03df4422c0978e9b2f53.jpg)
+
+![0970758d49c60cc434462eb268fa0c5ed6c0eb12ce19a75229595e83d00afe7c.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/0970758d49c60cc434462eb268fa0c5ed6c0eb12ce19a75229595e83d00afe7c.jpg)
+
+![108ab0c3cbf941e204573a8034a0930425d124e201b902b335e40f295ea47f54.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/108ab0c3cbf941e204573a8034a0930425d124e201b902b335e40f295ea47f54.jpg)
+
+![1150d8ec731df9e90b3cf0480ed98a8a3ce0f634b103a29cb3caaa81ab5103c3.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/1150d8ec731df9e90b3cf0480ed98a8a3ce0f634b103a29cb3caaa81ab5103c3.jpg)
+
+![1924c8da0ed6cf062a6e537f49cfc92a42726193d82e0e32272a1582104e15c3.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/1924c8da0ed6cf062a6e537f49cfc92a42726193d82e0e32272a1582104e15c3.jpg)
+
+![1bf3f0dc494f0b4fb4696dcd65c8b8aa082245d03dcfb93b9d97778bf886ec49.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/1bf3f0dc494f0b4fb4696dcd65c8b8aa082245d03dcfb93b9d97778bf886ec49.jpg)
+
+![1e9fe228a30e4b5e8e4953583809d98ab7030964a091fa664bf853481a5e3207.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/1e9fe228a30e4b5e8e4953583809d98ab7030964a091fa664bf853481a5e3207.jpg)
+
+![226b2a1a3b48929261ef0cd9d6e9f47eadee1e99be82f2b7ff6d0c39cdc96e43.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/226b2a1a3b48929261ef0cd9d6e9f47eadee1e99be82f2b7ff6d0c39cdc96e43.jpg)
+
+![24ce7ad7a66e863aad7cb51743645a6863cd0146650fc1d03a09bc793dae60ea.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/24ce7ad7a66e863aad7cb51743645a6863cd0146650fc1d03a09bc793dae60ea.jpg)
+
+![277202a6cfb5087c025618f3015926932f8929a9751a2f9e2a4b17235d440525.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/277202a6cfb5087c025618f3015926932f8929a9751a2f9e2a4b17235d440525.jpg)
+
+![2b3c3a3bc5767224a77378eb4b764f57d7be3ebda19252e71ff4a82a6b9053f3.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/2b3c3a3bc5767224a77378eb4b764f57d7be3ebda19252e71ff4a82a6b9053f3.jpg)
+
+![2c9efc60eaee5f2251f514eabb0bcc7521e076ff81d5a1fbb1759794dcb8bc42.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/2c9efc60eaee5f2251f514eabb0bcc7521e076ff81d5a1fbb1759794dcb8bc42.jpg)
+
+![2e43e68663d5c9a2d6144bfa29a14324750ff524d50b0cae607fd0e285d08bcd.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/2e43e68663d5c9a2d6144bfa29a14324750ff524d50b0cae607fd0e285d08bcd.jpg)
+
+![32f7e7d7f6d62654fc64f33640ff4cdc7a87c1b4638d5e809be831564482aa6e.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/32f7e7d7f6d62654fc64f33640ff4cdc7a87c1b4638d5e809be831564482aa6e.jpg)
+
+![33d62be6c6b520811040dadd885c18ba3657fe9bf98641d54528518f72ab2bbc.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/33d62be6c6b520811040dadd885c18ba3657fe9bf98641d54528518f72ab2bbc.jpg)
+
+![343babc67d57db3f07848796df4d4fb3576ec47716cbbd2cc0e807aaece9da0b.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/343babc67d57db3f07848796df4d4fb3576ec47716cbbd2cc0e807aaece9da0b.jpg)
+
+![40aa9f5bdf9fcb3a68e3c7e13c2b76dc07647d17fd918019e9a7e0c6ff46368a.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/40aa9f5bdf9fcb3a68e3c7e13c2b76dc07647d17fd918019e9a7e0c6ff46368a.jpg)
+
+![435427e67099aa503b781f14082557b3c3e4a130a64381a1360c41d76130d2c9.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/435427e67099aa503b781f14082557b3c3e4a130a64381a1360c41d76130d2c9.jpg)
+
+![43ff622a38ae4c13f9cffc85fe0e93bdd71943fb684b5f5d2efe704c4800ebe3.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/43ff622a38ae4c13f9cffc85fe0e93bdd71943fb684b5f5d2efe704c4800ebe3.jpg)
+
+![56eff4eb927440d3395dc1dea8cb85065b96f0ff0a060d318d922b51377299ed.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/56eff4eb927440d3395dc1dea8cb85065b96f0ff0a060d318d922b51377299ed.jpg)
+
+![665c620d2db2192630419655da51e3321c1b5bfce84a5d2765bfe9e4aaa68942.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/665c620d2db2192630419655da51e3321c1b5bfce84a5d2765bfe9e4aaa68942.jpg)
+
+![7b1103f134e24b907b299cd899b98763a49cfcb76c4098f5186e39bfa269995d.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/7b1103f134e24b907b299cd899b98763a49cfcb76c4098f5186e39bfa269995d.jpg)
+
+![98c7d370cfef021afc5e2c85b74fcc0eafd46ef56b777698a4860638b36ba5e2.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/98c7d370cfef021afc5e2c85b74fcc0eafd46ef56b777698a4860638b36ba5e2.jpg)
+
+![a06585c30397eb80cf41247759d4c013e7f1d630b538998d8abc1b137218fe91.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/a06585c30397eb80cf41247759d4c013e7f1d630b538998d8abc1b137218fe91.jpg)
+
+![a2032a826fcf215e3d065ea287b423549308a376bc83bf0517e887a6c48cbccc.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/a2032a826fcf215e3d065ea287b423549308a376bc83bf0517e887a6c48cbccc.jpg)
+
+![a29ff2ba2a29e4873ac2913d1228e3e291031e2e747cae46ca8586811c2e93c4.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/a29ff2ba2a29e4873ac2913d1228e3e291031e2e747cae46ca8586811c2e93c4.jpg)
+
+![a5a89f1e92b93169aa8e40ac616c776c48d24c9e4b025daa202900e6e20b36ea.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/a5a89f1e92b93169aa8e40ac616c776c48d24c9e4b025daa202900e6e20b36ea.jpg)
+
+![ad23acbae6fd80ad4628ecf40183eff96802b0e80125bfb4e27da61f29d1358a.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/ad23acbae6fd80ad4628ecf40183eff96802b0e80125bfb4e27da61f29d1358a.jpg)
+
+![b8cf82e53e7e3f5b14c522bad4d861d55095c22f95f9c953b954a3a77985c8af.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/b8cf82e53e7e3f5b14c522bad4d861d55095c22f95f9c953b954a3a77985c8af.jpg)
+
+![bb98e0f924ee9f8328ae933a95e92efad3ebe4373b23b9edeedc406f932168a2.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/bb98e0f924ee9f8328ae933a95e92efad3ebe4373b23b9edeedc406f932168a2.jpg)
+
+![bce3129c46481d46a3e53c893cd7392599d4a85205742247d12338748b4a2fde.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/bce3129c46481d46a3e53c893cd7392599d4a85205742247d12338748b4a2fde.jpg)
+
+![bd07609459b8526734552061d21cbee354e9ed21ac53b4a21592cffb171b7728.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/bd07609459b8526734552061d21cbee354e9ed21ac53b4a21592cffb171b7728.jpg)
+
+![bd58a4bf3aa2dde5f54b8e722b713331adfbb9dfab11c560a95d36d1fe50107a.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/bd58a4bf3aa2dde5f54b8e722b713331adfbb9dfab11c560a95d36d1fe50107a.jpg)
+
+![d3c4511c77900bf8877de197e6b04d562ea198af9e057fa9a59552a990934090.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/d3c4511c77900bf8877de197e6b04d562ea198af9e057fa9a59552a990934090.jpg)
+
+![d95cae70649414912121838d308e4ec554b1bc7f823e6d33286ad6cd3ece90ff.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/d95cae70649414912121838d308e4ec554b1bc7f823e6d33286ad6cd3ece90ff.jpg)
+
+![dee466f82b83e452d9c0f4e9de42aaff7da497db717def9f750e06d490f65025.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/dee466f82b83e452d9c0f4e9de42aaff7da497db717def9f750e06d490f65025.jpg)
+
+![e2c01b4f4c22d9663bf188710a1e9248648f4dc65bb169ed976757e3aa886d3d.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/e2c01b4f4c22d9663bf188710a1e9248648f4dc65bb169ed976757e3aa886d3d.jpg)
+
+![e9616b7e7e65b17a87bbacf8eb224c221403da42bd8b4cd0abaefacaa7610108.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/e9616b7e7e65b17a87bbacf8eb224c221403da42bd8b4cd0abaefacaa7610108.jpg)
+
+![f66fc193a7ed831efca111faf7b29f0bb5cf2221698dcc9aa721af553b25e051.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/f66fc193a7ed831efca111faf7b29f0bb5cf2221698dcc9aa721af553b25e051.jpg)
+
+![fbc3381d99d0026cd829c0218f34854795e52c9d8262e68137fe5d4b91fbfb7b.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/fbc3381d99d0026cd829c0218f34854795e52c9d8262e68137fe5d4b91fbfb7b.jpg)
+
+![fce940aac107fd14fe1a2ebd81eaad1d41d901cd3ec77f0caa428c90fa9e32e5.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/fce940aac107fd14fe1a2ebd81eaad1d41d901cd3ec77f0caa428c90fa9e32e5.jpg)
+
+![ff968d32d7532da4bfa9bb3a2a3bd8b6fee810b711dd5e740e7f8ec76a25a5f3.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/images/ff968d32d7532da4bfa9bb3a2a3bd8b6fee810b711dd5e740e7f8ec76a25a5f3.jpg)
+
+### Tables
+
+![026adeb566fd02eea39337fb618084b31a83f9b372208cb5d7d3d769faab2a95.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/tables/026adeb566fd02eea39337fb618084b31a83f9b372208cb5d7d3d769faab2a95.jpg)
+
+![2ba4bd3d7f24359e42b50e18ab62f6ec7af30500168d63de30dc29f03bb13506.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/tables/2ba4bd3d7f24359e42b50e18ab62f6ec7af30500168d63de30dc29f03bb13506.jpg)
+
+![32f827d07d6ac43794b475424dc8348c4e052eff48d75e578ced897150e6463d.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/tables/32f827d07d6ac43794b475424dc8348c4e052eff48d75e578ced897150e6463d.jpg)
+
+![9b2345928a88597b78aac6a27ddfb4e211da242fd8a5962bda0bbe168b439058.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/tables/9b2345928a88597b78aac6a27ddfb4e211da242fd8a5962bda0bbe168b439058.jpg)
+
+![b59bbcb6b1a7b25d1430e125e1eb1aa9905727a75a9ce9e60da84aec7ea272b9.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/tables/b59bbcb6b1a7b25d1430e125e1eb1aa9905727a75a9ce9e60da84aec7ea272b9.jpg)
+
+![c3499c7cd58f65074b139ff302672f7a8141d7a9c86011f0225576fa24495d82.jpg](acl_results/283_P2Law_ Scaling Law for Post-Training After Model Pruning/tables/c3499c7cd58f65074b139ff302672f7a8141d7a9c86011f0225576fa24495d82.jpg)
+
+## MakingFETCH! Happen: Finding Emergent Dog Whistles Through Common Habitats
+
+### Images
+
+![1449f5f8a6e120a5666a9a63a848355b8da1d06350baa7ec0b466459e7d2d769.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/1449f5f8a6e120a5666a9a63a848355b8da1d06350baa7ec0b466459e7d2d769.jpg)
+
+![1c371ef2894e1a8ccbc6251951f3b1968be51f88f08cf396f7263a1bcd8adef6.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/1c371ef2894e1a8ccbc6251951f3b1968be51f88f08cf396f7263a1bcd8adef6.jpg)
+
+![32ef5fc79f21a86e02a3662af6e0bfccf907a30b1d93d7019ee46d0abfae5937.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/32ef5fc79f21a86e02a3662af6e0bfccf907a30b1d93d7019ee46d0abfae5937.jpg)
+
+![6374025f102a710c70028f4f7d2564bbcd1ab80d3d0c8fec75cc59b2a1c8ba55.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/6374025f102a710c70028f4f7d2564bbcd1ab80d3d0c8fec75cc59b2a1c8ba55.jpg)
+
+![988bc3956ed99d891e13b9c1f1d6b1ba5fc80cb25536feb7eed6053a81f92a5f.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/988bc3956ed99d891e13b9c1f1d6b1ba5fc80cb25536feb7eed6053a81f92a5f.jpg)
+
+![ab1cca39f690eab3494bdcc08e79c3b365b86e586b8c4d8f850532a30d183108.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/ab1cca39f690eab3494bdcc08e79c3b365b86e586b8c4d8f850532a30d183108.jpg)
+
+![ba6c0d57e7b49838622c254bf7df4ad0e151c94d9a56f26ff802f5ebd3db331b.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/ba6c0d57e7b49838622c254bf7df4ad0e151c94d9a56f26ff802f5ebd3db331b.jpg)
+
+![e6192331b50a37e68637248c76cfc3bd909d81a958097b3b91d6b33c285e8517.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/images/e6192331b50a37e68637248c76cfc3bd909d81a958097b3b91d6b33c285e8517.jpg)
+
+### Tables
+
+![0c09ea82e547ef01cb40fd37151ca1f7fc8a361fcb551857cf99e934f3c48029.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/0c09ea82e547ef01cb40fd37151ca1f7fc8a361fcb551857cf99e934f3c48029.jpg)
+
+![34c160664dd7691ec7dd0ea8dd2a14dea6eb62228a6ecdd70bc1cd334e4955db.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/34c160664dd7691ec7dd0ea8dd2a14dea6eb62228a6ecdd70bc1cd334e4955db.jpg)
+
+![5ee58811b1da9c2d98d137c95ed512f5988881d20e0eaf42842f434af64eba73.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/5ee58811b1da9c2d98d137c95ed512f5988881d20e0eaf42842f434af64eba73.jpg)
+
+![7a3ed3e7e3e3cd959c0b3688c34a699786a1bf3b7c31c60ece9f653659f0a05d.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/7a3ed3e7e3e3cd959c0b3688c34a699786a1bf3b7c31c60ece9f653659f0a05d.jpg)
+
+![8f928455bd7ff7a9db032e8272d7fdc350f11a4f4811dc1aed2543f12900abee.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/8f928455bd7ff7a9db032e8272d7fdc350f11a4f4811dc1aed2543f12900abee.jpg)
+
+![9ac4a0b53c154a54344063db07f569ce515dd791b64f3e38e8a4453fbbde0cd4.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/9ac4a0b53c154a54344063db07f569ce515dd791b64f3e38e8a4453fbbde0cd4.jpg)
+
+![a46d6a9b734460785481c7a60cd5614b44d81821aeee072d52476dd2df2f5e2f.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/a46d6a9b734460785481c7a60cd5614b44d81821aeee072d52476dd2df2f5e2f.jpg)
+
+![a9803e9814da999b2c2f2f5e505cb2908ba362c2fbc8695ed5919a7446c9af84.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/a9803e9814da999b2c2f2f5e505cb2908ba362c2fbc8695ed5919a7446c9af84.jpg)
+
+![ce673827c502679c51fc2fbeaa5c632d5aea6213e7335087eb1f6630e4415594.jpg](acl_results/284_MakingFETCH! Happen_ Finding Emergent Dog Whistles Through Common Habitats/tables/ce673827c502679c51fc2fbeaa5c632d5aea6213e7335087eb1f6630e4415594.jpg)
+
+## Lost in the Context: Insufficient and Distracted Attention to Contexts in Preference Modeling
+
+### Images
+
+![26d542bf6846440d0a5ee232ef477c92115d4f95def46dbc305ee5e5e129c65f.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/26d542bf6846440d0a5ee232ef477c92115d4f95def46dbc305ee5e5e129c65f.jpg)
+
+![31ebe174ae2e680066f8b4acb2d581afcbb58169907e7ad7b78ee262262c9e6f.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/31ebe174ae2e680066f8b4acb2d581afcbb58169907e7ad7b78ee262262c9e6f.jpg)
+
+![366195756f0374ca56d9a507458e5763362a16b03179133d3921884ffe6f1b44.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/366195756f0374ca56d9a507458e5763362a16b03179133d3921884ffe6f1b44.jpg)
+
+![38822fe52f818f132f40cd4a502b9f4a8d6b9d2a6f12a94744901e53edf55854.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/38822fe52f818f132f40cd4a502b9f4a8d6b9d2a6f12a94744901e53edf55854.jpg)
+
+![3cd4d8a27fee11ab62a0591e8b4f287abef62af51212e4a25f0f257a69e8aa10.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/3cd4d8a27fee11ab62a0591e8b4f287abef62af51212e4a25f0f257a69e8aa10.jpg)
+
+![5b10a602a3c0f7cbc391f0f073339653e016cd29d6a65a511a866dc24922fbd4.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/5b10a602a3c0f7cbc391f0f073339653e016cd29d6a65a511a866dc24922fbd4.jpg)
+
+![b0119dce368cf39f20a7308a2a4d96b90b3f4f12aa66447968ef640d8eee1f08.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/b0119dce368cf39f20a7308a2a4d96b90b3f4f12aa66447968ef640d8eee1f08.jpg)
+
+![c70d476179e20d6826c2b36b4926539148dde45f4deb2ca202a6fc63685c07a1.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/c70d476179e20d6826c2b36b4926539148dde45f4deb2ca202a6fc63685c07a1.jpg)
+
+![e640d08273418263a5781de3a22869d3e7be5a693d4d82aa699cdbc01994839c.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/images/e640d08273418263a5781de3a22869d3e7be5a693d4d82aa699cdbc01994839c.jpg)
+
+### Tables
+
+![86e403837bafe374b0cedb41f12b3f8eb9fb033a7ff26efbd2711a5c3d0bf0da.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/tables/86e403837bafe374b0cedb41f12b3f8eb9fb033a7ff26efbd2711a5c3d0bf0da.jpg)
+
+![aa5d0b56f0ed7314e1d5d24c3fafaf29718e0691fb17d4d9787b5e9410ffaf6d.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/tables/aa5d0b56f0ed7314e1d5d24c3fafaf29718e0691fb17d4d9787b5e9410ffaf6d.jpg)
+
+![e370b1ef41386a9ab32e6d8ca95595cc19823fbc227d53df36e2dfcbba52befe.jpg](acl_results/285_Lost in the Context_ Insufficient and Distracted Attention to Contexts in Preference Modeling/tables/e370b1ef41386a9ab32e6d8ca95595cc19823fbc227d53df36e2dfcbba52befe.jpg)
+
+## Entailment-Preserving First-order Logic Representations in Natural Language Entailment
+
+### Images
+
+![1bad5d97e87a120dba1983910e32b190bc1dd7330570d104526fa2cac4b67638.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/1bad5d97e87a120dba1983910e32b190bc1dd7330570d104526fa2cac4b67638.jpg)
+
+![682dd7321aa54de28fba021b2523c84f5c86cac177644255b76f0750847b6bc9.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/682dd7321aa54de28fba021b2523c84f5c86cac177644255b76f0750847b6bc9.jpg)
+
+![74c34a78263f24a6b67a05392d1f81b4edbfd677279921b4b900ab6db53f3bf5.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/74c34a78263f24a6b67a05392d1f81b4edbfd677279921b4b900ab6db53f3bf5.jpg)
+
+![77f59184f68ef56e6d03066e69e4e58c28f77577f3f188b37a870b9e84fd4f9e.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/77f59184f68ef56e6d03066e69e4e58c28f77577f3f188b37a870b9e84fd4f9e.jpg)
+
+![7f95d05eb72c19c48411d25b3422f62dcfe4db398af89aa5099b9e764321fe06.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/7f95d05eb72c19c48411d25b3422f62dcfe4db398af89aa5099b9e764321fe06.jpg)
+
+![981d366cd48d424c8fe82cfd84245c11fff0be17cd0c0cdd88ab36a1c84d560d.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/981d366cd48d424c8fe82cfd84245c11fff0be17cd0c0cdd88ab36a1c84d560d.jpg)
+
+![aa8ae7e097f80492540004dd358a94f9f00ff3c66d033faf6a2c0e18b29be7ad.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/aa8ae7e097f80492540004dd358a94f9f00ff3c66d033faf6a2c0e18b29be7ad.jpg)
+
+![b5e9a03ea07f19841e14c9fea3e46a4f02e5bfcd318ac8ed6eb1df98b5056020.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/images/b5e9a03ea07f19841e14c9fea3e46a4f02e5bfcd318ac8ed6eb1df98b5056020.jpg)
+
+### Tables
+
+![582c4279acb99df4a8e278c8812bf8eb109be5719bdad42b9d72fad3256626f4.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/tables/582c4279acb99df4a8e278c8812bf8eb109be5719bdad42b9d72fad3256626f4.jpg)
+
+![5b3b922f0c5c76ea7cecf87087bba0e0901149c6fa647f9f828de1568e46db38.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/tables/5b3b922f0c5c76ea7cecf87087bba0e0901149c6fa647f9f828de1568e46db38.jpg)
+
+![5cce182be035e57f744a38d69bd49b0e918d16e0d6b4d253b8f523c3b7ab4f5a.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/tables/5cce182be035e57f744a38d69bd49b0e918d16e0d6b4d253b8f523c3b7ab4f5a.jpg)
+
+![6f41afd61ea3d4b56d379fa678035b664a76317ad1fa14e36a57f6dcc89f0cfc.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/tables/6f41afd61ea3d4b56d379fa678035b664a76317ad1fa14e36a57f6dcc89f0cfc.jpg)
+
+![b4bbf54c240e26affc2d4d429d1dcf28ee8fded606c4193312c0a0394e5edca9.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/tables/b4bbf54c240e26affc2d4d429d1dcf28ee8fded606c4193312c0a0394e5edca9.jpg)
+
+![d8f64c33c34d8d743232b0841e4d9e4f28c122617e61d00509d5cf2e52227094.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/tables/d8f64c33c34d8d743232b0841e4d9e4f28c122617e61d00509d5cf2e52227094.jpg)
+
+![f18368bb6346479fca75aa5b9af1dafb9a724f7579309d0ad86a75aef1f0bfa3.jpg](acl_results/286_Entailment-Preserving First-order Logic Representations in Natural Language Entailment/tables/f18368bb6346479fca75aa5b9af1dafb9a724f7579309d0ad86a75aef1f0bfa3.jpg)
+
+## Enhancing Multimodal Continual Instruction Tuning withBranchLoRA
+
+### Images
+
+![0e564650f3a0f9009f1f7f33c02a4a4d27416aae0e7b7d9f6d3d3aac9fa7ca81.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/images/0e564650f3a0f9009f1f7f33c02a4a4d27416aae0e7b7d9f6d3d3aac9fa7ca81.jpg)
+
+![39e5564a935379b59746bd96cc9891798b63c933e17cd21f463c1b33c4307f60.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/images/39e5564a935379b59746bd96cc9891798b63c933e17cd21f463c1b33c4307f60.jpg)
+
+![3c8bd5ad8bcc573095125b4cc15ff497ce8cafc314a80ee87cf93c0e95bf6239.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/images/3c8bd5ad8bcc573095125b4cc15ff497ce8cafc314a80ee87cf93c0e95bf6239.jpg)
+
+![e1525b88980a008e0a18d2b53a44fac5b8ecb11597239fa07a007b5775b9b9fd.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/images/e1525b88980a008e0a18d2b53a44fac5b8ecb11597239fa07a007b5775b9b9fd.jpg)
+
+![fd87b5d189b6a4e8b3fee21c545bf20efe7a45f23dd5cc3f15334a89ffaff813.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/images/fd87b5d189b6a4e8b3fee21c545bf20efe7a45f23dd5cc3f15334a89ffaff813.jpg)
+
+### Tables
+
+![0bee1cbbb675b35e15a8dc76fa718dcf925eb4cd68d8c834aaf1d5f85dd007fe.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/tables/0bee1cbbb675b35e15a8dc76fa718dcf925eb4cd68d8c834aaf1d5f85dd007fe.jpg)
+
+![21e5e8419c6bccf9109c321961974d11a4813a6f16f51f5c4c52fb9b92d9c51f.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/tables/21e5e8419c6bccf9109c321961974d11a4813a6f16f51f5c4c52fb9b92d9c51f.jpg)
+
+![36eb8cd560807cbce146de84923e8336280de10f956bdc10a6b7eb8dd9a5a005.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/tables/36eb8cd560807cbce146de84923e8336280de10f956bdc10a6b7eb8dd9a5a005.jpg)
+
+![77ef6f875d3e088867d8e19de7b27877c63fd7c8bcb317cde8324c7e13ba868a.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/tables/77ef6f875d3e088867d8e19de7b27877c63fd7c8bcb317cde8324c7e13ba868a.jpg)
+
+![7ca91ad76f5608e81a2bb419fa2ad536a33e8894c21f1dd4aa2e19bb2b6a5713.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/tables/7ca91ad76f5608e81a2bb419fa2ad536a33e8894c21f1dd4aa2e19bb2b6a5713.jpg)
+
+![84416bc42d2db13887a1a4f56df019aa15165c4429f4fc8aada2fad356441545.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/tables/84416bc42d2db13887a1a4f56df019aa15165c4429f4fc8aada2fad356441545.jpg)
+
+![94c1b664c8823ee01cf9301254bd81dfcbc3055a6c8e4f1e3dcff0121fe30fc5.jpg](acl_results/287_Enhancing Multimodal Continual Instruction Tuning withBranchLoRA/tables/94c1b664c8823ee01cf9301254bd81dfcbc3055a6c8e4f1e3dcff0121fe30fc5.jpg)
+
+## Enhancing Automated Interpretability with Output-Centric Feature Descriptions
+
+### Images
+
+![0bfdfa99a5af2629092587ebc91912bbb7c32003576f0161b4763839d17244b5.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/0bfdfa99a5af2629092587ebc91912bbb7c32003576f0161b4763839d17244b5.jpg)
+
+![174cf52e214e4909e89ce97d369a5e386dd09cf9b00a752475b8d34e85326dec.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/174cf52e214e4909e89ce97d369a5e386dd09cf9b00a752475b8d34e85326dec.jpg)
+
+![20c5c3b824bd348e93587980f6104ef4229b5fd402a8fb81e20e39aba0f1c870.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/20c5c3b824bd348e93587980f6104ef4229b5fd402a8fb81e20e39aba0f1c870.jpg)
+
+![552d80e4b9918d0c676f727cd8cb81ee93317257a0df32ffa3b86c55f03bd9a6.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/552d80e4b9918d0c676f727cd8cb81ee93317257a0df32ffa3b86c55f03bd9a6.jpg)
+
+![8400459332cea46a91c6d9215005a5713c4e64d7ba2ccea6dd1cd6ce8d6ed5b5.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/8400459332cea46a91c6d9215005a5713c4e64d7ba2ccea6dd1cd6ce8d6ed5b5.jpg)
+
+![8c9f401f937c972fa47d7fe37ca0dde4d4ad7e021d1624532eb1d085c2c7ce57.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/8c9f401f937c972fa47d7fe37ca0dde4d4ad7e021d1624532eb1d085c2c7ce57.jpg)
+
+![8cfc0c7a7f578b99870de0f79aad19e27b4f6a6839238ce11f9522776fee0901.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/8cfc0c7a7f578b99870de0f79aad19e27b4f6a6839238ce11f9522776fee0901.jpg)
+
+![a498a24d108c90df2c639a726adb20f7954dad09e5df314e25f8b9ad6e7a2fd1.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/a498a24d108c90df2c639a726adb20f7954dad09e5df314e25f8b9ad6e7a2fd1.jpg)
+
+![d8e957630e7b03f2532b499c05c8b3276f985bd2cf868d816dc80e9f42b25f22.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/d8e957630e7b03f2532b499c05c8b3276f985bd2cf868d816dc80e9f42b25f22.jpg)
+
+![dbf90464429398f403b881dd5d0d7ed9797596707313cd5c4538c4434787fa60.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/images/dbf90464429398f403b881dd5d0d7ed9797596707313cd5c4538c4434787fa60.jpg)
+
+### Tables
+
+![1374f1cb94d68e3267cee030a77eb646dbc220f6b6500da0116e15cde323b5c3.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/1374f1cb94d68e3267cee030a77eb646dbc220f6b6500da0116e15cde323b5c3.jpg)
+
+![31db9d8683013a03d23ce126cdbf823a6b98dd04c4211c5561c064f3c37c6241.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/31db9d8683013a03d23ce126cdbf823a6b98dd04c4211c5561c064f3c37c6241.jpg)
+
+![4092043e615da5fe8468703b1f8910daa58075cc8cc9143a15d609a2f6aff5eb.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/4092043e615da5fe8468703b1f8910daa58075cc8cc9143a15d609a2f6aff5eb.jpg)
+
+![7afbe175a6ac999569e35a0af14784b85aa4bfb2e34d6429e20662229d486f17.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/7afbe175a6ac999569e35a0af14784b85aa4bfb2e34d6429e20662229d486f17.jpg)
+
+![8391d50109785b86dacd4f58918b2ee3c917566194e2d1f0d67a8a5dc25d833d.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/8391d50109785b86dacd4f58918b2ee3c917566194e2d1f0d67a8a5dc25d833d.jpg)
+
+![be7c8b7c82ffd4516d7a6d0d4e75a04a434950c3f49f25f0b1070e637a38c07b.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/be7c8b7c82ffd4516d7a6d0d4e75a04a434950c3f49f25f0b1070e637a38c07b.jpg)
+
+![e38da088a0879c2fa53becdc253107ca8f34b92a4694820fc796b68e0543fceb.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/e38da088a0879c2fa53becdc253107ca8f34b92a4694820fc796b68e0543fceb.jpg)
+
+![f11fec99775d28b08ec2339c0a0e9c3c9bff05b6e74b758cbc58a9664bb471c2.jpg](acl_results/288_Enhancing Automated Interpretability with Output-Centric Feature Descriptions/tables/f11fec99775d28b08ec2339c0a0e9c3c9bff05b6e74b758cbc58a9664bb471c2.jpg)

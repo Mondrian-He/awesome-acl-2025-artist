@@ -1,0 +1,1502 @@
+# ACL 2025 Long Papers
+
+
+**Summary:** 1599 papers with extracted content:
+- 📊 Total images: 13877
+- 📋 Total tables: 16805
+- 📄 Total files: 3068
+---
+
+# ACL 2025 Long Papers - Part 32 of 50
+
+## 目录 (Table of Contents)
+
+1. [Interactive and Expressive Code-Augmented Planning with Large Language Models](#Interactive-and-Expressive-Code-Augmented-Planning-with-Large-Language-Models)
+2. [Synergistic Weak-Strong Collaboration by Aligning Preferences](#Synergistic-Weak-Strong-Collaboration-by-Aligning-Preferences)
+3. [Understanding Silent Data Corruption inLLMTraining](#Understanding-Silent-Data-Corruption-inLLMTraining)
+4. [Align-SLM: Textless Spoken Language Models with Reinforcement Learning fromAIFeedback](#Align-SLM-Textless-Spoken-Language-Models-with-Reinforcement-Learning-fromAIFeedback)
+5. [CanLLMs Help Uncover Insights aboutLLMs? A Large-Scale, Evolving Literature Analysis of FrontierLLMs](#CanLLMs-Help-Uncover-Insights-aboutLLMs-A-Large-Scale-Evolving-Literature-Analysis-of-FrontierLLMs)
+6. [BIG5-CHAT: ShapingLLMPersonalities Through Training on Human-Grounded Data](#BIG5-CHAT-ShapingLLMPersonalities-Through-Training-on-Human-Grounded-Data)
+7. [Deep Temporal Reasoning in Video Language Models: A Cross-Linguistic Evaluation of Action Duration and Completion through Perfect Times](#Deep-Temporal-Reasoning-in-Video-Language-Models-A-Cross-Linguistic-Evaluation-of-Action-Duration-and-Completion-through-Perfect-Times)
+8. [Amplifying Trans and Nonbinary Voices: A Community-Centred Harm Taxonomy forLLMs](#Amplifying-Trans-and-Nonbinary-Voices-A-Community-Centred-Harm-Taxonomy-forLLMs)
+9. [Enhancing Human Evaluation in Machine Translation with Comparative Judgement](#Enhancing-Human-Evaluation-in-Machine-Translation-with-Comparative-Judgement)
+10. [Infogen: Generating Complex Statistical Infographics from Documents](#Infogen-Generating-Complex-Statistical-Infographics-from-Documents)
+11. [Partial Colexifications Improve Concept Embeddings](#Partial-Colexifications-Improve-Concept-Embeddings)
+12. [Improved Unbiased Watermark for Large Language Models](#Improved-Unbiased-Watermark-for-Large-Language-Models)
+13. [MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection](#MaCP-Minimal-yet-Mighty-Adaptation-via-Hierarchical-Cosine-Projection)
+14. [Multi-Attribute Steering of Language Models via Targeted Intervention](#Multi-Attribute-Steering-of-Language-Models-via-Targeted-Intervention)
+15. [AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations](#AdaptAgent-Adapting-Multimodal-Web-Agents-with-Few-Shot-Learning-from-Human-Demonstrations)
+16. [CanLLMs Identify Critical Limitations within Scientific Research? A Systematic Evaluation onAIResearch Papers](#CanLLMs-Identify-Critical-Limitations-within-Scientific-Research-A-Systematic-Evaluation-onAIResearch-Papers)
+17. [On the Acquisition of Shared Grammatical Representations in Bilingual Language Models](#On-the-Acquisition-of-Shared-Grammatical-Representations-in-Bilingual-Language-Models)
+18. [Using Shapley interactions to understand how models use structure](#Using-Shapley-interactions-to-understand-how-models-use-structure)
+19. [Adversarial Tokenization](#Adversarial-Tokenization)
+20. [Classifying Unreliable Narrators with Large Language Models](#Classifying-Unreliable-Narrators-with-Large-Language-Models)
+21. [ConceptCarve: Dynamic Realization of Evidence](#ConceptCarve-Dynamic-Realization-of-Evidence)
+22. [QQSUM: A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Question Answering](#QQSUM-A-Novel-Task-and-Model-of-Quantitative-Query-Focused-Summarization-for-Review-based-Product-Question-Answering)
+23. [Navigating Rifts in Human-LLMGrounding: Study and Benchmark](#Navigating-Rifts-in-Human-LLMGrounding-Study-and-Benchmark)
+24. [Substance over Style: Evaluating Proactive Conversational Coaching Agents](#Substance-over-Style-Evaluating-Proactive-Conversational-Coaching-Agents)
+25. [Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents](#Open-World-Planning-via-Lifted-Regression-withLLM-Inferred-Affordances-for-Embodied-Agents)
+26. [(RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding](#RSA²-A-Rhetorical-Strategy-Aware-Rational-Speech-Act-Framework-for-Figurative-Language-Understanding)
+27. [SYNTHIA: Novel Concept Design with Affordance Composition](#SYNTHIA-Novel-Concept-Design-with-Affordance-Composition)
+28. [Consistent Client Simulation for Motivational Interviewing-based Counseling](#Consistent-Client-Simulation-for-Motivational-Interviewing-based-Counseling)
+29. [AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context](#AUTALIC-A-Dataset-for-Anti-AUTistic-Ableist-Language-In-Context)
+30. [Structural Reasoning Improves Molecular Understanding ofLLM](#Structural-Reasoning-Improves-Molecular-Understanding-ofLLM)
+31. [CAMI: A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Exploration](#CAMI-A-Counselor-Agent-Supporting-Motivational-Interviewing-through-State-Inference-and-Topic-Exploration)
+32. [Know You First and Be You Better: Modeling Human-Like User Simulators via Implicit Profiles](#Know-You-First-and-Be-You-Better-Modeling-Human-Like-User-Simulators-via-Implicit-Profiles)
+
+---
+
+
+## Interactive and Expressive Code-Augmented Planning with Large Language Models
+
+### Images
+
+![7477af985b6e9386f5b97101664b284174685c9ed78dc0777ea77d489e054c9c.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/images/7477af985b6e9386f5b97101664b284174685c9ed78dc0777ea77d489e054c9c.jpg)
+
+![a45cf1cff238383d5652e63fce8d04ab9d51c23184142cd881fe11c4741a8ccd.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/images/a45cf1cff238383d5652e63fce8d04ab9d51c23184142cd881fe11c4741a8ccd.jpg)
+
+![ffb44ae04c5aecd5b3ffcd10490e829abd5e029e2e5a12127876ade1f9554012.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/images/ffb44ae04c5aecd5b3ffcd10490e829abd5e029e2e5a12127876ade1f9554012.jpg)
+
+### Tables
+
+![4291015722ef9b75c64ad4439fbc9f13183631e41b145fc6e5a5e48d20c125fb.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/tables/4291015722ef9b75c64ad4439fbc9f13183631e41b145fc6e5a5e48d20c125fb.jpg)
+
+![7cd74b1432269145faf5a6bbee6fad0c5d8fcc94e559e269f24b8f6390eac2ca.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/tables/7cd74b1432269145faf5a6bbee6fad0c5d8fcc94e559e269f24b8f6390eac2ca.jpg)
+
+![a137da2d7bb0219578d8bb151b8f005ebaf9de0e46683ad70612beeef0dcacdc.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/tables/a137da2d7bb0219578d8bb151b8f005ebaf9de0e46683ad70612beeef0dcacdc.jpg)
+
+![a3f786ad080cec6e5688e3b527463ae458406653620d1ca66bdf4875ff911266.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/tables/a3f786ad080cec6e5688e3b527463ae458406653620d1ca66bdf4875ff911266.jpg)
+
+![d6a5a5d96770f50d096ca5232c21f5851aa5ccb9c4d09e7bc3da58af3ede36b2.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/tables/d6a5a5d96770f50d096ca5232c21f5851aa5ccb9c4d09e7bc3da58af3ede36b2.jpg)
+
+![d7ec4a27e91196106ffff9ff3022d4eafa1846544a82cbd2db3ed4f59fa13c57.jpg](acl_results/994_Interactive and Expressive Code-Augmented Planning with Large Language Models/tables/d7ec4a27e91196106ffff9ff3022d4eafa1846544a82cbd2db3ed4f59fa13c57.jpg)
+
+## Synergistic Weak-Strong Collaboration by Aligning Preferences
+
+### Images
+
+![7b742ce27d828ef245d88490ee014738635c6f25ac467f4bd87556769188d547.jpg](acl_results/995_Synergistic Weak-Strong Collaboration by Aligning Preferences/images/7b742ce27d828ef245d88490ee014738635c6f25ac467f4bd87556769188d547.jpg)
+
+![cf3b263deb57cb35ad45810b41a61d0cc9ffac25b196959bc548740e8d67006b.jpg](acl_results/995_Synergistic Weak-Strong Collaboration by Aligning Preferences/images/cf3b263deb57cb35ad45810b41a61d0cc9ffac25b196959bc548740e8d67006b.jpg)
+
+![d98b9fabe56bafc419c1b226dd93e2ce16cc8c050556a5a57a26822f545e3540.jpg](acl_results/995_Synergistic Weak-Strong Collaboration by Aligning Preferences/images/d98b9fabe56bafc419c1b226dd93e2ce16cc8c050556a5a57a26822f545e3540.jpg)
+
+![db00fac20d9ac2c9745fc0ee9fd41f9eb9fb93aff9958e180d3281dc5d73c80b.jpg](acl_results/995_Synergistic Weak-Strong Collaboration by Aligning Preferences/images/db00fac20d9ac2c9745fc0ee9fd41f9eb9fb93aff9958e180d3281dc5d73c80b.jpg)
+
+![e1c0d76288194775b92153e04dd4ea1f7f848061ba3e5c7367128d78446caa8e.jpg](acl_results/995_Synergistic Weak-Strong Collaboration by Aligning Preferences/images/e1c0d76288194775b92153e04dd4ea1f7f848061ba3e5c7367128d78446caa8e.jpg)
+
+### Tables
+
+![60691831aca677f699b7909124dad184910d16ddae3054db49c8ce0192acd8aa.jpg](acl_results/995_Synergistic Weak-Strong Collaboration by Aligning Preferences/tables/60691831aca677f699b7909124dad184910d16ddae3054db49c8ce0192acd8aa.jpg)
+
+![ed7be6a6bf7538c975bf2fb6f50e230c96f1bc4c00a5d54a25605afdb49e568d.jpg](acl_results/995_Synergistic Weak-Strong Collaboration by Aligning Preferences/tables/ed7be6a6bf7538c975bf2fb6f50e230c96f1bc4c00a5d54a25605afdb49e568d.jpg)
+
+## Understanding Silent Data Corruption inLLMTraining
+
+### Images
+
+![11ee23f35691585aba860c8ccef7cfb30618d95a387a944f6c554ebc21db12e4.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/11ee23f35691585aba860c8ccef7cfb30618d95a387a944f6c554ebc21db12e4.jpg)
+
+![17c6b7a200e27654c19acaf7e2bd963e90a9a86dc98340520bd21866773b62f2.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/17c6b7a200e27654c19acaf7e2bd963e90a9a86dc98340520bd21866773b62f2.jpg)
+
+![2f892b0eba1460d7f7560cbd7174756fa1ef8a3b2c78976762cf7f4af2a7fbde.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/2f892b0eba1460d7f7560cbd7174756fa1ef8a3b2c78976762cf7f4af2a7fbde.jpg)
+
+![3398150cfdbfda1009bc14dac2b8ebd0a83d7f482148303cc24d7efaa3179592.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/3398150cfdbfda1009bc14dac2b8ebd0a83d7f482148303cc24d7efaa3179592.jpg)
+
+![4f35873e62de722a7746dbc54184e93661f789dbd73ba921c3f51fd14d9cb86f.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/4f35873e62de722a7746dbc54184e93661f789dbd73ba921c3f51fd14d9cb86f.jpg)
+
+![4f581054cffcc75b72ffd852da4d5d9653abe64d7874ab4ebdb19906f1d13e4b.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/4f581054cffcc75b72ffd852da4d5d9653abe64d7874ab4ebdb19906f1d13e4b.jpg)
+
+![a4d72401a8a94fc94bb6ac735d2c455caee7b0456a3a4cc2af5071b3a045b4c7.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/a4d72401a8a94fc94bb6ac735d2c455caee7b0456a3a4cc2af5071b3a045b4c7.jpg)
+
+![c735047a005b9a3c04424acc81d56d0b33570ca339ac81e067a9472efb3605ab.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/c735047a005b9a3c04424acc81d56d0b33570ca339ac81e067a9472efb3605ab.jpg)
+
+![c88157ec589fb0e3506060732550e67ca8a4f8c8e1becac40c3e53b56d9d1ad8.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/c88157ec589fb0e3506060732550e67ca8a4f8c8e1becac40c3e53b56d9d1ad8.jpg)
+
+![c949c0f96474c573cf945bb0bbaf3895207ceb7a291b7b92f7963d8a52888829.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/c949c0f96474c573cf945bb0bbaf3895207ceb7a291b7b92f7963d8a52888829.jpg)
+
+![f84e13094f3e27d5c92010756788f56316a25e4832cee7941f2d6d5f6acb8a25.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/images/f84e13094f3e27d5c92010756788f56316a25e4832cee7941f2d6d5f6acb8a25.jpg)
+
+### Tables
+
+![20c8df33f744b922f37a6b2abc727a6a43f7f8960d530294fbef22bf4698a30f.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/20c8df33f744b922f37a6b2abc727a6a43f7f8960d530294fbef22bf4698a30f.jpg)
+
+![2782cd56392b3296b3d31a6ea264526cd0cd4f458d4d503a89897e7fd914ca47.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/2782cd56392b3296b3d31a6ea264526cd0cd4f458d4d503a89897e7fd914ca47.jpg)
+
+![2b7cf7656aa86d29a6f8f8516af5afb15859ec2b6be303a3503cf05b6a937da7.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/2b7cf7656aa86d29a6f8f8516af5afb15859ec2b6be303a3503cf05b6a937da7.jpg)
+
+![4b31768c20abbe4bc1626fb03bc91541b2f5a1e62273a4e0785abd3fa0846b4f.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/4b31768c20abbe4bc1626fb03bc91541b2f5a1e62273a4e0785abd3fa0846b4f.jpg)
+
+![4c268a967d0a4f998e96a4698bd112ced84c7dc43e2445b030118f1199a0dca1.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/4c268a967d0a4f998e96a4698bd112ced84c7dc43e2445b030118f1199a0dca1.jpg)
+
+![65e1901ec4f4f4f774bc250fe5bb972c959480ecf1868bcc0d00d25542e49632.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/65e1901ec4f4f4f774bc250fe5bb972c959480ecf1868bcc0d00d25542e49632.jpg)
+
+![7dccad76fa4c1caeed1aa32d406831872f57a735f967eb22bb1f7c41314da2de.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/7dccad76fa4c1caeed1aa32d406831872f57a735f967eb22bb1f7c41314da2de.jpg)
+
+![985dbc75a40dd0fe61e3d3818c7a18cfd8bc23a8be7ad3354584de61c18db636.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/985dbc75a40dd0fe61e3d3818c7a18cfd8bc23a8be7ad3354584de61c18db636.jpg)
+
+![c4fcb2f818368893579ca16e7376d4ae1de2308f092096e1374d67171bdfbfec.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/c4fcb2f818368893579ca16e7376d4ae1de2308f092096e1374d67171bdfbfec.jpg)
+
+![e691a51a97e18a91281a976d17e6beb7e8182516832174b0b7fb233746b59b22.jpg](acl_results/996_Understanding Silent Data Corruption inLLMTraining/tables/e691a51a97e18a91281a976d17e6beb7e8182516832174b0b7fb233746b59b22.jpg)
+
+## Align-SLM: Textless Spoken Language Models with Reinforcement Learning fromAIFeedback
+
+### Images
+
+![02ac4a56c4eb05df212ee1f080f486e5a0cc37970c17fc66cc724dc6dc06b9b3.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/images/02ac4a56c4eb05df212ee1f080f486e5a0cc37970c17fc66cc724dc6dc06b9b3.jpg)
+
+![7b6cc96ea07b2597cdc6e50c68290f5a5373d6805c87ba589222e33fc36403fb.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/images/7b6cc96ea07b2597cdc6e50c68290f5a5373d6805c87ba589222e33fc36403fb.jpg)
+
+![88a79224c5b25c3bbb295eb41d380bb987bfc8ce55612c5587c5863584a63283.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/images/88a79224c5b25c3bbb295eb41d380bb987bfc8ce55612c5587c5863584a63283.jpg)
+
+![ac160fa77c9c075954e4b88e86aba5dd8480eb1fd0d855c569576839e487cf8b.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/images/ac160fa77c9c075954e4b88e86aba5dd8480eb1fd0d855c569576839e487cf8b.jpg)
+
+![cabcbac1a5981c63bf4b5b0cd53af14fc4572b39abc053e870794d5fd1b65483.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/images/cabcbac1a5981c63bf4b5b0cd53af14fc4572b39abc053e870794d5fd1b65483.jpg)
+
+![fb523dd976ba413ce0b154ad3c1b1a130d7b2a12521e233ff93632b61bbef224.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/images/fb523dd976ba413ce0b154ad3c1b1a130d7b2a12521e233ff93632b61bbef224.jpg)
+
+### Tables
+
+![3f1f7252b12d5dae4a77164df4cd997cf084847a8a8b89ae05671fc798b07479.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/tables/3f1f7252b12d5dae4a77164df4cd997cf084847a8a8b89ae05671fc798b07479.jpg)
+
+![49097bacf5fb2f06b39da0fdabde7c9ce8704d62b8253b0d2109c9953b093ace.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/tables/49097bacf5fb2f06b39da0fdabde7c9ce8704d62b8253b0d2109c9953b093ace.jpg)
+
+![4eccbe836dc6e5e80e7b421bab2c4eb5ca05d8736aff229ad6327dc6960b02af.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/tables/4eccbe836dc6e5e80e7b421bab2c4eb5ca05d8736aff229ad6327dc6960b02af.jpg)
+
+![911b1a891f8fdb8f24063b70b0a28c63f8eaf2d959f52f7aa2055330f57796dd.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/tables/911b1a891f8fdb8f24063b70b0a28c63f8eaf2d959f52f7aa2055330f57796dd.jpg)
+
+![b71b66ab4b316473054415727af194b9e50fef7cb419b6bbc31ea85cdb13f0d6.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/tables/b71b66ab4b316473054415727af194b9e50fef7cb419b6bbc31ea85cdb13f0d6.jpg)
+
+![e15c04bb1f0ce8191d902ab9134f35ae558ee02cede696a50eab34fbe74b4d17.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/tables/e15c04bb1f0ce8191d902ab9134f35ae558ee02cede696a50eab34fbe74b4d17.jpg)
+
+![e66c5e4b2c603505da20e70b9f2d283d3c028de4c1d67bfd3db8f4b06cd29d30.jpg](acl_results/997_Align-SLM_ Textless Spoken Language Models with Reinforcement Learning fromAIFeedback/tables/e66c5e4b2c603505da20e70b9f2d283d3c028de4c1d67bfd3db8f4b06cd29d30.jpg)
+
+## CanLLMs Help Uncover Insights aboutLLMs? A Large-Scale, Evolving Literature Analysis of FrontierLLMs
+
+### Images
+
+![0cf482c4de6cded05045084611d745d34d28881c69ef6b22de59164a666c4249.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/0cf482c4de6cded05045084611d745d34d28881c69ef6b22de59164a666c4249.jpg)
+
+![184bf175be65a82eb29682a5d1615dd7aa14137f2d66045d392b1599ffa27dc4.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/184bf175be65a82eb29682a5d1615dd7aa14137f2d66045d392b1599ffa27dc4.jpg)
+
+![371ca49fe489295f3b75df699ab3fa632205cedee6a06200b1c5aa779dca8ba8.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/371ca49fe489295f3b75df699ab3fa632205cedee6a06200b1c5aa779dca8ba8.jpg)
+
+![5116986ccefa65723d4b4b43a142e6c5948da1cf3e0c6c341924729976e82f00.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/5116986ccefa65723d4b4b43a142e6c5948da1cf3e0c6c341924729976e82f00.jpg)
+
+![6d205cfe1af333d06abc8c1976c6b701bd4445633dc5b81262bb163f29d9ac3f.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/6d205cfe1af333d06abc8c1976c6b701bd4445633dc5b81262bb163f29d9ac3f.jpg)
+
+![7932f4c27d8127389bd8e8c7cbd797b1827aca9bb540d2e92e00a42a797d1829.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/7932f4c27d8127389bd8e8c7cbd797b1827aca9bb540d2e92e00a42a797d1829.jpg)
+
+![8bc1b20ca6d7a456571f3a0907d9f2c0b3dce8fa45806922a660d8b07f544bee.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/8bc1b20ca6d7a456571f3a0907d9f2c0b3dce8fa45806922a660d8b07f544bee.jpg)
+
+![8fc7c4a5c95153a811d24aa33bf1df1cd1c000ba6e89b04860e892d9b4ff30e3.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/8fc7c4a5c95153a811d24aa33bf1df1cd1c000ba6e89b04860e892d9b4ff30e3.jpg)
+
+![d8da7796b5c8470e6a08b6611a1138cf72ec92f9e91e662c76d37b2118566772.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/images/d8da7796b5c8470e6a08b6611a1138cf72ec92f9e91e662c76d37b2118566772.jpg)
+
+### Tables
+
+![111fea799d1fc5885311d9317f0f542ee86fd23764654825fe52fe4a43f7b540.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/111fea799d1fc5885311d9317f0f542ee86fd23764654825fe52fe4a43f7b540.jpg)
+
+![2699da9e2de8d85e893d58267f2762ac3697f887d3f81d9d6b1031d61c63fb70.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/2699da9e2de8d85e893d58267f2762ac3697f887d3f81d9d6b1031d61c63fb70.jpg)
+
+![3f6ae6fdf8dd745dddacd11cc208e813ae982cc65e30d53b282ca3c64b50b507.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/3f6ae6fdf8dd745dddacd11cc208e813ae982cc65e30d53b282ca3c64b50b507.jpg)
+
+![3fe7a170a5b84ca6ac108b37e5a24b175a1ec28d13749bd9ee7b67f17428d042.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/3fe7a170a5b84ca6ac108b37e5a24b175a1ec28d13749bd9ee7b67f17428d042.jpg)
+
+![5fbd284239983acd68a219e62ca164aa3f7192162fb3c59f55f768e83234c67b.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/5fbd284239983acd68a219e62ca164aa3f7192162fb3c59f55f768e83234c67b.jpg)
+
+![972071b036dcb9b744360cfea4eda5e246450ccbc67486f8d044f5e325c88d0e.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/972071b036dcb9b744360cfea4eda5e246450ccbc67486f8d044f5e325c88d0e.jpg)
+
+![a5b6b08e80f50a47bd352b82141b8f1e07a2f80ea73ca8b80f2f00970fddafd9.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/a5b6b08e80f50a47bd352b82141b8f1e07a2f80ea73ca8b80f2f00970fddafd9.jpg)
+
+![a856b65e9dd61e270c2099178b43b9f7ad5edef7f0b87e482a5c96291b9134f9.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/a856b65e9dd61e270c2099178b43b9f7ad5edef7f0b87e482a5c96291b9134f9.jpg)
+
+![ab35a958e6cb2e59e3ea4b969f6ff10dbbc1ad9408f826f8c5a2eb1866faf4d3.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/ab35a958e6cb2e59e3ea4b969f6ff10dbbc1ad9408f826f8c5a2eb1866faf4d3.jpg)
+
+![c08a1f5b75110dfcd3c614a367355cfb9c7ee985076fbba8a402155d9e54571a.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/c08a1f5b75110dfcd3c614a367355cfb9c7ee985076fbba8a402155d9e54571a.jpg)
+
+![de357cc5eda572a6fac22bcd87706e752408bfa21890d394d6c676278319da77.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/de357cc5eda572a6fac22bcd87706e752408bfa21890d394d6c676278319da77.jpg)
+
+![e83b9bac5edaec846641497bb371e5335c57a885e33be789e84aeb5ba1f6d081.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/e83b9bac5edaec846641497bb371e5335c57a885e33be789e84aeb5ba1f6d081.jpg)
+
+![f5e982945ede9bf2cb49e7e29edca9992abb81d8d1c8e03a1451117bfd28fdd2.jpg](acl_results/998_CanLLMs Help Uncover Insights aboutLLMs_ A Large-Scale, Evolving Literature Analysis of FrontierLLMs/tables/f5e982945ede9bf2cb49e7e29edca9992abb81d8d1c8e03a1451117bfd28fdd2.jpg)
+
+## BIG5-CHAT: ShapingLLMPersonalities Through Training on Human-Grounded Data
+
+### Images
+
+![13bdb26adef5461889071bb8f0cdcb89d782b2fa6400ec6b3a3ac5bf9f98f339.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/images/13bdb26adef5461889071bb8f0cdcb89d782b2fa6400ec6b3a3ac5bf9f98f339.jpg)
+
+![662a8ecec1a393f66ec023a15f9ad2101dba6853d4048825ad2c775b67e2b705.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/images/662a8ecec1a393f66ec023a15f9ad2101dba6853d4048825ad2c775b67e2b705.jpg)
+
+![7529a5ea8a19d511034d4ff709e80e7886001a181696a0dc6fdc24536d16b289.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/images/7529a5ea8a19d511034d4ff709e80e7886001a181696a0dc6fdc24536d16b289.jpg)
+
+![c1aadff2feebb446d6a3889e207ce6649811b5fb320ea3cc01529161f4c3a413.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/images/c1aadff2feebb446d6a3889e207ce6649811b5fb320ea3cc01529161f4c3a413.jpg)
+
+![fd8fce65d46326fd36506e5e673914857a15cd8fd469aab124aa877af6114b27.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/images/fd8fce65d46326fd36506e5e673914857a15cd8fd469aab124aa877af6114b27.jpg)
+
+### Tables
+
+![0e1f53caf59e03e3065f8c2f5f768a34540d8737f9710344544a2a17959b2523.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/0e1f53caf59e03e3065f8c2f5f768a34540d8737f9710344544a2a17959b2523.jpg)
+
+![13426670a934b3e5c08c2c7ffd9a9099ce343e43ea1cc044f77b5ab7234bf5c0.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/13426670a934b3e5c08c2c7ffd9a9099ce343e43ea1cc044f77b5ab7234bf5c0.jpg)
+
+![311409535a80f72242e9f48fc0c15cd7b487e4d8ce8aa7c4cb735b9dc9b72362.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/311409535a80f72242e9f48fc0c15cd7b487e4d8ce8aa7c4cb735b9dc9b72362.jpg)
+
+![32ecd41df30994657a07fb3610cb239a48cf48706afc7db1cedcf1b6588c5332.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/32ecd41df30994657a07fb3610cb239a48cf48706afc7db1cedcf1b6588c5332.jpg)
+
+![3d8ee9ea77fc2bc59154cb50bce55ee6862f300b8ace4badb424cd0772a2f299.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/3d8ee9ea77fc2bc59154cb50bce55ee6862f300b8ace4badb424cd0772a2f299.jpg)
+
+![478bd763cc7c75cf5f6b31f3de87c177a6042dd982627d53695ec34f546ed048.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/478bd763cc7c75cf5f6b31f3de87c177a6042dd982627d53695ec34f546ed048.jpg)
+
+![5c0c6e94ffe7d5fef89ed9e051476a15c26e9c240928b05b97f4cf5cacb478cc.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/5c0c6e94ffe7d5fef89ed9e051476a15c26e9c240928b05b97f4cf5cacb478cc.jpg)
+
+![60ac076e62db416c8688c37986e1208cf8082d119c50d65a17b99efe42fd60b9.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/60ac076e62db416c8688c37986e1208cf8082d119c50d65a17b99efe42fd60b9.jpg)
+
+![7685b27203c3cb3087f2aa2e65dd011ab6acbe122888d621f4403f6e25f35a65.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/7685b27203c3cb3087f2aa2e65dd011ab6acbe122888d621f4403f6e25f35a65.jpg)
+
+![79aed19c9c15a03067335e7db03d18df05d6417703d0140af98210aad48a9b94.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/79aed19c9c15a03067335e7db03d18df05d6417703d0140af98210aad48a9b94.jpg)
+
+![804ab8bd59a15b7ae786c71fda5cd0c733b6cea84fbdeae506e557ff1335fd14.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/804ab8bd59a15b7ae786c71fda5cd0c733b6cea84fbdeae506e557ff1335fd14.jpg)
+
+![b1283304252e5a23a982ac53d8c14bd93a226b1f497fd9d68282dc5db8652b42.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/b1283304252e5a23a982ac53d8c14bd93a226b1f497fd9d68282dc5db8652b42.jpg)
+
+![c3668ab2c8da77100000aa42e9c7a8948d16bf6907a9c6fa83ed6ceaf2fde743.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/c3668ab2c8da77100000aa42e9c7a8948d16bf6907a9c6fa83ed6ceaf2fde743.jpg)
+
+![c7254518e8a7bc57fb732f4a7fef760aab14c13f80b3173728a7254a2553522d.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/c7254518e8a7bc57fb732f4a7fef760aab14c13f80b3173728a7254a2553522d.jpg)
+
+![e2d7d8c03d41eaa8dd8425b854d637996ecee7aeadebc95f8cc331fd482a5868.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/e2d7d8c03d41eaa8dd8425b854d637996ecee7aeadebc95f8cc331fd482a5868.jpg)
+
+![e401d97e16c37378c7c849ca8ba331265eb0b5ebbd60ca78d4c954a25849b5e8.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/e401d97e16c37378c7c849ca8ba331265eb0b5ebbd60ca78d4c954a25849b5e8.jpg)
+
+![e7bc24744e38f8296ffe6d3041f22a89021fd1c8d069807375aceaee3c60dd3f.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/e7bc24744e38f8296ffe6d3041f22a89021fd1c8d069807375aceaee3c60dd3f.jpg)
+
+![f9e97f16398c18a5532b3ea28961a15997808e994ead5a53e73ccdf6ea2dc44a.jpg](acl_results/999_BIG5-CHAT_ ShapingLLMPersonalities Through Training on Human-Grounded Data/tables/f9e97f16398c18a5532b3ea28961a15997808e994ead5a53e73ccdf6ea2dc44a.jpg)
+
+## Deep Temporal Reasoning in Video Language Models: A Cross-Linguistic Evaluation of Action Duration and Completion through Perfect Times
+
+### Images
+
+![208f8089012d7e80ecefa9c507c15ea661330e575f272fcbf194ced8d6620fcf.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/208f8089012d7e80ecefa9c507c15ea661330e575f272fcbf194ced8d6620fcf.jpg)
+
+![316734debff0636bd7425b3f15d981efb4ac9b3a80483e0a62b9a2464681e9a2.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/316734debff0636bd7425b3f15d981efb4ac9b3a80483e0a62b9a2464681e9a2.jpg)
+
+![51ad7b429aa32f8a9ab0454da1a2985be3362b5c7bce1799340f0b3efb2382ed.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/51ad7b429aa32f8a9ab0454da1a2985be3362b5c7bce1799340f0b3efb2382ed.jpg)
+
+![5c7c918b8ba93a5aaed09ff13b7209f621d7238c50e096d7fea4d379b154c305.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/5c7c918b8ba93a5aaed09ff13b7209f621d7238c50e096d7fea4d379b154c305.jpg)
+
+![74457be5d6f973627104ce4caf60d70712f8bd823c9047af03f7954255c04f6c.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/74457be5d6f973627104ce4caf60d70712f8bd823c9047af03f7954255c04f6c.jpg)
+
+![7f55e34c3bde00c07ab8e5a4d0f282f863e4b99bb9f7a1ba747342259f9f98c7.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/7f55e34c3bde00c07ab8e5a4d0f282f863e4b99bb9f7a1ba747342259f9f98c7.jpg)
+
+![849a1dcd4be6f6b99a3e8fad2b84da4b8e7e6d7a091cb8d153a63ce5f1248b82.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/849a1dcd4be6f6b99a3e8fad2b84da4b8e7e6d7a091cb8d153a63ce5f1248b82.jpg)
+
+![935a32d39eadc268643f604c3ee38bfff44556e2c7494a460582e96145687f43.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/935a32d39eadc268643f604c3ee38bfff44556e2c7494a460582e96145687f43.jpg)
+
+![95ea2a0896b0c4dd7954f289af0032f724fd61a434fb5251594b4a22bca1606e.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/95ea2a0896b0c4dd7954f289af0032f724fd61a434fb5251594b4a22bca1606e.jpg)
+
+![a331d9b84eb15bda0297a7ce04bc8ead5fbf6d9b68f5901d5ee79af21c0193ad.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/a331d9b84eb15bda0297a7ce04bc8ead5fbf6d9b68f5901d5ee79af21c0193ad.jpg)
+
+![a64d8802c7438b6602ca5bb8d8104f0b18907d4549191013005b6cd785ed16e4.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/a64d8802c7438b6602ca5bb8d8104f0b18907d4549191013005b6cd785ed16e4.jpg)
+
+![ae1a0c53165630556b96ac2fa306e89b1162a1e62517ee2b5c76bcafb555e1e0.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/ae1a0c53165630556b96ac2fa306e89b1162a1e62517ee2b5c76bcafb555e1e0.jpg)
+
+![b396082f3874d5f013bb9546126ff04f99688a53ca3ba2fa46ad3eb52fbb8ebd.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/b396082f3874d5f013bb9546126ff04f99688a53ca3ba2fa46ad3eb52fbb8ebd.jpg)
+
+![d342dc2a2a7b5f61d475a61fbe68319363b86243b273e72c79e10006a6152926.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/d342dc2a2a7b5f61d475a61fbe68319363b86243b273e72c79e10006a6152926.jpg)
+
+![d42aadf7e7ec6110f7baf550b3253e85877d812389385a29252b307cc8e55cc0.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/d42aadf7e7ec6110f7baf550b3253e85877d812389385a29252b307cc8e55cc0.jpg)
+
+![ddcc048863a5748104429ef828236e33afd6354dc53768f12f9569a439364867.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/ddcc048863a5748104429ef828236e33afd6354dc53768f12f9569a439364867.jpg)
+
+![e3fe0b6396d781cb43af8b8d95509e881454c2a2340f88c99e7da64e918425f3.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/e3fe0b6396d781cb43af8b8d95509e881454c2a2340f88c99e7da64e918425f3.jpg)
+
+![f135a2464675ab33dcccde292363a5ebac4fd8bcee7e170207e7db2ebc2dbd8d.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/images/f135a2464675ab33dcccde292363a5ebac4fd8bcee7e170207e7db2ebc2dbd8d.jpg)
+
+### Tables
+
+![08c4c036c2dfbb0eed2cc1d6f69e5111473712c7cf2647100b8ef4f615f5aa0c.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/08c4c036c2dfbb0eed2cc1d6f69e5111473712c7cf2647100b8ef4f615f5aa0c.jpg)
+
+![29f619ae7b9294a477f0f259e528243121deece11ec84f79645d0983af91d83c.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/29f619ae7b9294a477f0f259e528243121deece11ec84f79645d0983af91d83c.jpg)
+
+![32d83176084f7a6ab572d1cc2fae463bd762e8566c3a98d13769ddc2b6c2ec6f.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/32d83176084f7a6ab572d1cc2fae463bd762e8566c3a98d13769ddc2b6c2ec6f.jpg)
+
+![33ceacbcb138fe86b52fba6e73101843881219ac5b2d53e738475b00af8f997b.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/33ceacbcb138fe86b52fba6e73101843881219ac5b2d53e738475b00af8f997b.jpg)
+
+![5e0d7f7d7af235a9fba07fa9bdf44a3b9283a299d177c48cf25b307a00f7f166.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/5e0d7f7d7af235a9fba07fa9bdf44a3b9283a299d177c48cf25b307a00f7f166.jpg)
+
+![60da904733b8568ea1a321c7afb731879b328af98d23837658c42e72ba9d1dce.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/60da904733b8568ea1a321c7afb731879b328af98d23837658c42e72ba9d1dce.jpg)
+
+![79d5fd4da0e1fba39328da5ae708535c91390b0d21f959699254a07364fde216.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/79d5fd4da0e1fba39328da5ae708535c91390b0d21f959699254a07364fde216.jpg)
+
+![847fe91097529370b69aca1381e3a01e578a2e67260ee49d834f7651a6875b02.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/847fe91097529370b69aca1381e3a01e578a2e67260ee49d834f7651a6875b02.jpg)
+
+![86418c170950efb96ebe3901ec12b3b4b183cf39e97c00091944c46a521f5266.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/86418c170950efb96ebe3901ec12b3b4b183cf39e97c00091944c46a521f5266.jpg)
+
+![a33606322ba94a24fa89104fb2bc76b9caa166b7f8fd4edbcadc9bff5ef990a8.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/a33606322ba94a24fa89104fb2bc76b9caa166b7f8fd4edbcadc9bff5ef990a8.jpg)
+
+![a9542b2966c6398a6548ba299d1e90d972b167f0e27684bee0c9145cf36d1b82.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/a9542b2966c6398a6548ba299d1e90d972b167f0e27684bee0c9145cf36d1b82.jpg)
+
+![ab81d8c844d41fa35a869080bc0be6264d162c579a0b7b34e6f8e63d9e66251a.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/ab81d8c844d41fa35a869080bc0be6264d162c579a0b7b34e6f8e63d9e66251a.jpg)
+
+![af62a518916cc5bfb1f8c3f20052b75436cc9cbd988e983cf89c617bd669e7b2.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/af62a518916cc5bfb1f8c3f20052b75436cc9cbd988e983cf89c617bd669e7b2.jpg)
+
+![bf2e65e411bdbc388ba805809930f6024dc6ba40d0d42e84df84d12bcc28c0cf.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/bf2e65e411bdbc388ba805809930f6024dc6ba40d0d42e84df84d12bcc28c0cf.jpg)
+
+![caaaf885e82021e0fcbe0d22746e7b44d35f871822bbcb10c1f237fab78e77d0.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/caaaf885e82021e0fcbe0d22746e7b44d35f871822bbcb10c1f237fab78e77d0.jpg)
+
+![d3b08d0b5946654c8fd0e42a2ac5b8d54aed48945377df28b81b29099063c33a.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/d3b08d0b5946654c8fd0e42a2ac5b8d54aed48945377df28b81b29099063c33a.jpg)
+
+![def42e46d4374f16ffa856519140c448e362958304923af34dac8df0f8c671dd.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/def42e46d4374f16ffa856519140c448e362958304923af34dac8df0f8c671dd.jpg)
+
+![f88ad21641de5c295124199cea592882291ce94e94813ccf068c3abe18603856.jpg](acl_results/1000_Deep Temporal Reasoning in Video Language Models_ A Cross-Linguistic Evaluation of Action Duration a/tables/f88ad21641de5c295124199cea592882291ce94e94813ccf068c3abe18603856.jpg)
+
+## Amplifying Trans and Nonbinary Voices: A Community-Centred Harm Taxonomy forLLMs
+
+### Images
+
+![6dd9bc412ad8339a8bb464a5d3d26a214953c0d1cca6c9e4715e629c2155212d.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/6dd9bc412ad8339a8bb464a5d3d26a214953c0d1cca6c9e4715e629c2155212d.jpg)
+
+![77a25f33e8ff4cb46cdd4291bd7911559384e37323dc6e6d6105c3ccd9c23866.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/77a25f33e8ff4cb46cdd4291bd7911559384e37323dc6e6d6105c3ccd9c23866.jpg)
+
+![7bf9c220d99e1b612f15e74a02069106446621acc6dbe539a7ee083f6a726184.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/7bf9c220d99e1b612f15e74a02069106446621acc6dbe539a7ee083f6a726184.jpg)
+
+![848ac38c290b785d0f2f7814e2dd8e18349bafdfb7069667b6b6d6a7d5da6e12.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/848ac38c290b785d0f2f7814e2dd8e18349bafdfb7069667b6b6d6a7d5da6e12.jpg)
+
+![a82f9b422ddbfa6b204cd8783edcc23bd28c0f33cc2c7df0b3e90bfbd8934518.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/a82f9b422ddbfa6b204cd8783edcc23bd28c0f33cc2c7df0b3e90bfbd8934518.jpg)
+
+![d674b29811f1cb4734959366c77369ef532540b58d816adaab880aa5674616ae.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/d674b29811f1cb4734959366c77369ef532540b58d816adaab880aa5674616ae.jpg)
+
+![f5e8c8f7df957fc537c7b4562384fe3f88a2ef2d4c72640fbd350eb380023eeb.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/f5e8c8f7df957fc537c7b4562384fe3f88a2ef2d4c72640fbd350eb380023eeb.jpg)
+
+![f5ec1317a4dba942345644b38f018ed76be2300c11d9a14362759cea96569c9e.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/f5ec1317a4dba942345644b38f018ed76be2300c11d9a14362759cea96569c9e.jpg)
+
+![fb6221e449cfbe0f121dc580996db59e06f76defbe282dbcfc494786eb2a2699.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/images/fb6221e449cfbe0f121dc580996db59e06f76defbe282dbcfc494786eb2a2699.jpg)
+
+### Tables
+
+![04f137e32517c2000f54eba2a7a33a954dc0e9ce5a2d9843da5b081205eaf72e.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/04f137e32517c2000f54eba2a7a33a954dc0e9ce5a2d9843da5b081205eaf72e.jpg)
+
+![051a6d41db8e7ac35f0e722cb27fa7ca0ec2a312aedf09778494dcf70ff3cefe.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/051a6d41db8e7ac35f0e722cb27fa7ca0ec2a312aedf09778494dcf70ff3cefe.jpg)
+
+![0ac494134a46ed80dbb055d074ad46662fd87703204daff0a9517c9373a36eee.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/0ac494134a46ed80dbb055d074ad46662fd87703204daff0a9517c9373a36eee.jpg)
+
+![143979a37b67841a3ebe7f6868a571629ce03a8af03806cccc7a786084e47f19.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/143979a37b67841a3ebe7f6868a571629ce03a8af03806cccc7a786084e47f19.jpg)
+
+![26bfe21663e5b01609a3281fdc9da35ef554bd368fce5282055397ef52c27eba.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/26bfe21663e5b01609a3281fdc9da35ef554bd368fce5282055397ef52c27eba.jpg)
+
+![2ce527b16956e6792e092f526b57d2429d3af4b733199c083637899391f9eb87.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/2ce527b16956e6792e092f526b57d2429d3af4b733199c083637899391f9eb87.jpg)
+
+![3850064b36ed0b233312996e09b695d4a7e17bdac543be753afc4d9e2bd4a3e5.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/3850064b36ed0b233312996e09b695d4a7e17bdac543be753afc4d9e2bd4a3e5.jpg)
+
+![39c78453465e7622208612907d9af6a4452016418f896e41f2797dc03e0647c5.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/39c78453465e7622208612907d9af6a4452016418f896e41f2797dc03e0647c5.jpg)
+
+![421a935ceeb3eb11c93ada13859f9a3a3c60db1996074442cb94e12463f093c3.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/421a935ceeb3eb11c93ada13859f9a3a3c60db1996074442cb94e12463f093c3.jpg)
+
+![522e8ae6c49f7a4bf5ffad03938973b938f7b9af63b70e8ae628685cf0ec98f8.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/522e8ae6c49f7a4bf5ffad03938973b938f7b9af63b70e8ae628685cf0ec98f8.jpg)
+
+![713b951c24e969ad2890dc6010011b2547ae61e54968d9f16483003ca985c5e1.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/713b951c24e969ad2890dc6010011b2547ae61e54968d9f16483003ca985c5e1.jpg)
+
+![726246b141fb8448ffe7fc52e91755740d1530dc47f6304db262f751e86cf744.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/726246b141fb8448ffe7fc52e91755740d1530dc47f6304db262f751e86cf744.jpg)
+
+![74db399a84555a16ed0d1f6b5839ed946de6339610e765118cd7d5b9c9fd6b9c.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/74db399a84555a16ed0d1f6b5839ed946de6339610e765118cd7d5b9c9fd6b9c.jpg)
+
+![7fde2b9f4697c18b127f5b911b9f35f52571c83e4ad39f7b7c79129a889d70ee.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/7fde2b9f4697c18b127f5b911b9f35f52571c83e4ad39f7b7c79129a889d70ee.jpg)
+
+![89f988fa5ca87f71df7ace6819d2ab23d6326e1d69b96bb5152ebf9156ea7f60.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/89f988fa5ca87f71df7ace6819d2ab23d6326e1d69b96bb5152ebf9156ea7f60.jpg)
+
+![a19c4c4d0d5e1ca0d5ff4c1be9b7f191e2e0dc9ced2718f5f8c19107f339fb4f.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/a19c4c4d0d5e1ca0d5ff4c1be9b7f191e2e0dc9ced2718f5f8c19107f339fb4f.jpg)
+
+![ab8d5f8662bfd65b789e67ddf9962cd16e57721d585c34ee91e24475614000ef.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/ab8d5f8662bfd65b789e67ddf9962cd16e57721d585c34ee91e24475614000ef.jpg)
+
+![bb18258f58917028799fa7a641b387ce2160e385bc30250c4f2f9fad85b00883.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/bb18258f58917028799fa7a641b387ce2160e385bc30250c4f2f9fad85b00883.jpg)
+
+![be6a22f19ba98c3f7d263dc4e133fdcb593d7f7fb41b8f9adf4ee957d415a08f.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/be6a22f19ba98c3f7d263dc4e133fdcb593d7f7fb41b8f9adf4ee957d415a08f.jpg)
+
+![c3d44efde30b38ed0a9849d61c624b490fd06e74b3577c6932e3c61b56e281a3.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/c3d44efde30b38ed0a9849d61c624b490fd06e74b3577c6932e3c61b56e281a3.jpg)
+
+![c40cdb475c88228e366a050e77246ce91d55f28357a2f47f6d411661a09210a7.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/c40cdb475c88228e366a050e77246ce91d55f28357a2f47f6d411661a09210a7.jpg)
+
+![d575b106403bc9f1ab049aca0f394710f0babd93eacc4ae3d49527e689286b45.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/d575b106403bc9f1ab049aca0f394710f0babd93eacc4ae3d49527e689286b45.jpg)
+
+![d7dd28f938e2f68c414f34f6b1039dd64c239347bb6e2133d1486c83bbd2f120.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/d7dd28f938e2f68c414f34f6b1039dd64c239347bb6e2133d1486c83bbd2f120.jpg)
+
+![e410fe27812078e014cb734badd17ef49b1fe7b21393074418a0a3168e100553.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/e410fe27812078e014cb734badd17ef49b1fe7b21393074418a0a3168e100553.jpg)
+
+![f0561d42bfc414319c82041f26f626df7e9a5785cb68de6b1d505b25ee0aa3e6.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/f0561d42bfc414319c82041f26f626df7e9a5785cb68de6b1d505b25ee0aa3e6.jpg)
+
+![f4a8026a231dd985822addd2567dd753430a926d37a363e22847a076e30037f3.jpg](acl_results/1001_Amplifying Trans and Nonbinary Voices_ A Community-Centred Harm Taxonomy forLLMs/tables/f4a8026a231dd985822addd2567dd753430a926d37a363e22847a076e30037f3.jpg)
+
+## Enhancing Human Evaluation in Machine Translation with Comparative Judgement
+
+### Images
+
+![04dccf1a750c0264d534bbe4c4b435100a3bbf4abdadd2c6a571eec51447cb88.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/images/04dccf1a750c0264d534bbe4c4b435100a3bbf4abdadd2c6a571eec51447cb88.jpg)
+
+![51b511200be50d2e167c43c28624f78e7a7674af2ef1cc1f29877d3b6c4eca33.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/images/51b511200be50d2e167c43c28624f78e7a7674af2ef1cc1f29877d3b6c4eca33.jpg)
+
+![537801caf53e969fc55eb08161edd475347835e6d99a703f0fd569b7cdda3fe3.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/images/537801caf53e969fc55eb08161edd475347835e6d99a703f0fd569b7cdda3fe3.jpg)
+
+![59231362525340e82123add70af3d697bb5a538f957c189b123e1893af4371be.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/images/59231362525340e82123add70af3d697bb5a538f957c189b123e1893af4371be.jpg)
+
+![595bfec046a829ce1b2f1bf086c8a8d37e177770ad0381ad27f27be41efdd700.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/images/595bfec046a829ce1b2f1bf086c8a8d37e177770ad0381ad27f27be41efdd700.jpg)
+
+### Tables
+
+![0b6b94fa11a466b8f755cec80b82959337257832c67c6844053f50da624ea879.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/0b6b94fa11a466b8f755cec80b82959337257832c67c6844053f50da624ea879.jpg)
+
+![0b90344b613027a4035a5f619e99e4cb69d150c818b4f634cc11d5043300bea9.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/0b90344b613027a4035a5f619e99e4cb69d150c818b4f634cc11d5043300bea9.jpg)
+
+![1c6903629a7c0a60a7a84001600dcec95852896a77cce9df26c67533e0c889c2.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/1c6903629a7c0a60a7a84001600dcec95852896a77cce9df26c67533e0c889c2.jpg)
+
+![33899daa901c71495f6716dc180725b71862d5a0758676d5df5ea2fa697dc7ca.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/33899daa901c71495f6716dc180725b71862d5a0758676d5df5ea2fa697dc7ca.jpg)
+
+![5c16ca04633948a1c17953ce9089cc3e455cf614097ee39031b7775ddde873c5.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/5c16ca04633948a1c17953ce9089cc3e455cf614097ee39031b7775ddde873c5.jpg)
+
+![5db78e598294f7fc1ce17391488986bbe3668aac40c7e9ac778cbcdd3a3c1741.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/5db78e598294f7fc1ce17391488986bbe3668aac40c7e9ac778cbcdd3a3c1741.jpg)
+
+![8682265fbf034b335af40ad238e7aaaaca83669dddc9b0a6d9bf73d9719b5db3.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/8682265fbf034b335af40ad238e7aaaaca83669dddc9b0a6d9bf73d9719b5db3.jpg)
+
+![8ac664436e34d170d4c22021fd4a831e9bfdb24bc82100996ec27c52778b731f.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/8ac664436e34d170d4c22021fd4a831e9bfdb24bc82100996ec27c52778b731f.jpg)
+
+![91fe415e2c27c97cce786ab26211f90fca2e23d054718cad70406ce6ba9e749c.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/91fe415e2c27c97cce786ab26211f90fca2e23d054718cad70406ce6ba9e749c.jpg)
+
+![96a960cfbf91801916cfff94e51eaa3b2e3d8b8330a9ca1e21ac448f647b180b.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/96a960cfbf91801916cfff94e51eaa3b2e3d8b8330a9ca1e21ac448f647b180b.jpg)
+
+![ac1d63042ff6a785ae2ae6b7d30bb08ffcf797919ff89c500d95e7490e8ca673.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/ac1d63042ff6a785ae2ae6b7d30bb08ffcf797919ff89c500d95e7490e8ca673.jpg)
+
+![cb8386dc130f41cf186d61e6d96be2b9b864dfed24908543c4f7002fcd9c6b03.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/cb8386dc130f41cf186d61e6d96be2b9b864dfed24908543c4f7002fcd9c6b03.jpg)
+
+![d7bd120adcd02922b33f45f90097b11c3e597b4274d2d785f20e7e45fd0ea7ee.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/d7bd120adcd02922b33f45f90097b11c3e597b4274d2d785f20e7e45fd0ea7ee.jpg)
+
+![ea6c8d591facad2665bccf8f30a533240cd85997911e984d5b605f32c0b2b820.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/ea6c8d591facad2665bccf8f30a533240cd85997911e984d5b605f32c0b2b820.jpg)
+
+![f1ab710f95515e4f4606ee1341ed6837093386d54c62d69d5e581c54d10b1213.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/f1ab710f95515e4f4606ee1341ed6837093386d54c62d69d5e581c54d10b1213.jpg)
+
+![fb3bbdb49002fb96241a752fc00d4dab03ff8645caefc3264df8876d90def734.jpg](acl_results/1002_Enhancing Human Evaluation in Machine Translation with Comparative Judgement/tables/fb3bbdb49002fb96241a752fc00d4dab03ff8645caefc3264df8876d90def734.jpg)
+
+## Infogen: Generating Complex Statistical Infographics from Documents
+
+### Images
+
+![241f7b31347ae924f9fb574c0e83a506b1e76120dcfdde5264c3ee97b8f1ac7a.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/241f7b31347ae924f9fb574c0e83a506b1e76120dcfdde5264c3ee97b8f1ac7a.jpg)
+
+![2d98d2fe38477abd0bbc6b1f3677ceff2f8471c6220a7ecd87c9255d4f648d07.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/2d98d2fe38477abd0bbc6b1f3677ceff2f8471c6220a7ecd87c9255d4f648d07.jpg)
+
+![3d5223a1e5a2e52bede65a601b5424b0258f13c1d60f3a8209134ed552e8b09e.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/3d5223a1e5a2e52bede65a601b5424b0258f13c1d60f3a8209134ed552e8b09e.jpg)
+
+![67822861f37fe5d72a8f3a2517bce3d158b025671323b194c51bf2883008a260.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/67822861f37fe5d72a8f3a2517bce3d158b025671323b194c51bf2883008a260.jpg)
+
+![9b2f7353b723738651cfbf9fe644872357d85fd806d84b7ca9d6b99958e317e7.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/9b2f7353b723738651cfbf9fe644872357d85fd806d84b7ca9d6b99958e317e7.jpg)
+
+![9ee91ac4db0c4c08d8d5d44b6758e717d7c7d859b6d2430dbcd9c790f1d940cb.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/9ee91ac4db0c4c08d8d5d44b6758e717d7c7d859b6d2430dbcd9c790f1d940cb.jpg)
+
+![a25927411df1021b62531b40d520d3497932d8ecd22ecd2797b6641d1d2499b8.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/a25927411df1021b62531b40d520d3497932d8ecd22ecd2797b6641d1d2499b8.jpg)
+
+![ba18f3d51a71f2825771c8d1dea9ace27a8f8e06b1601a651faf46747b6a6eba.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/ba18f3d51a71f2825771c8d1dea9ace27a8f8e06b1601a651faf46747b6a6eba.jpg)
+
+![c67eae257c63e8a414d8cd87c82571acb05d246e3cfb02a225b8b5e5acffe1f9.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/images/c67eae257c63e8a414d8cd87c82571acb05d246e3cfb02a225b8b5e5acffe1f9.jpg)
+
+### Tables
+
+![45e4c421870c3b8061a8b07fc1e6e2af0de4130cf5fc68f812aef3396666b8a6.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/tables/45e4c421870c3b8061a8b07fc1e6e2af0de4130cf5fc68f812aef3396666b8a6.jpg)
+
+![98b1fb292556eeb102dd82ea7471661dc45e94fbdf67f9e0896236a363b776b5.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/tables/98b1fb292556eeb102dd82ea7471661dc45e94fbdf67f9e0896236a363b776b5.jpg)
+
+![b0d42872046ed086f89cc951bf1da896fc665006c39f4298887b5e507902e2c4.jpg](acl_results/1003_Infogen_ Generating Complex Statistical Infographics from Documents/tables/b0d42872046ed086f89cc951bf1da896fc665006c39f4298887b5e507902e2c4.jpg)
+
+## Partial Colexifications Improve Concept Embeddings
+
+### Images
+
+![5d71d648d52039477d68ccb6f07b47f0334df4d77cd9e5bcaf68d3d4ccfdfb75.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/images/5d71d648d52039477d68ccb6f07b47f0334df4d77cd9e5bcaf68d3d4ccfdfb75.jpg)
+
+![f31dc29a995f8508bf29ff706bb9508fcc58a55ce6aac4c1921205a51d816da6.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/images/f31dc29a995f8508bf29ff706bb9508fcc58a55ce6aac4c1921205a51d816da6.jpg)
+
+### Tables
+
+![467a5919aaa53846972244be49214efc41cb2d38ea4ea19e5a35b0e2ebf063ed.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/tables/467a5919aaa53846972244be49214efc41cb2d38ea4ea19e5a35b0e2ebf063ed.jpg)
+
+![82c22ee722a42a48bb967d3c2267d2f5b70d25af94e5f3892bd304f80899dbb0.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/tables/82c22ee722a42a48bb967d3c2267d2f5b70d25af94e5f3892bd304f80899dbb0.jpg)
+
+![90ffb5441299d980a43902d828b187d8e79f10fc60e9c3c74780249856810731.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/tables/90ffb5441299d980a43902d828b187d8e79f10fc60e9c3c74780249856810731.jpg)
+
+![91881a759167a3739c3e01ae4444059dc1146d39ee2ada7d4312061bb731cf09.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/tables/91881a759167a3739c3e01ae4444059dc1146d39ee2ada7d4312061bb731cf09.jpg)
+
+![d69075dae576ad458d96d42f6705dc278e95f0f7d83bd76e1268df10edf9f4d4.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/tables/d69075dae576ad458d96d42f6705dc278e95f0f7d83bd76e1268df10edf9f4d4.jpg)
+
+![fdac3ab5cea93594655716cf82cfa7ac60c8cc7e125e3b7bf587c9c643ae250f.jpg](acl_results/1004_Partial Colexifications Improve Concept Embeddings/tables/fdac3ab5cea93594655716cf82cfa7ac60c8cc7e125e3b7bf587c9c643ae250f.jpg)
+
+## Improved Unbiased Watermark for Large Language Models
+
+### Images
+
+![36910b23d580738ad52710b339f7f87c2074b0fd9673aace900dc049a69aa862.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/36910b23d580738ad52710b339f7f87c2074b0fd9673aace900dc049a69aa862.jpg)
+
+![3bbbf8a6888a713246c5f63e4379185a242c754380cd03ab9d99ebd9703afa01.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/3bbbf8a6888a713246c5f63e4379185a242c754380cd03ab9d99ebd9703afa01.jpg)
+
+![53a7ba09546ebb5e3e55d7ee354b47fc53f24623418f8958bc32f424cc7ec3e7.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/53a7ba09546ebb5e3e55d7ee354b47fc53f24623418f8958bc32f424cc7ec3e7.jpg)
+
+![5befdd0d6eb763b3a6a40cbef510533a5dbd266b5e8d29530b4d3b3db115d77d.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/5befdd0d6eb763b3a6a40cbef510533a5dbd266b5e8d29530b4d3b3db115d77d.jpg)
+
+![67940d2a8715d6c958cfc03ee137379a01195f3c68e68faa1607b089b43af9cb.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/67940d2a8715d6c958cfc03ee137379a01195f3c68e68faa1607b089b43af9cb.jpg)
+
+![79ad5c58d86b4ef15f94d84285cb7111b39ee5bd648b6ddcc5e6ddbb164f0206.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/79ad5c58d86b4ef15f94d84285cb7111b39ee5bd648b6ddcc5e6ddbb164f0206.jpg)
+
+![7f0812cc6162f508e2bccac4985c91f1a213ee0ec6979e0340f1005d00c86568.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/7f0812cc6162f508e2bccac4985c91f1a213ee0ec6979e0340f1005d00c86568.jpg)
+
+![b3a0d827bfd4490729f2bf04e991de31f2bdfe7d20c909ebb989d5992150c8a5.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/b3a0d827bfd4490729f2bf04e991de31f2bdfe7d20c909ebb989d5992150c8a5.jpg)
+
+![b47c796a859d0d7aea6d8d0338156b9d4917d588cfdbdb025a366415fbf76c26.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/b47c796a859d0d7aea6d8d0338156b9d4917d588cfdbdb025a366415fbf76c26.jpg)
+
+![c9fb30d6f69ee5bc801aee496fa4266af2ca59e01a770b7ebd5d1a01ea5edc0c.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/c9fb30d6f69ee5bc801aee496fa4266af2ca59e01a770b7ebd5d1a01ea5edc0c.jpg)
+
+![ff0d227b925266086d8fbdabadfea14e538b60c0d15b512c550c44f2f2b7700f.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/images/ff0d227b925266086d8fbdabadfea14e538b60c0d15b512c550c44f2f2b7700f.jpg)
+
+### Tables
+
+![283ec3f9c47c881c80f7bbb3c46a716cb8812971433d03c9932b168915ce3114.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/tables/283ec3f9c47c881c80f7bbb3c46a716cb8812971433d03c9932b168915ce3114.jpg)
+
+![40ad0db36e56586dd8eac350088dc2629df5364d5246365b1fc2dd1d0ca9509d.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/tables/40ad0db36e56586dd8eac350088dc2629df5364d5246365b1fc2dd1d0ca9509d.jpg)
+
+![59339d885e585318c4d381f7dd4e59a22d12425e7facf499623eb306ebe82980.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/tables/59339d885e585318c4d381f7dd4e59a22d12425e7facf499623eb306ebe82980.jpg)
+
+![59eeecc5092d7403222b67047513dfac607bada68be8677aff7d752e8091b0b1.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/tables/59eeecc5092d7403222b67047513dfac607bada68be8677aff7d752e8091b0b1.jpg)
+
+![7bc5e1242c14a702630a9ef7e1d1919e41718839ca2c32bba940f4c9490cda79.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/tables/7bc5e1242c14a702630a9ef7e1d1919e41718839ca2c32bba940f4c9490cda79.jpg)
+
+![a83d8198147fe5436e5f2a5cb77043f42825080a7c9975b367cd4da23f70d7d4.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/tables/a83d8198147fe5436e5f2a5cb77043f42825080a7c9975b367cd4da23f70d7d4.jpg)
+
+![bd0582982937ed0ad51ef71c3505ca9a10f51ae8e2b9d085f92e71089b2bbfdf.jpg](acl_results/1005_Improved Unbiased Watermark for Large Language Models/tables/bd0582982937ed0ad51ef71c3505ca9a10f51ae8e2b9d085f92e71089b2bbfdf.jpg)
+
+## MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection
+
+### Images
+
+![2cfd3bb01a29942ff9ce0885b1f8ee0b18518528256d8b1f40015270a0baa78a.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/images/2cfd3bb01a29942ff9ce0885b1f8ee0b18518528256d8b1f40015270a0baa78a.jpg)
+
+![52a7fc9cfdd727c5846d998e839b8efad3d88647df98a2bf1bbb4f683eff9dbc.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/images/52a7fc9cfdd727c5846d998e839b8efad3d88647df98a2bf1bbb4f683eff9dbc.jpg)
+
+![88c4b34a34338b726ecdc965df1cf27c9085b1e96e999b18dad473f3a11062fa.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/images/88c4b34a34338b726ecdc965df1cf27c9085b1e96e999b18dad473f3a11062fa.jpg)
+
+### Tables
+
+![015e7559d681ac2e0bad790f1ae7499f1f0c94d64abcd2e7ba60598d9328cbc6.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/015e7559d681ac2e0bad790f1ae7499f1f0c94d64abcd2e7ba60598d9328cbc6.jpg)
+
+![038f8867f7e9b95136f2424f5bfe15db8bc773066e6cda41d9e178d491b6b904.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/038f8867f7e9b95136f2424f5bfe15db8bc773066e6cda41d9e178d491b6b904.jpg)
+
+![0c442934c0b06fbc8c02a2f656e414734cfce4c3a761fa5a909fd350e631659f.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/0c442934c0b06fbc8c02a2f656e414734cfce4c3a761fa5a909fd350e631659f.jpg)
+
+![1b29b5e5dd2267cbf057d9f535d62e61276f2de38eb16efa317b51e8ccf3c982.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/1b29b5e5dd2267cbf057d9f535d62e61276f2de38eb16efa317b51e8ccf3c982.jpg)
+
+![376b29304b44517986121492d86d40200d89c8665c0649450fd5043b2216e57d.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/376b29304b44517986121492d86d40200d89c8665c0649450fd5043b2216e57d.jpg)
+
+![37f4d79473ab07f5f438b03cbdfbde8b9162ace68401c4d41319c5b4536d045f.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/37f4d79473ab07f5f438b03cbdfbde8b9162ace68401c4d41319c5b4536d045f.jpg)
+
+![6f99664483c72936503a896336da5389c2447317a2718412c30d9ddec3f411b0.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/6f99664483c72936503a896336da5389c2447317a2718412c30d9ddec3f411b0.jpg)
+
+![7df82d452340c73767e2bdc47881959d981eb459711a5a757b4e4e7cf03b2cd6.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/7df82d452340c73767e2bdc47881959d981eb459711a5a757b4e4e7cf03b2cd6.jpg)
+
+![7eea6ba0acd41dee3e2546b3d8da58fe809d1f2a43425c96685f8b39eec84005.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/7eea6ba0acd41dee3e2546b3d8da58fe809d1f2a43425c96685f8b39eec84005.jpg)
+
+![9a8063ff5305e010c8b9cecd40c46a6e46e7f22d87b203a63381c541da236564.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/9a8063ff5305e010c8b9cecd40c46a6e46e7f22d87b203a63381c541da236564.jpg)
+
+![a7d9e5808f8f9354436916b33257149f89ad86dd495ad4be90dabcf54bf00e04.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/a7d9e5808f8f9354436916b33257149f89ad86dd495ad4be90dabcf54bf00e04.jpg)
+
+![aae4d1c756511ef7baa90f6e4e613ae797e3aab893205019c34e600e525bda4f.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/aae4d1c756511ef7baa90f6e4e613ae797e3aab893205019c34e600e525bda4f.jpg)
+
+![afa0a6b880c33178d91f385e059ded2b2f77f797e12a4d4bac330c677d7b12ee.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/afa0a6b880c33178d91f385e059ded2b2f77f797e12a4d4bac330c677d7b12ee.jpg)
+
+![b03529cb14416afcd07bf344672f42eaff1c64c70d6b138c4925a4bbf7116627.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/b03529cb14416afcd07bf344672f42eaff1c64c70d6b138c4925a4bbf7116627.jpg)
+
+![b5f3ad46e93753f9be05ed53c884a4c9cbb0ef5d0b07f576dc464c0d2cba4f2d.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/b5f3ad46e93753f9be05ed53c884a4c9cbb0ef5d0b07f576dc464c0d2cba4f2d.jpg)
+
+![c5c66ebb370da7cb300581ccb7b1dbe5b5116a1b4587bdab6badffc5fb534745.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/c5c66ebb370da7cb300581ccb7b1dbe5b5116a1b4587bdab6badffc5fb534745.jpg)
+
+![dc76db8aacbf30b1a665cab7a5a88326e6557c69721fe121e13cf049c7af4226.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/dc76db8aacbf30b1a665cab7a5a88326e6557c69721fe121e13cf049c7af4226.jpg)
+
+![f38d1b0c2349ce78e3bde6ec49e247cdf5ffa0cb5278a8eddff28dc4c2db4a66.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/f38d1b0c2349ce78e3bde6ec49e247cdf5ffa0cb5278a8eddff28dc4c2db4a66.jpg)
+
+![fd9c0f6dd1e4136d6c55a5f68b450a0d325f88d222e7f5446ea2fc33873752ba.jpg](acl_results/1006_MaCP_ Minimal yet Mighty Adaptation via Hierarchical Cosine Projection/tables/fd9c0f6dd1e4136d6c55a5f68b450a0d325f88d222e7f5446ea2fc33873752ba.jpg)
+
+## Multi-Attribute Steering of Language Models via Targeted Intervention
+
+### Images
+
+![0028852550fbd34acec40de924db75e2246d4d42dae0958cb617f11782315a1a.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/images/0028852550fbd34acec40de924db75e2246d4d42dae0958cb617f11782315a1a.jpg)
+
+![16c1cf0e1030ed5e7ac25d0b62d4322183ba5e64033ad3ee35ea28a7aa8ff7df.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/images/16c1cf0e1030ed5e7ac25d0b62d4322183ba5e64033ad3ee35ea28a7aa8ff7df.jpg)
+
+![182871455028726e1a28d5aa72d0adfb18221f7d7b7c72f1a58de1cf3e4eb7c5.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/images/182871455028726e1a28d5aa72d0adfb18221f7d7b7c72f1a58de1cf3e4eb7c5.jpg)
+
+![44eac25204438458bab6e92e383cea0e011055f5e3668298d2f7cd91a4648c0c.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/images/44eac25204438458bab6e92e383cea0e011055f5e3668298d2f7cd91a4648c0c.jpg)
+
+![62d8fefca7023e864c94c9b1f5a009d8806714eb9399644e67665771d0d3c791.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/images/62d8fefca7023e864c94c9b1f5a009d8806714eb9399644e67665771d0d3c791.jpg)
+
+![c05dd6173d22d0f0363bd54ba9e504c771b9094825d441844c2319392ebf8919.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/images/c05dd6173d22d0f0363bd54ba9e504c771b9094825d441844c2319392ebf8919.jpg)
+
+![e8c190f4f04a5a562bb95ecb6cfa86863e19135a2ca9c812cd0a8cb9fda212cb.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/images/e8c190f4f04a5a562bb95ecb6cfa86863e19135a2ca9c812cd0a8cb9fda212cb.jpg)
+
+### Tables
+
+![306feacbd92358e56b6ce662f6c986c9a7c3559a3fd0b5ecbf3b4ad8be045fc5.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/306feacbd92358e56b6ce662f6c986c9a7c3559a3fd0b5ecbf3b4ad8be045fc5.jpg)
+
+![5b9d20284d725c42e38ab48f971956c6d2b2b4ef08a8effb3c5998602f92e728.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/5b9d20284d725c42e38ab48f971956c6d2b2b4ef08a8effb3c5998602f92e728.jpg)
+
+![7809836a270b12e547c55c37f9a5f0a10a47486145d9b2a6e1b259c60eb6dfce.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/7809836a270b12e547c55c37f9a5f0a10a47486145d9b2a6e1b259c60eb6dfce.jpg)
+
+![7e2df4f39458b31bc5364edd7795d1fc372d93c923a4316fcf8ad9e871907d3e.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/7e2df4f39458b31bc5364edd7795d1fc372d93c923a4316fcf8ad9e871907d3e.jpg)
+
+![8102638f5fd2494801ed0938fc3e927b39aea935c30dced1ed95f7e450df26d9.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/8102638f5fd2494801ed0938fc3e927b39aea935c30dced1ed95f7e450df26d9.jpg)
+
+![c218e8db60ef00120d124ede47f435e2a5516d6e8d1f7fa45c1a6504c9c3c379.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/c218e8db60ef00120d124ede47f435e2a5516d6e8d1f7fa45c1a6504c9c3c379.jpg)
+
+![ce406b00e0bff0bbdb0ee9535dd67b84f0d602f9cb4d57c119ac8a0512331694.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/ce406b00e0bff0bbdb0ee9535dd67b84f0d602f9cb4d57c119ac8a0512331694.jpg)
+
+![dba225b62fd23e130c38cc545be56bacf2aa0eeaa0f809f9d8a201d486b15c65.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/dba225b62fd23e130c38cc545be56bacf2aa0eeaa0f809f9d8a201d486b15c65.jpg)
+
+![fe8ba3af4cb0d690658fb47fe40cf4474fea6c87aff2d1296d623e0bcae915a8.jpg](acl_results/1007_Multi-Attribute Steering of Language Models via Targeted Intervention/tables/fe8ba3af4cb0d690658fb47fe40cf4474fea6c87aff2d1296d623e0bcae915a8.jpg)
+
+## AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations
+
+### Images
+
+![10586566a3519bb716c12e7a079763fed16f32d25dd6c4edd8e0666c19518824.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/images/10586566a3519bb716c12e7a079763fed16f32d25dd6c4edd8e0666c19518824.jpg)
+
+![57c78e2cf9fe644223bce58e5f3502013fe77a0f896049f964c5f5ceca70fe53.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/images/57c78e2cf9fe644223bce58e5f3502013fe77a0f896049f964c5f5ceca70fe53.jpg)
+
+![725f3946b97126acdea47e351fa88b308640e13ab3c590f44628920d28696e3e.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/images/725f3946b97126acdea47e351fa88b308640e13ab3c590f44628920d28696e3e.jpg)
+
+![9b8c5fe8e0aca7d559333cb78a7d41b37c84e17cb4949273629fe948efefdcec.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/images/9b8c5fe8e0aca7d559333cb78a7d41b37c84e17cb4949273629fe948efefdcec.jpg)
+
+![a641cc02cceaf87d672924bda62dffa9a074fffa224bedc91bd7fcc2e116762e.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/images/a641cc02cceaf87d672924bda62dffa9a074fffa224bedc91bd7fcc2e116762e.jpg)
+
+### Tables
+
+![07f25512e1c1a60b40f90c376c6ad28da10c1dc8993393e616630b4229cd305d.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/07f25512e1c1a60b40f90c376c6ad28da10c1dc8993393e616630b4229cd305d.jpg)
+
+![32f21901d22c9e01ff6cba192d5271b6ef636bfd4688615f32e7bd1e72056a85.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/32f21901d22c9e01ff6cba192d5271b6ef636bfd4688615f32e7bd1e72056a85.jpg)
+
+![3dc5aaa35447822c1ff7e6a291f1159e31bd9734fc37c0e9f14d143b95c9922f.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/3dc5aaa35447822c1ff7e6a291f1159e31bd9734fc37c0e9f14d143b95c9922f.jpg)
+
+![792e960b9be39185f3ceea4b01743d235a325ab55d6e033e8eb0f19916c9fd1b.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/792e960b9be39185f3ceea4b01743d235a325ab55d6e033e8eb0f19916c9fd1b.jpg)
+
+![89dc16e26796f5e4fbbec5b5e73e96c0217e2dc823cd1ec21dc14de8775674d1.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/89dc16e26796f5e4fbbec5b5e73e96c0217e2dc823cd1ec21dc14de8775674d1.jpg)
+
+![991c3d15aec15f1ec00507a61241f6133c1b71d28eeda5bbfcc49dddf01c4f9a.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/991c3d15aec15f1ec00507a61241f6133c1b71d28eeda5bbfcc49dddf01c4f9a.jpg)
+
+![b618e47420cf04da9f00acbba77f1eb0ad3d916b9c9603d9641d7e54e6592dfa.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/b618e47420cf04da9f00acbba77f1eb0ad3d916b9c9603d9641d7e54e6592dfa.jpg)
+
+![b9b865a9ebdfcac780702cb1604c9bf413b4b679d6e988c6ed2bc679e384dd67.jpg](acl_results/1008_AdaptAgent_ Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations/tables/b9b865a9ebdfcac780702cb1604c9bf413b4b679d6e988c6ed2bc679e384dd67.jpg)
+
+## CanLLMs Identify Critical Limitations within Scientific Research? A Systematic Evaluation onAIResearch Papers
+
+### Images
+
+![003a924843b760f5010c73bafae2fe10a89843571d7160cf8ddc9079e171ef21.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/003a924843b760f5010c73bafae2fe10a89843571d7160cf8ddc9079e171ef21.jpg)
+
+![15bd1f7d7c784730301234d6b7624c1be9541d80b74d87fe0f8c0a41f6caff62.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/15bd1f7d7c784730301234d6b7624c1be9541d80b74d87fe0f8c0a41f6caff62.jpg)
+
+![2de789bcdc741d013805a4f4439f2d96c8dae4d582e4c66ecb677ae763066071.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/2de789bcdc741d013805a4f4439f2d96c8dae4d582e4c66ecb677ae763066071.jpg)
+
+![5a5bb9238e0448c9548edf8e4d6e5d249bea0c195fa31d9761244c2637458c2b.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/5a5bb9238e0448c9548edf8e4d6e5d249bea0c195fa31d9761244c2637458c2b.jpg)
+
+![5fe06a34fdb5c50c123b8bdbd0c81b01c6fbaff15e0382f4af8d16c185956a4f.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/5fe06a34fdb5c50c123b8bdbd0c81b01c6fbaff15e0382f4af8d16c185956a4f.jpg)
+
+![8bcd90f257a238be7ca3d3c51b7e344ae85ad88a23d4cb0fdcf9e8dbf05d80fe.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/8bcd90f257a238be7ca3d3c51b7e344ae85ad88a23d4cb0fdcf9e8dbf05d80fe.jpg)
+
+![9b28d47384d211a1eb4660c0b9f154c91f69c1bcce6e73f3c898c74412585b02.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/9b28d47384d211a1eb4660c0b9f154c91f69c1bcce6e73f3c898c74412585b02.jpg)
+
+![9be5ffd58e567fbf0fc74c092d82463edefbcd24a747746a4825cc58fa8873ce.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/9be5ffd58e567fbf0fc74c092d82463edefbcd24a747746a4825cc58fa8873ce.jpg)
+
+![c388d3ce5b6c961129bc8e0344b80a1b9798cac5d6cf8f1005bd0062aa93a335.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/c388d3ce5b6c961129bc8e0344b80a1b9798cac5d6cf8f1005bd0062aa93a335.jpg)
+
+![f990c0d0df34ab18f169c1cda238110e219cc02e37b01f30c3dac68f183ce9b4.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/f990c0d0df34ab18f169c1cda238110e219cc02e37b01f30c3dac68f183ce9b4.jpg)
+
+![fa0708d1c74f316946f15c392f8b6cf78ec81dd8c73484c5a6b960c73a42e276.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/fa0708d1c74f316946f15c392f8b6cf78ec81dd8c73484c5a6b960c73a42e276.jpg)
+
+![fb559bd1e694ac70ccc6882bc58275c6929409b6d4682639397ada00b55cb908.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/images/fb559bd1e694ac70ccc6882bc58275c6929409b6d4682639397ada00b55cb908.jpg)
+
+### Tables
+
+![03a43bd843220f77d9fb3720ce1c28657b6b5fac7a367792a6a8797bf13c0b50.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/03a43bd843220f77d9fb3720ce1c28657b6b5fac7a367792a6a8797bf13c0b50.jpg)
+
+![15aae43af4062d884e8a94de4e87f9c928be3e916c841e0dc058b9b1f22b5733.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/15aae43af4062d884e8a94de4e87f9c928be3e916c841e0dc058b9b1f22b5733.jpg)
+
+![1d9fa0643ad9678eef3c2220b552081c6e67abd8c67a13e4f084620cffe30029.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/1d9fa0643ad9678eef3c2220b552081c6e67abd8c67a13e4f084620cffe30029.jpg)
+
+![1f8509b857a941a01bdaf4640d576a293f3d9daa569976d0f538fdba29b69b98.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/1f8509b857a941a01bdaf4640d576a293f3d9daa569976d0f538fdba29b69b98.jpg)
+
+![1f94c4f87146bfb2f73f3ec89195b13ac720e73ab0fb6a780f311e4084839d6f.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/1f94c4f87146bfb2f73f3ec89195b13ac720e73ab0fb6a780f311e4084839d6f.jpg)
+
+![1fef17dcce23e8f042ea8c77237b3ca84dd92a3ea661fbc3bd36a4762f010c9a.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/1fef17dcce23e8f042ea8c77237b3ca84dd92a3ea661fbc3bd36a4762f010c9a.jpg)
+
+![2efc2238813f8c27fafbf02ddc55f37e85a6fcfa86700668e652d65058b70ac3.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/2efc2238813f8c27fafbf02ddc55f37e85a6fcfa86700668e652d65058b70ac3.jpg)
+
+![50b16283f4f99dcfcf457b4c9694129f10a68166dc4c0de13fc3b0f44c0fec62.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/50b16283f4f99dcfcf457b4c9694129f10a68166dc4c0de13fc3b0f44c0fec62.jpg)
+
+![53695297d3495be7534e28e3af288bade2c64e13ea95f56365e20f58547d014f.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/53695297d3495be7534e28e3af288bade2c64e13ea95f56365e20f58547d014f.jpg)
+
+![56d11b9e73e7ebc4bed5c4ffc328f75c31c9723b4853203a9825764a102a68ec.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/56d11b9e73e7ebc4bed5c4ffc328f75c31c9723b4853203a9825764a102a68ec.jpg)
+
+![6372f3a57b3c40124d5be8721c97ef2eb505760dfe4f7298f2cfb6d616def0b2.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/6372f3a57b3c40124d5be8721c97ef2eb505760dfe4f7298f2cfb6d616def0b2.jpg)
+
+![7fc2a522a17791339f57f5d543a05ff0829903d1b6c84b99e48ec9fe16c14080.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/7fc2a522a17791339f57f5d543a05ff0829903d1b6c84b99e48ec9fe16c14080.jpg)
+
+![856dee6b721f60fe02a7e36f052676f740ba66302b805f1c256cac5a153886cb.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/856dee6b721f60fe02a7e36f052676f740ba66302b805f1c256cac5a153886cb.jpg)
+
+![8f8d73be5bbc57bbb6947a5b95f6cec70573f8172d05adbdd4d559267c9e0211.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/8f8d73be5bbc57bbb6947a5b95f6cec70573f8172d05adbdd4d559267c9e0211.jpg)
+
+![9b647c62d2c78ae6c016ec423033895680ec2f46363e219675cdc48de2755c06.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/9b647c62d2c78ae6c016ec423033895680ec2f46363e219675cdc48de2755c06.jpg)
+
+![9e8f3f8495ff4c63edbcb4eb01fa0bfe7c4c71f55b45c754c93e64ab6d2a4c13.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/9e8f3f8495ff4c63edbcb4eb01fa0bfe7c4c71f55b45c754c93e64ab6d2a4c13.jpg)
+
+![a917c5177d174ffcc2f867ee98c254308b622020c1879421674f4101144c7f70.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/a917c5177d174ffcc2f867ee98c254308b622020c1879421674f4101144c7f70.jpg)
+
+![bfd47c82be33607c182051693005dd9b2956fdfbe029c0ff825c8eadfdff0577.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/bfd47c82be33607c182051693005dd9b2956fdfbe029c0ff825c8eadfdff0577.jpg)
+
+![c0ef610712dc30a5dfa66df7ee621b8529f02e24314b5a6016fa9d6ffb321a9b.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/c0ef610712dc30a5dfa66df7ee621b8529f02e24314b5a6016fa9d6ffb321a9b.jpg)
+
+![c113d06c374aafcad21d786fb8c2439c315d7e105b84e8c8f5cd317099efd868.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/c113d06c374aafcad21d786fb8c2439c315d7e105b84e8c8f5cd317099efd868.jpg)
+
+![c17ffe8e0052ccf34e6b187f2c74cc65937b4445cd9443a3fec327b135fc0d46.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/c17ffe8e0052ccf34e6b187f2c74cc65937b4445cd9443a3fec327b135fc0d46.jpg)
+
+![eb385edddeb4b8848aabfb45e3690501c195990b210d6d7120dee3179c28d31d.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/eb385edddeb4b8848aabfb45e3690501c195990b210d6d7120dee3179c28d31d.jpg)
+
+![f43ea70b591cf36240491d00a970a92669f1f35c243b9c56ca4eb915c3dfd1e3.jpg](acl_results/1009_CanLLMs Identify Critical Limitations within Scientific Research_ A Systematic Evaluation onAIResear/tables/f43ea70b591cf36240491d00a970a92669f1f35c243b9c56ca4eb915c3dfd1e3.jpg)
+
+## On the Acquisition of Shared Grammatical Representations in Bilingual Language Models
+
+### Images
+
+![159312bd1dda9411e444eb0d3b1f828bbdf161a84acb28bb3ebeea1143b09b92.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/159312bd1dda9411e444eb0d3b1f828bbdf161a84acb28bb3ebeea1143b09b92.jpg)
+
+![1c0a44117be51561aa75725a0d44c63178162f1eecf5eb2ab6d1b2e9fc22ade7.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/1c0a44117be51561aa75725a0d44c63178162f1eecf5eb2ab6d1b2e9fc22ade7.jpg)
+
+![275caed9e151c8ce069c23c87fad0f9cfa7957f9319e4821967fcfec61203d14.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/275caed9e151c8ce069c23c87fad0f9cfa7957f9319e4821967fcfec61203d14.jpg)
+
+![5d902c321402d8fa652e40e8ed2fc02c1f064e68fde92919702954d93f8d7618.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/5d902c321402d8fa652e40e8ed2fc02c1f064e68fde92919702954d93f8d7618.jpg)
+
+![6a26f8362c62e88442dd89bd1ce3680f348c0560dbf739ec631ccaa85f0e3ccc.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/6a26f8362c62e88442dd89bd1ce3680f348c0560dbf739ec631ccaa85f0e3ccc.jpg)
+
+![8cc6ada2530b7b5de3ce444bed7196d3ee59e7a05944f7a292eb0c98e3b95c53.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/8cc6ada2530b7b5de3ce444bed7196d3ee59e7a05944f7a292eb0c98e3b95c53.jpg)
+
+![8dc88e86e69327122cc4d55b3c21e29d945c11431a16f3a18857cf123f0b58c0.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/8dc88e86e69327122cc4d55b3c21e29d945c11431a16f3a18857cf123f0b58c0.jpg)
+
+![916e2a6197b8491b277e0741025ca486e90df89fcf7ce8780c59f172299dfccd.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/916e2a6197b8491b277e0741025ca486e90df89fcf7ce8780c59f172299dfccd.jpg)
+
+![bee9cca014aff47c91831f588b134e4060132e3ebae46120acb8251e96204443.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/bee9cca014aff47c91831f588b134e4060132e3ebae46120acb8251e96204443.jpg)
+
+![c0c5c8faa5bf4f3928fe6e82916c0974eb97f6b2925aff2c07ebd920c5df97ce.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/c0c5c8faa5bf4f3928fe6e82916c0974eb97f6b2925aff2c07ebd920c5df97ce.jpg)
+
+![e6d5c8b1061e1bf27330427c02f313b57c1bae1ea0f57dcd5f07a996cc5ed0bf.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/e6d5c8b1061e1bf27330427c02f313b57c1bae1ea0f57dcd5f07a996cc5ed0bf.jpg)
+
+![e9f64d963e888a68b719747a2f72517acee10ca3a7795c37d758667134a20f74.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/e9f64d963e888a68b719747a2f72517acee10ca3a7795c37d758667134a20f74.jpg)
+
+![ef3ccbb630c88ef5adcd496d90169046304bb42a57eb29f6dda541348cf37e76.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/images/ef3ccbb630c88ef5adcd496d90169046304bb42a57eb29f6dda541348cf37e76.jpg)
+
+### Tables
+
+![795da3f96237a1b3bda4fed94fee3731e870fd5c9577cd41c471c2f927a188cb.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/tables/795da3f96237a1b3bda4fed94fee3731e870fd5c9577cd41c471c2f927a188cb.jpg)
+
+![eec673927f794a35e59fdf84d7cfb3fdcfad1cfb695085809a372e4f95ed064e.jpg](acl_results/1010_On the Acquisition of Shared Grammatical Representations in Bilingual Language Models/tables/eec673927f794a35e59fdf84d7cfb3fdcfad1cfb695085809a372e4f95ed064e.jpg)
+
+## Using Shapley interactions to understand how models use structure
+
+### Images
+
+![0ef94cfcb62970a43825a426f9b9bbff9e850476670ad295b9eec98ad83617f1.jpg](acl_results/1011_Using Shapley interactions to understand how models use structure/images/0ef94cfcb62970a43825a426f9b9bbff9e850476670ad295b9eec98ad83617f1.jpg)
+
+![4052e1729dd803058afbfe34ff9d2c7b231dc74869d9981e87f1e878924b973f.jpg](acl_results/1011_Using Shapley interactions to understand how models use structure/images/4052e1729dd803058afbfe34ff9d2c7b231dc74869d9981e87f1e878924b973f.jpg)
+
+![a2be112638b1226ef96f62769be510159d85f96964b21c80750abb41f3a3a105.jpg](acl_results/1011_Using Shapley interactions to understand how models use structure/images/a2be112638b1226ef96f62769be510159d85f96964b21c80750abb41f3a3a105.jpg)
+
+![b74434ac1484e8a68220235378a3cd82033d7a07be513b8ba1d0d56d55605bf2.jpg](acl_results/1011_Using Shapley interactions to understand how models use structure/images/b74434ac1484e8a68220235378a3cd82033d7a07be513b8ba1d0d56d55605bf2.jpg)
+
+![d874b3ee29f6285eb58a440e9eee8676d08809f10380cdb4a7af6ce712bce91b.jpg](acl_results/1011_Using Shapley interactions to understand how models use structure/images/d874b3ee29f6285eb58a440e9eee8676d08809f10380cdb4a7af6ce712bce91b.jpg)
+
+![db4e9889d764694dffc5bb6d46ae2d003be8240975112bc0c3abcc2fb9456b2c.jpg](acl_results/1011_Using Shapley interactions to understand how models use structure/images/db4e9889d764694dffc5bb6d46ae2d003be8240975112bc0c3abcc2fb9456b2c.jpg)
+
+## Adversarial Tokenization
+
+### Images
+
+![1829cc896a380732b2b5f17872a11977c26dd24414ff2fbc1ec97d989469a26d.jpg](acl_results/1012_Adversarial Tokenization/images/1829cc896a380732b2b5f17872a11977c26dd24414ff2fbc1ec97d989469a26d.jpg)
+
+![22c13f04b4cf082d749bd56906b97fa14b2c5eb28624eb4f616165f9e514c3fd.jpg](acl_results/1012_Adversarial Tokenization/images/22c13f04b4cf082d749bd56906b97fa14b2c5eb28624eb4f616165f9e514c3fd.jpg)
+
+![3ad504b1a38f9754725cae7dbb92d9a5f6ed8d7a3e2ebe642f99b60e43dad67e.jpg](acl_results/1012_Adversarial Tokenization/images/3ad504b1a38f9754725cae7dbb92d9a5f6ed8d7a3e2ebe642f99b60e43dad67e.jpg)
+
+![42cd64bc0b025489c8893ed23dce77eb169860f0839557ae855d54c53944dbe9.jpg](acl_results/1012_Adversarial Tokenization/images/42cd64bc0b025489c8893ed23dce77eb169860f0839557ae855d54c53944dbe9.jpg)
+
+![45df9823947907ed99d32ef552b2140d2290bc31ac6e91276fa5652795a4fcb0.jpg](acl_results/1012_Adversarial Tokenization/images/45df9823947907ed99d32ef552b2140d2290bc31ac6e91276fa5652795a4fcb0.jpg)
+
+![50130425ea74e8d7686a63aa74777137e62acfe59505c7a56874383f6fe3f9f3.jpg](acl_results/1012_Adversarial Tokenization/images/50130425ea74e8d7686a63aa74777137e62acfe59505c7a56874383f6fe3f9f3.jpg)
+
+![716c828c7c35cd4d49fb65fee04ffba91977aa5aff21fd99b2a6c8c8ff81ecf4.jpg](acl_results/1012_Adversarial Tokenization/images/716c828c7c35cd4d49fb65fee04ffba91977aa5aff21fd99b2a6c8c8ff81ecf4.jpg)
+
+![7c6ba8e543473f9c2929168eb28bde0a4d1625af90158e14dbc2fb467cef8f0a.jpg](acl_results/1012_Adversarial Tokenization/images/7c6ba8e543473f9c2929168eb28bde0a4d1625af90158e14dbc2fb467cef8f0a.jpg)
+
+![a6489bd5a711a385d4e878c41b29bc24af5b710480e4913c5a557c8531903d3f.jpg](acl_results/1012_Adversarial Tokenization/images/a6489bd5a711a385d4e878c41b29bc24af5b710480e4913c5a557c8531903d3f.jpg)
+
+![a86ea8bebda7c5b6698c1e9d180c5cc74796f1f1a438b60beb7a238f5c07800e.jpg](acl_results/1012_Adversarial Tokenization/images/a86ea8bebda7c5b6698c1e9d180c5cc74796f1f1a438b60beb7a238f5c07800e.jpg)
+
+![b34fc7ad1b87df16b6a5acc7278628d52b563fbdc0f9980ed8066c580c7656c9.jpg](acl_results/1012_Adversarial Tokenization/images/b34fc7ad1b87df16b6a5acc7278628d52b563fbdc0f9980ed8066c580c7656c9.jpg)
+
+![c72828fc9d0a291b9a3eb2cebe14ada71f135ed5860258018dab34294cecf219.jpg](acl_results/1012_Adversarial Tokenization/images/c72828fc9d0a291b9a3eb2cebe14ada71f135ed5860258018dab34294cecf219.jpg)
+
+![f7c444331db00e6f1343aff88e587b8b22b52180d5f3817f177103e6b1a99e69.jpg](acl_results/1012_Adversarial Tokenization/images/f7c444331db00e6f1343aff88e587b8b22b52180d5f3817f177103e6b1a99e69.jpg)
+
+### Tables
+
+![231634ac308cfbf46e4891b3491b378a19464c369e8127a34b1945f9cbf448c3.jpg](acl_results/1012_Adversarial Tokenization/tables/231634ac308cfbf46e4891b3491b378a19464c369e8127a34b1945f9cbf448c3.jpg)
+
+![2642638c06e39acf8a70600f160424d02e8117c6a95735dd61831356130ef1b3.jpg](acl_results/1012_Adversarial Tokenization/tables/2642638c06e39acf8a70600f160424d02e8117c6a95735dd61831356130ef1b3.jpg)
+
+![417ae530ded1236a8f642ee41d5b1a763059b4f239d8d6b5f07cbb42516073bd.jpg](acl_results/1012_Adversarial Tokenization/tables/417ae530ded1236a8f642ee41d5b1a763059b4f239d8d6b5f07cbb42516073bd.jpg)
+
+![56d4ffbc5947e40a5d5ba4836537e4de64297474bab3508d407bf6ad20741f44.jpg](acl_results/1012_Adversarial Tokenization/tables/56d4ffbc5947e40a5d5ba4836537e4de64297474bab3508d407bf6ad20741f44.jpg)
+
+![5cda5d2f28dc6a3d75d8fddc13027de0a32bb2f949407de461aa0fd8b0f9979b.jpg](acl_results/1012_Adversarial Tokenization/tables/5cda5d2f28dc6a3d75d8fddc13027de0a32bb2f949407de461aa0fd8b0f9979b.jpg)
+
+![9c790527ff9bf6604f427141f1a1a02b070f2203ce9bc0cac01b29ed8bce22ae.jpg](acl_results/1012_Adversarial Tokenization/tables/9c790527ff9bf6604f427141f1a1a02b070f2203ce9bc0cac01b29ed8bce22ae.jpg)
+
+![a00453af89830431e8e414be4b1494c870db52213d5250648c1c4f7251f246a9.jpg](acl_results/1012_Adversarial Tokenization/tables/a00453af89830431e8e414be4b1494c870db52213d5250648c1c4f7251f246a9.jpg)
+
+![c400a5dc095816769ddb6a42175ecd0ce0846f4c981db5c550da3a5e22cceeeb.jpg](acl_results/1012_Adversarial Tokenization/tables/c400a5dc095816769ddb6a42175ecd0ce0846f4c981db5c550da3a5e22cceeeb.jpg)
+
+![ceb463e2d11c1a13bfb036366196bb6ed2d6eb63e0f5cc0fed677e753c5a9364.jpg](acl_results/1012_Adversarial Tokenization/tables/ceb463e2d11c1a13bfb036366196bb6ed2d6eb63e0f5cc0fed677e753c5a9364.jpg)
+
+![d30a2b37192771ed35c51c2db509b9a6cc897560af4b499110c5c533bed729ad.jpg](acl_results/1012_Adversarial Tokenization/tables/d30a2b37192771ed35c51c2db509b9a6cc897560af4b499110c5c533bed729ad.jpg)
+
+![d6fb355286ecca30131e5e70788a9e2b7fe1fb47bd0f1a33900e8791997f7d88.jpg](acl_results/1012_Adversarial Tokenization/tables/d6fb355286ecca30131e5e70788a9e2b7fe1fb47bd0f1a33900e8791997f7d88.jpg)
+
+![f0a34dc73ebff66254010e8b7cf3685a242e8055f212fb1a0d8e611a25b4305c.jpg](acl_results/1012_Adversarial Tokenization/tables/f0a34dc73ebff66254010e8b7cf3685a242e8055f212fb1a0d8e611a25b4305c.jpg)
+
+![fca84365d04e1cb9afdf53133116cb77a64313f1521454a1398f60f44425e69a.jpg](acl_results/1012_Adversarial Tokenization/tables/fca84365d04e1cb9afdf53133116cb77a64313f1521454a1398f60f44425e69a.jpg)
+
+## Classifying Unreliable Narrators with Large Language Models
+
+### Images
+
+![26cd23d6aa934d3a7358e6bc58db9516e4e0d53b903e268f4626e8cca18c8376.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/26cd23d6aa934d3a7358e6bc58db9516e4e0d53b903e268f4626e8cca18c8376.jpg)
+
+![53e3878453613f559f32f96c9ccf05b8db000899b46cc5594954e270ff1391cc.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/53e3878453613f559f32f96c9ccf05b8db000899b46cc5594954e270ff1391cc.jpg)
+
+![6590738ac8839b9ee4735659fdc00b89711b9c05af6e1ebfec70d46d6c944767.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/6590738ac8839b9ee4735659fdc00b89711b9c05af6e1ebfec70d46d6c944767.jpg)
+
+![6c289a190b50aecf69f5ffdb1e8ff9fed4c26af4e228e4bccdb0eb30d1adf565.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/6c289a190b50aecf69f5ffdb1e8ff9fed4c26af4e228e4bccdb0eb30d1adf565.jpg)
+
+![84a854b202d777c3cb5734640ebc02845945e68f382bda4a6dae8e0fa6eec55a.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/84a854b202d777c3cb5734640ebc02845945e68f382bda4a6dae8e0fa6eec55a.jpg)
+
+![92be37262f7e9c2d2dc47fea645699746d44a9a5dba49cfcbfe2e2c438c16bcd.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/92be37262f7e9c2d2dc47fea645699746d44a9a5dba49cfcbfe2e2c438c16bcd.jpg)
+
+![d9161a095ec021b341e4a066c9633af3b0444cdaee7ee52979d33e1d5c6c884a.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/d9161a095ec021b341e4a066c9633af3b0444cdaee7ee52979d33e1d5c6c884a.jpg)
+
+![e0ef5e8a42f8bfce3f78a3d66822afe005fff1dbfa5f1375712fa4b80751c64d.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/e0ef5e8a42f8bfce3f78a3d66822afe005fff1dbfa5f1375712fa4b80751c64d.jpg)
+
+![eb80fb252764747e7a62ef597745e3b144737010d2b9a8341b3785672551d36d.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/images/eb80fb252764747e7a62ef597745e3b144737010d2b9a8341b3785672551d36d.jpg)
+
+### Tables
+
+![059868a438324c46b33efa55323438c832babbfffcbf71ce99772692207a5052.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/059868a438324c46b33efa55323438c832babbfffcbf71ce99772692207a5052.jpg)
+
+![20ac7ef06d5d8dcd136369824c49bb1672603da989a951ddd3413718dedf8f23.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/20ac7ef06d5d8dcd136369824c49bb1672603da989a951ddd3413718dedf8f23.jpg)
+
+![32ad7947d2cf0c70ece7381f5284a78bb4e49bcc4bf057b966e3f14af576de0b.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/32ad7947d2cf0c70ece7381f5284a78bb4e49bcc4bf057b966e3f14af576de0b.jpg)
+
+![3b25044c8b67d772166c46b203263bf259982616b5c3bbf1ecd961f4c4da08d3.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/3b25044c8b67d772166c46b203263bf259982616b5c3bbf1ecd961f4c4da08d3.jpg)
+
+![428208a99d19180cc11819f0cade9f651dc438a9743ac90a48b520ab83063da7.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/428208a99d19180cc11819f0cade9f651dc438a9743ac90a48b520ab83063da7.jpg)
+
+![4f7192e00a9e680dc6e4c5b02ff683c4abe30f7ebe2b6ecf3d07accf6d7b8436.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/4f7192e00a9e680dc6e4c5b02ff683c4abe30f7ebe2b6ecf3d07accf6d7b8436.jpg)
+
+![6b51921a0f684a1fd8d0404d7fa90ae3defe104707a58bfa11cd805a8ba6d6bf.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/6b51921a0f684a1fd8d0404d7fa90ae3defe104707a58bfa11cd805a8ba6d6bf.jpg)
+
+![81d3f76d39d2319b94adc996a307685ae6ab85d01ce8ee6239f9ebfa8eadfdc6.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/81d3f76d39d2319b94adc996a307685ae6ab85d01ce8ee6239f9ebfa8eadfdc6.jpg)
+
+![9868eac34239b24870d28a3c6db2d43a5ee2c40080af0d3e7973c34e7731d5c2.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/9868eac34239b24870d28a3c6db2d43a5ee2c40080af0d3e7973c34e7731d5c2.jpg)
+
+![99a0355a9f1ad92bb39f810160cafc55bfc7129b91c9227ee065fe15b6f3df83.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/99a0355a9f1ad92bb39f810160cafc55bfc7129b91c9227ee065fe15b6f3df83.jpg)
+
+![bd66a56bf4cea1fd7a75369bbc1c5b8af4ca77e45cfca80a84edd2876f6bf3ae.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/bd66a56bf4cea1fd7a75369bbc1c5b8af4ca77e45cfca80a84edd2876f6bf3ae.jpg)
+
+![e4fb4da090149e836474e0a0cca0eddf4e68e09a9e661ca2cb8fffbd7adee51d.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/e4fb4da090149e836474e0a0cca0eddf4e68e09a9e661ca2cb8fffbd7adee51d.jpg)
+
+![e59d90cd786212967165992a972c47a2f3f445a1554f0157125c7c5377a5f5bc.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/e59d90cd786212967165992a972c47a2f3f445a1554f0157125c7c5377a5f5bc.jpg)
+
+![fc3fbc8589cc33a47bd300b4456277987acc34bd2300f51cf63cbc870d8a419c.jpg](acl_results/1013_Classifying Unreliable Narrators with Large Language Models/tables/fc3fbc8589cc33a47bd300b4456277987acc34bd2300f51cf63cbc870d8a419c.jpg)
+
+## ConceptCarve: Dynamic Realization of Evidence
+
+### Images
+
+![1a0e8dc5e058f133d24d2e869b9debc1d9b15ad036f5acee7c564a4e33035b3b.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/1a0e8dc5e058f133d24d2e869b9debc1d9b15ad036f5acee7c564a4e33035b3b.jpg)
+
+![1b82cb3d0933ab1539a816120fc7a9a00cc7bd52f718af82d919ae8060c42ae0.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/1b82cb3d0933ab1539a816120fc7a9a00cc7bd52f718af82d919ae8060c42ae0.jpg)
+
+![1e5326fd0f853bcb60ddf4a46f389c4c5442d2053c42269cd93755a1b1cb774e.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/1e5326fd0f853bcb60ddf4a46f389c4c5442d2053c42269cd93755a1b1cb774e.jpg)
+
+![2702eb3d9cca9c92272e47dd2b6fd7c628e6d3b710225585bd4419d1f4d86a8f.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/2702eb3d9cca9c92272e47dd2b6fd7c628e6d3b710225585bd4419d1f4d86a8f.jpg)
+
+![334a018bef578302938b24fbe2acbc0df2232e43411f1ee2642d3c1544581e13.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/334a018bef578302938b24fbe2acbc0df2232e43411f1ee2642d3c1544581e13.jpg)
+
+![3c44b2d24793b86362f38dab842ad2f83304715dfdfdc2dfc9d58cf03a07004b.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/3c44b2d24793b86362f38dab842ad2f83304715dfdfdc2dfc9d58cf03a07004b.jpg)
+
+![42fbf42a4fbc4f2cc39f78f9f67a59ed8bd9fbef80dcc23cdf8e76cfbf3389c3.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/42fbf42a4fbc4f2cc39f78f9f67a59ed8bd9fbef80dcc23cdf8e76cfbf3389c3.jpg)
+
+![7ca9329b8154885aea370f8c214de7fc796a52fd5292e06e6143923135164cd7.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/7ca9329b8154885aea370f8c214de7fc796a52fd5292e06e6143923135164cd7.jpg)
+
+![8d0e2d5c7ab6e43d92c80e303cadcbdd7c0190475139c60d292dd64b1a55f29d.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/8d0e2d5c7ab6e43d92c80e303cadcbdd7c0190475139c60d292dd64b1a55f29d.jpg)
+
+![bcd6faa7926b217a4107bd14639b5cabfd41b53cc8bcf8140eca55b790fd2da0.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/bcd6faa7926b217a4107bd14639b5cabfd41b53cc8bcf8140eca55b790fd2da0.jpg)
+
+![d4c21a3006e0c7f55d167ee7d8c1cc12f5bad331085c8518be7a157651a82939.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/d4c21a3006e0c7f55d167ee7d8c1cc12f5bad331085c8518be7a157651a82939.jpg)
+
+![dc352a54fae9117e5dba720c1df8bbde6a5ae67fabc7798f1557ac25d928c3d0.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/dc352a54fae9117e5dba720c1df8bbde6a5ae67fabc7798f1557ac25d928c3d0.jpg)
+
+![e518bb69be37399424f6d7b08cf366710b8972637aa88bc53c8de9fa64161139.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/e518bb69be37399424f6d7b08cf366710b8972637aa88bc53c8de9fa64161139.jpg)
+
+![f6992d24e1911fe11927642222cae8dc28c55c6ef6cf4fd955ed5f919348963d.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/images/f6992d24e1911fe11927642222cae8dc28c55c6ef6cf4fd955ed5f919348963d.jpg)
+
+### Tables
+
+![2ad314a8c1501676f1034df853851720062944f7a4cf7bc6e2ce15ccf654b27d.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/tables/2ad314a8c1501676f1034df853851720062944f7a4cf7bc6e2ce15ccf654b27d.jpg)
+
+![3aa3be89f5ad24143fbe358b773c8d9cba0199659512d5c43628530cd9659f79.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/tables/3aa3be89f5ad24143fbe358b773c8d9cba0199659512d5c43628530cd9659f79.jpg)
+
+![655c8ba8737a05a6ef5cd000f701b45cafc52b882e97660ebae27d320b3b880a.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/tables/655c8ba8737a05a6ef5cd000f701b45cafc52b882e97660ebae27d320b3b880a.jpg)
+
+![e6b0f6427222503f0ad78b6c88c0308027abed77cf61e07e8c28f7e04c0c6d2e.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/tables/e6b0f6427222503f0ad78b6c88c0308027abed77cf61e07e8c28f7e04c0c6d2e.jpg)
+
+![f13b74f3fb05adc9a8ceef5092cb7872404197c87b53aa7e8aab24cdd3af3afe.jpg](acl_results/1014_ConceptCarve_ Dynamic Realization of Evidence/tables/f13b74f3fb05adc9a8ceef5092cb7872404197c87b53aa7e8aab24cdd3af3afe.jpg)
+
+## QQSUM: A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Question Answering
+
+### Images
+
+![5c3e2635cb14e11d5f8948251e11edfe85a444dfec1f57e67bfecf591d714a1e.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/images/5c3e2635cb14e11d5f8948251e11edfe85a444dfec1f57e67bfecf591d714a1e.jpg)
+
+![7e26a59b794a96127e324614dca47c98a603dbcd86c3ff936a1b3bc48f422bb9.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/images/7e26a59b794a96127e324614dca47c98a603dbcd86c3ff936a1b3bc48f422bb9.jpg)
+
+![b7af18844eee344f2488afbfa456d531c06ff352ff187413a1e71fead8a52e6e.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/images/b7af18844eee344f2488afbfa456d531c06ff352ff187413a1e71fead8a52e6e.jpg)
+
+### Tables
+
+![0e24c191710d7288ef901696f8dcc013a2358a2c5aaffdcb28eb837d9e3bc765.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/0e24c191710d7288ef901696f8dcc013a2358a2c5aaffdcb28eb837d9e3bc765.jpg)
+
+![4cf27c7f372d6aa6cb1a2d56798b93acf4a3251673234c161845c52db7a5e539.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/4cf27c7f372d6aa6cb1a2d56798b93acf4a3251673234c161845c52db7a5e539.jpg)
+
+![535cba620fc1bae6435c90e5c0bc7969741a8730723e295571a20c84cff89cd2.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/535cba620fc1bae6435c90e5c0bc7969741a8730723e295571a20c84cff89cd2.jpg)
+
+![53ee84cf125b8aeb07bf9c24ace8368a0a050427be47cbfd7bca13ba3407aaf4.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/53ee84cf125b8aeb07bf9c24ace8368a0a050427be47cbfd7bca13ba3407aaf4.jpg)
+
+![5594b12ae984d4b2c99c18da3ff5eb1773f5fc9bf193897e4656d8be41217c17.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/5594b12ae984d4b2c99c18da3ff5eb1773f5fc9bf193897e4656d8be41217c17.jpg)
+
+![5d90b36b1c11631295a7c7e09e8418ad612770bf56643511c11cdfa60dbb2932.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/5d90b36b1c11631295a7c7e09e8418ad612770bf56643511c11cdfa60dbb2932.jpg)
+
+![7cab130ca87b4a2ecf43109337915058b358f3356a408f38ce8aa637e40ddeb6.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/7cab130ca87b4a2ecf43109337915058b358f3356a408f38ce8aa637e40ddeb6.jpg)
+
+![8c8860ffd5da3f649a4a4c4d55a56679605e98747f9bdcde79676f938d3d360f.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/8c8860ffd5da3f649a4a4c4d55a56679605e98747f9bdcde79676f938d3d360f.jpg)
+
+![8e51504bd9e5ddfd6358c02a03f8e6fb63b5232318e7c8e938f78f37f65688d7.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/8e51504bd9e5ddfd6358c02a03f8e6fb63b5232318e7c8e938f78f37f65688d7.jpg)
+
+![9113927e551cf4c92e096c18d932dd8ec33f5388bd2c3cba046f723d87afb0c5.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/9113927e551cf4c92e096c18d932dd8ec33f5388bd2c3cba046f723d87afb0c5.jpg)
+
+![960c6a3e8c50d620946544d1e076b8b7a6079f6d4ebce1bf3913c5d0b42e257d.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/960c6a3e8c50d620946544d1e076b8b7a6079f6d4ebce1bf3913c5d0b42e257d.jpg)
+
+![ab76a720576af9305c9ab9eed15cd4273e62d35028623e084c13f6470e3b49f2.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/ab76a720576af9305c9ab9eed15cd4273e62d35028623e084c13f6470e3b49f2.jpg)
+
+![c6a5ea1af7fe80bd0f061554ebea2722ea5d00ee522b02e5af31588f0f823f52.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/c6a5ea1af7fe80bd0f061554ebea2722ea5d00ee522b02e5af31588f0f823f52.jpg)
+
+![e8566a05b24fd00a8ed94753150d06ed6613f5574ac0a46408cdb9493fc53aba.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/e8566a05b24fd00a8ed94753150d06ed6613f5574ac0a46408cdb9493fc53aba.jpg)
+
+![eebaffe7c58f70a4367d820d8de9cafc7860db8ea1885234d73f6b8fc12c4e01.jpg](acl_results/1015_QQSUM_ A Novel Task and Model of Quantitative Query-Focused Summarization for Review-based Product Q/tables/eebaffe7c58f70a4367d820d8de9cafc7860db8ea1885234d73f6b8fc12c4e01.jpg)
+
+## Navigating Rifts in Human-LLMGrounding: Study and Benchmark
+
+### Images
+
+![30e4634adec7a3e75effebcb30d9b1011c36ae709cc51f5f6d1c7f276d19bfdd.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/images/30e4634adec7a3e75effebcb30d9b1011c36ae709cc51f5f6d1c7f276d19bfdd.jpg)
+
+![5bb3cfba6043ced57b753fed3f167f4746d28466df70f356452aeda202cbcce9.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/images/5bb3cfba6043ced57b753fed3f167f4746d28466df70f356452aeda202cbcce9.jpg)
+
+![7825f2b3923e9847e6179691fcb59b2b231cba963001d4d4fec788aa164224b3.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/images/7825f2b3923e9847e6179691fcb59b2b231cba963001d4d4fec788aa164224b3.jpg)
+
+![96af2a1d863cf0578e531557bf7bd0be1f756cab55e98a1f9709b589392a0536.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/images/96af2a1d863cf0578e531557bf7bd0be1f756cab55e98a1f9709b589392a0536.jpg)
+
+![e4a82e730457848ca674b4c69314641a8ca0f69df607ea267d7facf5e0342f4b.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/images/e4a82e730457848ca674b4c69314641a8ca0f69df607ea267d7facf5e0342f4b.jpg)
+
+### Tables
+
+![14b51c2b5ae8a6353be0383021ffbd7a85a371b7e7a178f71b72766ddc7e91a3.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/14b51c2b5ae8a6353be0383021ffbd7a85a371b7e7a178f71b72766ddc7e91a3.jpg)
+
+![14dd65dec11cf00f1f8af035ae25c746dd62c2d84fc60b3df68d350dbb6c146a.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/14dd65dec11cf00f1f8af035ae25c746dd62c2d84fc60b3df68d350dbb6c146a.jpg)
+
+![73828410f39d6436e9202892a8faccdcfb08bd1cbf22ec7c64624ec5dd85d07d.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/73828410f39d6436e9202892a8faccdcfb08bd1cbf22ec7c64624ec5dd85d07d.jpg)
+
+![79aaa0794149a8b26e5d827d1d9b3f2f4348d4306a4edeea43b70e66cd953eb9.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/79aaa0794149a8b26e5d827d1d9b3f2f4348d4306a4edeea43b70e66cd953eb9.jpg)
+
+![b3372b6e79ae5719f39d86ad17e0d85535e977c9c7a1067e60caea48e65e991f.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/b3372b6e79ae5719f39d86ad17e0d85535e977c9c7a1067e60caea48e65e991f.jpg)
+
+![b78711cbc43aa2654502611498d5f2a2fac47b21f33b3ab060f793bc0706ae45.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/b78711cbc43aa2654502611498d5f2a2fac47b21f33b3ab060f793bc0706ae45.jpg)
+
+![d1ccada9fc5fa8b0b6bb2726ea2b6ceb66a90a4431a9e1e65fb5a90cf56150de.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/d1ccada9fc5fa8b0b6bb2726ea2b6ceb66a90a4431a9e1e65fb5a90cf56150de.jpg)
+
+![d68bdce2c4313d0546a17153a708cbb2c71d6b9dc318cbbe838d201dd6adff3e.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/d68bdce2c4313d0546a17153a708cbb2c71d6b9dc318cbbe838d201dd6adff3e.jpg)
+
+![d772243ee6c4b600329bcf03271460dd9363ebbf0f55749eec2681bf0b311bb8.jpg](acl_results/1016_Navigating Rifts in Human-LLMGrounding_ Study and Benchmark/tables/d772243ee6c4b600329bcf03271460dd9363ebbf0f55749eec2681bf0b311bb8.jpg)
+
+## Substance over Style: Evaluating Proactive Conversational Coaching Agents
+
+### Images
+
+![56f7162ff21df28b1f11809e941cb29bef36965c1c81616a81870e63ceac1671.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/56f7162ff21df28b1f11809e941cb29bef36965c1c81616a81870e63ceac1671.jpg)
+
+![7d5d7e735b4cff771aed08696cca7fddc4bf3151cf37a57e161473685a8c32e1.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/7d5d7e735b4cff771aed08696cca7fddc4bf3151cf37a57e161473685a8c32e1.jpg)
+
+![7d84eb7cf847900b6f162556b1124a7e6886b3b4b4a32f89d8fd9e8ff4a9e721.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/7d84eb7cf847900b6f162556b1124a7e6886b3b4b4a32f89d8fd9e8ff4a9e721.jpg)
+
+![a3f9ff45d7224a275f63262ea88015b0ef98216926f5f62960c01dd9c58030e0.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/a3f9ff45d7224a275f63262ea88015b0ef98216926f5f62960c01dd9c58030e0.jpg)
+
+![c0c2f544f4fcec98c0f5c042dd504b0db42fcfe4b0181e5b4642d7f824679cfd.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/c0c2f544f4fcec98c0f5c042dd504b0db42fcfe4b0181e5b4642d7f824679cfd.jpg)
+
+![c4d750efd6ce860b9945cf0aedaf85cf42e567ef66278cd9cf1fcd641d872a46.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/c4d750efd6ce860b9945cf0aedaf85cf42e567ef66278cd9cf1fcd641d872a46.jpg)
+
+![c90270f4897555a68c0ec7a3425c4e5c1e9fe4972f2b2d817dfe912d21d6eb8d.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/c90270f4897555a68c0ec7a3425c4e5c1e9fe4972f2b2d817dfe912d21d6eb8d.jpg)
+
+![cb55843c135dac3ca8c49dbc89e56eee098c4ae645ec6b7046f7ca63ae18c165.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/images/cb55843c135dac3ca8c49dbc89e56eee098c4ae645ec6b7046f7ca63ae18c165.jpg)
+
+### Tables
+
+![1cb8463f9105c51f01f57823216cf3126d492eb7103cbd67c97caa1066e7cae1.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/1cb8463f9105c51f01f57823216cf3126d492eb7103cbd67c97caa1066e7cae1.jpg)
+
+![50ee4d924e15344d3f6ce779954582a8c2ceb4fa4e07607ab9688672d51891fd.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/50ee4d924e15344d3f6ce779954582a8c2ceb4fa4e07607ab9688672d51891fd.jpg)
+
+![52e099fec1329f66f265578e2025c0c786835b43a9d6bd69ec2d909150c39936.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/52e099fec1329f66f265578e2025c0c786835b43a9d6bd69ec2d909150c39936.jpg)
+
+![7f54ee23f534a146827ce8ce59c425779d6d54b64d3f3844b7021db8a6ff20e0.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/7f54ee23f534a146827ce8ce59c425779d6d54b64d3f3844b7021db8a6ff20e0.jpg)
+
+![9b8b2ea866bbe34e5572b981bfa45d695b88bc787e44c6069c0abc7d96f0729e.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/9b8b2ea866bbe34e5572b981bfa45d695b88bc787e44c6069c0abc7d96f0729e.jpg)
+
+![a7c0230cdefa390fcccd34168dd37e3198339a7eea23bb3d6c2ba4e6dcdc7968.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/a7c0230cdefa390fcccd34168dd37e3198339a7eea23bb3d6c2ba4e6dcdc7968.jpg)
+
+![bdcb1666c8d5bbde25621c33eddaf71ebe9d0a61e5ca4dabf39a2ccfb8b7db36.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/bdcb1666c8d5bbde25621c33eddaf71ebe9d0a61e5ca4dabf39a2ccfb8b7db36.jpg)
+
+![db51826fa7dc1bee5cb0db01317a8fa913c2676a792896e7689faf0584dcb858.jpg](acl_results/1017_Substance over Style_ Evaluating Proactive Conversational Coaching Agents/tables/db51826fa7dc1bee5cb0db01317a8fa913c2676a792896e7689faf0584dcb858.jpg)
+
+## Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents
+
+### Images
+
+![2735d8332ab5f1569d866454b8c844f5a2ccde0eff20a402763de8ec9a4750d5.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/images/2735d8332ab5f1569d866454b8c844f5a2ccde0eff20a402763de8ec9a4750d5.jpg)
+
+![6779a6ba9053d612ee3d20fa9fe1b1827e5222362ba425614b5e751c0c53e933.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/images/6779a6ba9053d612ee3d20fa9fe1b1827e5222362ba425614b5e751c0c53e933.jpg)
+
+![82666aee3ed591e88a3b9f336a9ae0bf7d947a703d23cd7a043b960ed7ddd481.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/images/82666aee3ed591e88a3b9f336a9ae0bf7d947a703d23cd7a043b960ed7ddd481.jpg)
+
+![a5dd759670d34fe327fa4b0e245752989e6fd0399c27137d6099db2deaeb4cf4.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/images/a5dd759670d34fe327fa4b0e245752989e6fd0399c27137d6099db2deaeb4cf4.jpg)
+
+### Tables
+
+![1bed92d3d1fd3f166e0a43187b4d83ded8b715016fbf1125e1e87b7dc3399793.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/1bed92d3d1fd3f166e0a43187b4d83ded8b715016fbf1125e1e87b7dc3399793.jpg)
+
+![33e97e239b11c7c28aa58758b1dbc9c73cf4cd6c5c1fd776af37e44673b0d292.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/33e97e239b11c7c28aa58758b1dbc9c73cf4cd6c5c1fd776af37e44673b0d292.jpg)
+
+![5013a159b26d4bff5dfb39728d23e67533368a84e99686f07cb7fa58b6c05bfb.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/5013a159b26d4bff5dfb39728d23e67533368a84e99686f07cb7fa58b6c05bfb.jpg)
+
+![786054adb277f5e1419a11fb7e45b038800a19f21169d30a30bc747b01fb5e44.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/786054adb277f5e1419a11fb7e45b038800a19f21169d30a30bc747b01fb5e44.jpg)
+
+![8e1f92c79f75f477e6574253a99343a5505bc6e245a4b6a46b5bfebdc65276be.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/8e1f92c79f75f477e6574253a99343a5505bc6e245a4b6a46b5bfebdc65276be.jpg)
+
+![bc9df64e660b722737ee817851f3938c158d6b950dcd8af782fce606038b83bd.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/bc9df64e660b722737ee817851f3938c158d6b950dcd8af782fce606038b83bd.jpg)
+
+![bfb9607e6dac31007c4647de8bba4e951d1a4ef3552df279573a558cbec1e18f.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/bfb9607e6dac31007c4647de8bba4e951d1a4ef3552df279573a558cbec1e18f.jpg)
+
+![da73a570c62733ffec8aa7e30dde5ecdcffbf23d0125bbadf332b8be173601dd.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/da73a570c62733ffec8aa7e30dde5ecdcffbf23d0125bbadf332b8be173601dd.jpg)
+
+![e2561fc51e5e7a74428ca422eb75d36294019d0098c335e1771e2d106ca16a67.jpg](acl_results/1018_Open-World Planning via Lifted Regression withLLM-Inferred Affordances for Embodied Agents/tables/e2561fc51e5e7a74428ca422eb75d36294019d0098c335e1771e2d106ca16a67.jpg)
+
+## (RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding
+
+### Images
+
+![01d60f330e0ece23d98a13679265e27bd15488798351661cc0f39e7140687e2f.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/01d60f330e0ece23d98a13679265e27bd15488798351661cc0f39e7140687e2f.jpg)
+
+![0afeda64989272cb8bb2501f6755d382b2ffd9b5ca11480dfa37dfc6cef2f3a3.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/0afeda64989272cb8bb2501f6755d382b2ffd9b5ca11480dfa37dfc6cef2f3a3.jpg)
+
+![0cbc4eec1bf146eaf500b9518447fa7a01626d278790cb831b77bde233b730a8.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/0cbc4eec1bf146eaf500b9518447fa7a01626d278790cb831b77bde233b730a8.jpg)
+
+![32b6b011f5db05023da4e18cb7155e89203f52548d1cc7e3e88e34084702b324.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/32b6b011f5db05023da4e18cb7155e89203f52548d1cc7e3e88e34084702b324.jpg)
+
+![3415e438ad5eeb0dac948e42970f298e4a7be1b2effd338cd025fef6c8ff3412.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/3415e438ad5eeb0dac948e42970f298e4a7be1b2effd338cd025fef6c8ff3412.jpg)
+
+![3d2a0c77ebc9bb9295b56d1b91a85f1ec5f837521d6cc70841bcf2056a77c4f7.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/3d2a0c77ebc9bb9295b56d1b91a85f1ec5f837521d6cc70841bcf2056a77c4f7.jpg)
+
+![541cfe1eb59af895dc715e7c3776852d4909a8bdfbeb685e8c02f4b5b6a358f1.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/541cfe1eb59af895dc715e7c3776852d4909a8bdfbeb685e8c02f4b5b6a358f1.jpg)
+
+![650e0d64bf4ab85eae3d472dd4525107b016f1510e9363f32aeffdb063e2a2ef.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/650e0d64bf4ab85eae3d472dd4525107b016f1510e9363f32aeffdb063e2a2ef.jpg)
+
+![9411996bda1287112c8fec59a28e31565d55f3d9abea55a65e4761db66bb46d2.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/9411996bda1287112c8fec59a28e31565d55f3d9abea55a65e4761db66bb46d2.jpg)
+
+![a03933120e3efd9ab1c55731f787c12826ca91cbdbcd243016d94633395f1f52.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/a03933120e3efd9ab1c55731f787c12826ca91cbdbcd243016d94633395f1f52.jpg)
+
+![a1ee057c811a3440f55f502ff51a6373605ac3bbd987a4cc5fa7ad8b8772b25c.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/a1ee057c811a3440f55f502ff51a6373605ac3bbd987a4cc5fa7ad8b8772b25c.jpg)
+
+![ad957c067a9f4b0a40ebea9f6efd597bf6342745f3e81196f6260c3804c6ea9d.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/ad957c067a9f4b0a40ebea9f6efd597bf6342745f3e81196f6260c3804c6ea9d.jpg)
+
+![be25509349da737c96aed54c88f638aeea3ccdb89a681560363e6aab05417025.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/be25509349da737c96aed54c88f638aeea3ccdb89a681560363e6aab05417025.jpg)
+
+![be5b49f31c62df5e3dd9a95dffc92fe6ab3d70cba4a91d7a113e57a3b8d5490d.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/be5b49f31c62df5e3dd9a95dffc92fe6ab3d70cba4a91d7a113e57a3b8d5490d.jpg)
+
+![c7abd3592d2f2550d8948c778b2a81df358f0e946472b9ca83ab24f06e9af1fe.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/c7abd3592d2f2550d8948c778b2a81df358f0e946472b9ca83ab24f06e9af1fe.jpg)
+
+![d15dfadce0dbcb43743d1bbd141e74d515570ce235207e8f4a536401176b149d.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/d15dfadce0dbcb43743d1bbd141e74d515570ce235207e8f4a536401176b149d.jpg)
+
+![d71e082b1b03f78500ba47e52c9def3b64c82f70999b425f7e5f987cea8d5bbd.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/d71e082b1b03f78500ba47e52c9def3b64c82f70999b425f7e5f987cea8d5bbd.jpg)
+
+![df52cff2350c82bcb52c55cfa8c756474365b33316d575508d0fbad0fb08330a.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/df52cff2350c82bcb52c55cfa8c756474365b33316d575508d0fbad0fb08330a.jpg)
+
+![e546ab688a1fefd6906dc2787cb04227a6cfcaa7bb58dbdf52cb66e5cc6b5f5c.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/e546ab688a1fefd6906dc2787cb04227a6cfcaa7bb58dbdf52cb66e5cc6b5f5c.jpg)
+
+![f7906eefefc5fe4fa24eb384c5ff4a707f55df68fded6264dc17596f9c009b53.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/f7906eefefc5fe4fa24eb384c5ff4a707f55df68fded6264dc17596f9c009b53.jpg)
+
+![fbb872b9fca72a4c85bb81188285e2742bfdb565692071c9c27ea67c0eb55bb5.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/images/fbb872b9fca72a4c85bb81188285e2742bfdb565692071c9c27ea67c0eb55bb5.jpg)
+
+### Tables
+
+![007d9f688100ff67bc8ddfc4deeaed54235c8b23cd95c7f32b497932a4260e79.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/tables/007d9f688100ff67bc8ddfc4deeaed54235c8b23cd95c7f32b497932a4260e79.jpg)
+
+![1f1cb896d3d680ec9d5da7f4ec24c94a65569f1f61a4e3d8a6527bf4bb9baef0.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/tables/1f1cb896d3d680ec9d5da7f4ec24c94a65569f1f61a4e3d8a6527bf4bb9baef0.jpg)
+
+![8648845203fcec00b658dde5e74d6cbc9eb3717f34ed4abcda084d0fd7cc9636.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/tables/8648845203fcec00b658dde5e74d6cbc9eb3717f34ed4abcda084d0fd7cc9636.jpg)
+
+![c499a998924aa093f791d1655212e2569be4470b2125689e2549b715e73ca54a.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/tables/c499a998924aa093f791d1655212e2569be4470b2125689e2549b715e73ca54a.jpg)
+
+![c7ce4f9af253bb208f969fe242bd94eb8fc440e294e1b68db225ae219df59eea.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/tables/c7ce4f9af253bb208f969fe242bd94eb8fc440e294e1b68db225ae219df59eea.jpg)
+
+![e33aa7386355fa3ec7e908516c838d96518ec998d3a4e4e0244a2d415b2c77db.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/tables/e33aa7386355fa3ec7e908516c838d96518ec998d3a4e4e0244a2d415b2c77db.jpg)
+
+![e9341e81d9a176569b8d134b188b84da01ff16c90dc9fe9ca66695c3b2ffda58.jpg](acl_results/1019_(RSA)²_ A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understand/tables/e9341e81d9a176569b8d134b188b84da01ff16c90dc9fe9ca66695c3b2ffda58.jpg)
+
+## SYNTHIA: Novel Concept Design with Affordance Composition
+
+### Images
+
+![05955810458e1214a5ee9f296766d5b1c5f44e3af6a91b144d280794fc28ddb5.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/05955810458e1214a5ee9f296766d5b1c5f44e3af6a91b144d280794fc28ddb5.jpg)
+
+![28d8f05ec77a28582d59448aba566988e9d88d6cdddfcc4e331487ac134bfb80.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/28d8f05ec77a28582d59448aba566988e9d88d6cdddfcc4e331487ac134bfb80.jpg)
+
+![7465a04bbeb4f0f4acdda2fb6652a9ad50d2b5792ab8377c350414e02e6f8569.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/7465a04bbeb4f0f4acdda2fb6652a9ad50d2b5792ab8377c350414e02e6f8569.jpg)
+
+![781e1eacf669e002b608acf2f4f15c4efbc4abd00d2178d2bd3a509ca0cbbe67.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/781e1eacf669e002b608acf2f4f15c4efbc4abd00d2178d2bd3a509ca0cbbe67.jpg)
+
+![a70d93f60fe004169932a2b3a3cf87cddb76d3e627cd59445d3db9d89ed0747c.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/a70d93f60fe004169932a2b3a3cf87cddb76d3e627cd59445d3db9d89ed0747c.jpg)
+
+![b4764c090cc355873882ec4b16e220ebde8e1628f7fed34bfa729fa53c7b7b65.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/b4764c090cc355873882ec4b16e220ebde8e1628f7fed34bfa729fa53c7b7b65.jpg)
+
+![bf98bbe0ce0895fb2002d6e83203de4ff874c2569cb5037d7525f5ffecce360b.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/bf98bbe0ce0895fb2002d6e83203de4ff874c2569cb5037d7525f5ffecce360b.jpg)
+
+![e0ad9af80f9d75052e85dd2051dab7c00c4141a67a5233a56ca7e598af90aa68.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/e0ad9af80f9d75052e85dd2051dab7c00c4141a67a5233a56ca7e598af90aa68.jpg)
+
+![e402b99818eaeadb4ed49f8a5d1bb4de3f005a68587d1f9d472176d90f1a7942.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/images/e402b99818eaeadb4ed49f8a5d1bb4de3f005a68587d1f9d472176d90f1a7942.jpg)
+
+### Tables
+
+![0a3f9126c0c4a0f85ed2f87b0a65f6f2f5caf857a4f2562d8fdad76a5e707c60.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/tables/0a3f9126c0c4a0f85ed2f87b0a65f6f2f5caf857a4f2562d8fdad76a5e707c60.jpg)
+
+![16991ebef3a3707a7ea8bf33f0a4ac29c25fc98cf82326666d1bfbdc78ff9448.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/tables/16991ebef3a3707a7ea8bf33f0a4ac29c25fc98cf82326666d1bfbdc78ff9448.jpg)
+
+![1d0c0b627dee55b333938a91eba21742688ac022daf48d7d53c5ef29eda8652f.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/tables/1d0c0b627dee55b333938a91eba21742688ac022daf48d7d53c5ef29eda8652f.jpg)
+
+![5ae73506fbfbf6792dc46a907c31bc008d7e675aa249bbd0b1fc03af772abb80.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/tables/5ae73506fbfbf6792dc46a907c31bc008d7e675aa249bbd0b1fc03af772abb80.jpg)
+
+![d88696da9351fc95aa74339aec5489af029162f84d674e958201d916fe83d761.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/tables/d88696da9351fc95aa74339aec5489af029162f84d674e958201d916fe83d761.jpg)
+
+![e3e8f8dfcc13d75f5f889afb23998c7a7898ad44fd3ef4280323618a3e7b830a.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/tables/e3e8f8dfcc13d75f5f889afb23998c7a7898ad44fd3ef4280323618a3e7b830a.jpg)
+
+![e4a0f22fce9a8cf2525766745761f7c94db90d82bcc9fd3881a63ea2c5fa0c42.jpg](acl_results/1020_SYNTHIA_ Novel Concept Design with Affordance Composition/tables/e4a0f22fce9a8cf2525766745761f7c94db90d82bcc9fd3881a63ea2c5fa0c42.jpg)
+
+## Consistent Client Simulation for Motivational Interviewing-based Counseling
+
+### Images
+
+![6afbaf6d1ec11a020eb7c77dab567c28b8f7c6287bba788263b53e027e5a1763.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/images/6afbaf6d1ec11a020eb7c77dab567c28b8f7c6287bba788263b53e027e5a1763.jpg)
+
+![a682361bdcdac3b89d18c35cfc8699d4f39df138695c5e73177f696cc0825928.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/images/a682361bdcdac3b89d18c35cfc8699d4f39df138695c5e73177f696cc0825928.jpg)
+
+![b5026d5a9946c0c21c4b4771427f4cf54e8de7fac3f9d97f5269fae6ba65e948.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/images/b5026d5a9946c0c21c4b4771427f4cf54e8de7fac3f9d97f5269fae6ba65e948.jpg)
+
+![c590df43854b084fb9197916a4f2c0ed241dbcdf12367ec4306f848b9d96c534.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/images/c590df43854b084fb9197916a4f2c0ed241dbcdf12367ec4306f848b9d96c534.jpg)
+
+![e41df97c9e20c13fcffaee2231973cc7e7cf0f378e61247548eec1e0c8638329.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/images/e41df97c9e20c13fcffaee2231973cc7e7cf0f378e61247548eec1e0c8638329.jpg)
+
+### Tables
+
+![067b2a72522102330e41614d656a7016ae24198cd134edb231d063c3c659c8cb.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/067b2a72522102330e41614d656a7016ae24198cd134edb231d063c3c659c8cb.jpg)
+
+![140e8579cb0343819526598e688792bdb4771fa80c8250a1839949286b3463bd.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/140e8579cb0343819526598e688792bdb4771fa80c8250a1839949286b3463bd.jpg)
+
+![2c3c9a44e6f522a981866b210366166082f9ce20f4f2d12c8f3c13d40b975893.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/2c3c9a44e6f522a981866b210366166082f9ce20f4f2d12c8f3c13d40b975893.jpg)
+
+![3979483d608c4ea897f05b2f56a461a9f37bef3f86ee634e803c92b437a427d8.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/3979483d608c4ea897f05b2f56a461a9f37bef3f86ee634e803c92b437a427d8.jpg)
+
+![3f0e19e4ecfd4545834adff5fe1c58081754bef0d9dac57fab08ba917e8e721f.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/3f0e19e4ecfd4545834adff5fe1c58081754bef0d9dac57fab08ba917e8e721f.jpg)
+
+![5141a244bf4bd6b41269d32e689a596e84d028b1afcc5618f73b60edb6b3348b.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/5141a244bf4bd6b41269d32e689a596e84d028b1afcc5618f73b60edb6b3348b.jpg)
+
+![5a55be6a0f80c36c7bed4a0f39b87a194a6e5926f96f074ec59c0cb6630c7ecd.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/5a55be6a0f80c36c7bed4a0f39b87a194a6e5926f96f074ec59c0cb6630c7ecd.jpg)
+
+![6093147ce10622476171e458dab288cdc7324216dbffd904dc94dfdf35b2f2d3.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/6093147ce10622476171e458dab288cdc7324216dbffd904dc94dfdf35b2f2d3.jpg)
+
+![7b0c1cb9f4d9d739cd638dbd88eb3587d07c59dab873efb0129c1ea17be8adf7.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/7b0c1cb9f4d9d739cd638dbd88eb3587d07c59dab873efb0129c1ea17be8adf7.jpg)
+
+![8112a9da39e660822d296a1111fbffdce8fb7af4b667d69a3f7939d7ae941ff6.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/8112a9da39e660822d296a1111fbffdce8fb7af4b667d69a3f7939d7ae941ff6.jpg)
+
+![8ad5e56f63bf0e518907d373192d683396d10acb7641d8a1c263dffff8d768af.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/8ad5e56f63bf0e518907d373192d683396d10acb7641d8a1c263dffff8d768af.jpg)
+
+![8d5a27feca5a760736a609f7acc07dca399a0c6453818525fc5d80dd12e27e98.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/8d5a27feca5a760736a609f7acc07dca399a0c6453818525fc5d80dd12e27e98.jpg)
+
+![8df457ee51f971e08e4ceb9387e27542dab3e2642a42ddac765538a0f2c7119d.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/8df457ee51f971e08e4ceb9387e27542dab3e2642a42ddac765538a0f2c7119d.jpg)
+
+![98cd4385c85f7cf8b130152a753674cf472c29673837c4fce8cebc4bf8b25915.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/98cd4385c85f7cf8b130152a753674cf472c29673837c4fce8cebc4bf8b25915.jpg)
+
+![9c2b9f3ce3a5a1eaf403c4aef0e09df6a990306e7a06155d4e8c4f0dd98924ce.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/9c2b9f3ce3a5a1eaf403c4aef0e09df6a990306e7a06155d4e8c4f0dd98924ce.jpg)
+
+![9c917a122885dd8bb847abfe29497aa7771e40954cb8f5541a1bc32a651d654c.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/9c917a122885dd8bb847abfe29497aa7771e40954cb8f5541a1bc32a651d654c.jpg)
+
+![a718b72d0f1a8f4f994639351ecf6c2bd48e7fed3e2041027d2e33ea4a9d6ee0.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/a718b72d0f1a8f4f994639351ecf6c2bd48e7fed3e2041027d2e33ea4a9d6ee0.jpg)
+
+![af1f3c07ac4dd026e487fee13b848bddaf816146ba01f6db79c5e226c62ac80d.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/af1f3c07ac4dd026e487fee13b848bddaf816146ba01f6db79c5e226c62ac80d.jpg)
+
+![b009a9dfc09d870bf44ffa8f382ffc15e8e45255732273198ae83d06b101911b.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/b009a9dfc09d870bf44ffa8f382ffc15e8e45255732273198ae83d06b101911b.jpg)
+
+![b3b9a835e7858978d920f8a048c310ec79191c71a765c9d74d1e07acdcd0c175.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/b3b9a835e7858978d920f8a048c310ec79191c71a765c9d74d1e07acdcd0c175.jpg)
+
+![b7cbb08ca4c9593d5b4035ed40bbdd1cdc3bd6506d29e93d4d16203913098216.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/b7cbb08ca4c9593d5b4035ed40bbdd1cdc3bd6506d29e93d4d16203913098216.jpg)
+
+![c3ad450e7ae8175fb17ad169c7047cf6eaf21c14ccb87945109649955d59565c.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/c3ad450e7ae8175fb17ad169c7047cf6eaf21c14ccb87945109649955d59565c.jpg)
+
+![c5ff17f3545f0bac22620fb398118f6a726e2c3775d67347dc519c0ec4ab5d6c.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/c5ff17f3545f0bac22620fb398118f6a726e2c3775d67347dc519c0ec4ab5d6c.jpg)
+
+![ca7be49c7d809f452ce54d54905b869233d00e741b84dc53c2ada07e5b6e7930.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/ca7be49c7d809f452ce54d54905b869233d00e741b84dc53c2ada07e5b6e7930.jpg)
+
+![ccb43d4f8bcfebc184dc9d7cea7bdc36b7740f28d7f60d9278b56edca334d9e6.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/ccb43d4f8bcfebc184dc9d7cea7bdc36b7740f28d7f60d9278b56edca334d9e6.jpg)
+
+![efcee63f94e449674c0ce49f428c37f509eae69dbe7e47d7c93ee8366ea74a80.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/efcee63f94e449674c0ce49f428c37f509eae69dbe7e47d7c93ee8366ea74a80.jpg)
+
+![f4e949c6803c8bbd1bba59c953894282617153506db8e1718e9d66c4713f670b.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/f4e949c6803c8bbd1bba59c953894282617153506db8e1718e9d66c4713f670b.jpg)
+
+![fa56d8decea4843bf5f21f83a83733f0215e93e8164cbcad45b7438c5cc71f21.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/fa56d8decea4843bf5f21f83a83733f0215e93e8164cbcad45b7438c5cc71f21.jpg)
+
+![fc868c0c8e43b2d9393e04531fb1b2a029d00aab444324da7f7ded4dda936abd.jpg](acl_results/1021_Consistent Client Simulation for Motivational Interviewing-based Counseling/tables/fc868c0c8e43b2d9393e04531fb1b2a029d00aab444324da7f7ded4dda936abd.jpg)
+
+## AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context
+
+### Images
+
+![1bba397e368c6c29bae1870f3fe2852e7fb02f93a1e0e16ab75830ecea26cdf0.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/images/1bba397e368c6c29bae1870f3fe2852e7fb02f93a1e0e16ab75830ecea26cdf0.jpg)
+
+![22b70f3b007ab43bf99a55b9a0a8f64c93fa27772bf99349191ba42c75fb2228.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/images/22b70f3b007ab43bf99a55b9a0a8f64c93fa27772bf99349191ba42c75fb2228.jpg)
+
+![30082a8401b1fe9830fc1761860001850b766065d7d52704bd92b40c8eb5f851.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/images/30082a8401b1fe9830fc1761860001850b766065d7d52704bd92b40c8eb5f851.jpg)
+
+![53775b17dcd5d98183c506052033dbbef0b944d044350dbdb644e92170002ad2.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/images/53775b17dcd5d98183c506052033dbbef0b944d044350dbdb644e92170002ad2.jpg)
+
+![6caeebec0c4e2c224ea02458bf472be8571443bf6a49692590d688907ca755ff.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/images/6caeebec0c4e2c224ea02458bf472be8571443bf6a49692590d688907ca755ff.jpg)
+
+![ca29d4a389be4a1590c80de685f4934d48d5468fd3b24287e1ede29f0c7ca67e.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/images/ca29d4a389be4a1590c80de685f4934d48d5468fd3b24287e1ede29f0c7ca67e.jpg)
+
+![d814d7476f62e6850e87645814b4faea38254a8cc1d3509054c764c326f9c8c5.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/images/d814d7476f62e6850e87645814b4faea38254a8cc1d3509054c764c326f9c8c5.jpg)
+
+### Tables
+
+![777e39311a607e2f359c9ae4f30b2a22b93f250e1c0960f5541211869dd1878f.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/tables/777e39311a607e2f359c9ae4f30b2a22b93f250e1c0960f5541211869dd1878f.jpg)
+
+![7e6f3668e965f4214c120d5eab5e0f280dac3b43041a193817eba93b8e207ba5.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/tables/7e6f3668e965f4214c120d5eab5e0f280dac3b43041a193817eba93b8e207ba5.jpg)
+
+![978ae34c6c03d6fa94546b61c34be97d94bd6416ea898d18f1ff035db9abb6a0.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/tables/978ae34c6c03d6fa94546b61c34be97d94bd6416ea898d18f1ff035db9abb6a0.jpg)
+
+![f67e64c881e096e27133e45024d2cc7bf08107693f24d51f28c65b0b734d31c8.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/tables/f67e64c881e096e27133e45024d2cc7bf08107693f24d51f28c65b0b734d31c8.jpg)
+
+![ff8c9ed9c7b2c28a98e60a7ab923a993adc0b4bad6d05a9700f8e44d65bf5618.jpg](acl_results/1022_AUTALIC_ A Dataset for Anti-AUTistic Ableist Language In Context/tables/ff8c9ed9c7b2c28a98e60a7ab923a993adc0b4bad6d05a9700f8e44d65bf5618.jpg)
+
+## Structural Reasoning Improves Molecular Understanding ofLLM
+
+### Images
+
+![230c256ea4fdde8738f02faef32aa5dde404a81d892d2bf689ddeebc93bd533a.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/230c256ea4fdde8738f02faef32aa5dde404a81d892d2bf689ddeebc93bd533a.jpg)
+
+![295a1a9f95df1202df44eec4f8e69ab3f9f7997d95576456cc8eac184ae2ecd7.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/295a1a9f95df1202df44eec4f8e69ab3f9f7997d95576456cc8eac184ae2ecd7.jpg)
+
+![484b74c24100e00c8f9ab202bde995cc2d382215ce01edf8547e510e8d5dde9c.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/484b74c24100e00c8f9ab202bde995cc2d382215ce01edf8547e510e8d5dde9c.jpg)
+
+![5aa51b6ef7211061430228caf59ebb596445c2a83a41b6fd73e58024d6127c66.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/5aa51b6ef7211061430228caf59ebb596445c2a83a41b6fd73e58024d6127c66.jpg)
+
+![66fc6f7efcef79c1a57242d794787bba141d9c0e9c8de05455fea40944c1bf95.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/66fc6f7efcef79c1a57242d794787bba141d9c0e9c8de05455fea40944c1bf95.jpg)
+
+![6fa31fea0d8907240d804fd57206f889242713911314f43037408b53e35ad072.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/6fa31fea0d8907240d804fd57206f889242713911314f43037408b53e35ad072.jpg)
+
+![7a7065e30296d7abf0f93dbe081c85df3898eac0e4cdb473b34e2dfadba2f6c4.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/7a7065e30296d7abf0f93dbe081c85df3898eac0e4cdb473b34e2dfadba2f6c4.jpg)
+
+![848549bd6378481745a2f6e15741cd2787a21c14c8998c5e1ce70efe2a1e35ad.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/848549bd6378481745a2f6e15741cd2787a21c14c8998c5e1ce70efe2a1e35ad.jpg)
+
+![a0e704d643eabe9ce8c5cbbb0c24ddd73f01adbbda0bb44c4d2c7b5f75f7360d.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/a0e704d643eabe9ce8c5cbbb0c24ddd73f01adbbda0bb44c4d2c7b5f75f7360d.jpg)
+
+![c7e5263e3020db0e5f9f051750670168106ad8a0daf80e1a29baecf993155d18.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/c7e5263e3020db0e5f9f051750670168106ad8a0daf80e1a29baecf993155d18.jpg)
+
+![cd04043efbf51ada04e8f24ddccba224d31ca971ef2d471918c0afd3cd825d04.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/cd04043efbf51ada04e8f24ddccba224d31ca971ef2d471918c0afd3cd825d04.jpg)
+
+![dc338704f936d01c2dfa156bd355c159d93241ec18129d02153270524f26f8fb.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/dc338704f936d01c2dfa156bd355c159d93241ec18129d02153270524f26f8fb.jpg)
+
+![de289e3d90d7eaaee7f76716fc7392ed4bb79ef9e507b9da9cd76e35019169ef.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/de289e3d90d7eaaee7f76716fc7392ed4bb79ef9e507b9da9cd76e35019169ef.jpg)
+
+![f3bc597eb095d7198905c1c0d7b7aa0c8a5a3652403446b8ff4de5c3ccf7a7a9.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/images/f3bc597eb095d7198905c1c0d7b7aa0c8a5a3652403446b8ff4de5c3ccf7a7a9.jpg)
+
+### Tables
+
+![07dc89df47f5ad7c17b2d8b449e18408dd9fd273ef04dc6dac6265170ee6b88e.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/07dc89df47f5ad7c17b2d8b449e18408dd9fd273ef04dc6dac6265170ee6b88e.jpg)
+
+![1c46d3cbabb6dd0be1fc260ca8fc6b9da47aa3b7ae8f03f93e45302730f23097.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/1c46d3cbabb6dd0be1fc260ca8fc6b9da47aa3b7ae8f03f93e45302730f23097.jpg)
+
+![27185dffe04efffa4af9dc579df013353359ac23da4a18d2b920a39ac57d1df8.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/27185dffe04efffa4af9dc579df013353359ac23da4a18d2b920a39ac57d1df8.jpg)
+
+![2fdc969d52aedc2d84d850d495538d097d605a1acb20c5a63b99ae5fbfe58f83.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/2fdc969d52aedc2d84d850d495538d097d605a1acb20c5a63b99ae5fbfe58f83.jpg)
+
+![357e20a9ffcace965228ddc95c7787696422dcd87ee578075a32d8275e3dc40d.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/357e20a9ffcace965228ddc95c7787696422dcd87ee578075a32d8275e3dc40d.jpg)
+
+![41f8cc2a81726ed07306fc55a074f3613ac8fe8bafdd7f1d9209ec802bba045c.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/41f8cc2a81726ed07306fc55a074f3613ac8fe8bafdd7f1d9209ec802bba045c.jpg)
+
+![4857dd92ce763b5d14b59627c3ee366bda5df4e897a41aa8186165fb7e94be47.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/4857dd92ce763b5d14b59627c3ee366bda5df4e897a41aa8186165fb7e94be47.jpg)
+
+![6cfe6e9b7cc42cb429f6fba0550915dbe40c158e0c1184c22d0dbf4d51563fcb.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/6cfe6e9b7cc42cb429f6fba0550915dbe40c158e0c1184c22d0dbf4d51563fcb.jpg)
+
+![9583956d5b059f837af7355ec254b7dd96906c32ff30d24c38e335804c962b9c.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/9583956d5b059f837af7355ec254b7dd96906c32ff30d24c38e335804c962b9c.jpg)
+
+![9cf341930a6007d56cbab17f5da1d9632def9e90c75f9a065ec4acf9b920d898.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/9cf341930a6007d56cbab17f5da1d9632def9e90c75f9a065ec4acf9b920d898.jpg)
+
+![9f439a7995cd6e1d40879205ba6d7656d41e328533efea3a1e99d23d71d50c9b.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/9f439a7995cd6e1d40879205ba6d7656d41e328533efea3a1e99d23d71d50c9b.jpg)
+
+![a32fb156ab0e0644536394b358973da45a443d6f7ee0e8b2467c2174900e5300.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/a32fb156ab0e0644536394b358973da45a443d6f7ee0e8b2467c2174900e5300.jpg)
+
+![b6d8a34c62c885500d24337284975e58999483838701a9e28fc9ed58689a1d5a.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/b6d8a34c62c885500d24337284975e58999483838701a9e28fc9ed58689a1d5a.jpg)
+
+![f5056b8eeca581cd5c520ca7e5669c7f2eba1217ee9e71861d0995b56931d7d4.jpg](acl_results/1023_Structural Reasoning Improves Molecular Understanding ofLLM/tables/f5056b8eeca581cd5c520ca7e5669c7f2eba1217ee9e71861d0995b56931d7d4.jpg)
+
+## CAMI: A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Exploration
+
+### Images
+
+![0afa9d5158231362d3c6d231ca8dfa5f8ec56c76b7d8837c61c8c0a387e44126.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/images/0afa9d5158231362d3c6d231ca8dfa5f8ec56c76b7d8837c61c8c0a387e44126.jpg)
+
+![61ca01cf66a70339c4ff3e0e33e9c9582d15a36867acc60b7e4b191f90dd0899.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/images/61ca01cf66a70339c4ff3e0e33e9c9582d15a36867acc60b7e4b191f90dd0899.jpg)
+
+![fa75ac5889af6d148c47c44471b868c47bc77ea100509d1ddeb74dd4140dcda9.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/images/fa75ac5889af6d148c47c44471b868c47bc77ea100509d1ddeb74dd4140dcda9.jpg)
+
+### Tables
+
+![02ac67c23087d026f73cdadb107a0392c41c8c3bc1ab639ed53e370ca84d6499.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/02ac67c23087d026f73cdadb107a0392c41c8c3bc1ab639ed53e370ca84d6499.jpg)
+
+![16e49a3d402e103333be95256b0e6427b41eddb81d6de1bca2d4ca529264c145.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/16e49a3d402e103333be95256b0e6427b41eddb81d6de1bca2d4ca529264c145.jpg)
+
+![1cf0afa95d40c499d0cff03f4134bac057af195ce9723395db97705ea0ba1b83.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/1cf0afa95d40c499d0cff03f4134bac057af195ce9723395db97705ea0ba1b83.jpg)
+
+![1f2c8375d1e3a5664ec20b5cd22478e92cba332b07982969f744a4fd9fb0bf20.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/1f2c8375d1e3a5664ec20b5cd22478e92cba332b07982969f744a4fd9fb0bf20.jpg)
+
+![1f76e155ebc6f7f5da4776ca5d9624b4e366a8c25802505c4a404f3bbdd1de67.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/1f76e155ebc6f7f5da4776ca5d9624b4e366a8c25802505c4a404f3bbdd1de67.jpg)
+
+![22859e1dd2652d323234043be5d7844880a07b91742ad447810b2bfad6b951de.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/22859e1dd2652d323234043be5d7844880a07b91742ad447810b2bfad6b951de.jpg)
+
+![2a76847612469eeaa16ce6ed7a20f677693e51cead39d09420f16ec692b73b57.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/2a76847612469eeaa16ce6ed7a20f677693e51cead39d09420f16ec692b73b57.jpg)
+
+![46bd04ce958bef75f576f7af41266df53f6c099026453d3b01512438444d36e1.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/46bd04ce958bef75f576f7af41266df53f6c099026453d3b01512438444d36e1.jpg)
+
+![47b84c9217944527bf47f0a339c4fc7d8c7cd87420abc2ad93698e00eefc098b.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/47b84c9217944527bf47f0a339c4fc7d8c7cd87420abc2ad93698e00eefc098b.jpg)
+
+![4aecfece474e1b7dcf83a51b4b07824f1ceba30a1bbe52e449ec93d0d905d77d.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/4aecfece474e1b7dcf83a51b4b07824f1ceba30a1bbe52e449ec93d0d905d77d.jpg)
+
+![5f75d5cd0c44530931dfd44f0f466f7a0f3917fb6f4e254703734f455d881af1.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/5f75d5cd0c44530931dfd44f0f466f7a0f3917fb6f4e254703734f455d881af1.jpg)
+
+![61ccaad368a9efdef79941379b62dcbe0eee6668a64a565408462e0ab3d15c40.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/61ccaad368a9efdef79941379b62dcbe0eee6668a64a565408462e0ab3d15c40.jpg)
+
+![70b788251a1281ad00e43900890d19a6cca5c11b686ae547e8f2fdbee117d843.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/70b788251a1281ad00e43900890d19a6cca5c11b686ae547e8f2fdbee117d843.jpg)
+
+![719cd428de4605461cae9cb9d665f6416e7110ba981ed6c67e49789634f8278c.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/719cd428de4605461cae9cb9d665f6416e7110ba981ed6c67e49789634f8278c.jpg)
+
+![723ad4a723e86d38f16ef6fc8588ede568e5a922eebe2b61fb0004231bb41386.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/723ad4a723e86d38f16ef6fc8588ede568e5a922eebe2b61fb0004231bb41386.jpg)
+
+![72be60d5424d781299ff5a9590159cdcee4419d580d459e6a4293f6a5ca35a31.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/72be60d5424d781299ff5a9590159cdcee4419d580d459e6a4293f6a5ca35a31.jpg)
+
+![78a4c212e2001a77e3e7b12200425fbb2bbe22402a1db0219547667460b80846.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/78a4c212e2001a77e3e7b12200425fbb2bbe22402a1db0219547667460b80846.jpg)
+
+![8523d92c7fec2fbf192947d3d39620f6ecdfad55f38a1f280a8a7305eed276ed.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/8523d92c7fec2fbf192947d3d39620f6ecdfad55f38a1f280a8a7305eed276ed.jpg)
+
+![8b6bacdb73fabd76351f50927a266ecd5494c1cb9e844420a643050d57e7dccb.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/8b6bacdb73fabd76351f50927a266ecd5494c1cb9e844420a643050d57e7dccb.jpg)
+
+![8ff0f21c2790537fbfeb175e30272b143f1b060a80762f34aad82bc53432e53f.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/8ff0f21c2790537fbfeb175e30272b143f1b060a80762f34aad82bc53432e53f.jpg)
+
+![969df83a042fff106eec30df495e9f4353e3fe824f9c21b2b778f4c848654606.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/969df83a042fff106eec30df495e9f4353e3fe824f9c21b2b778f4c848654606.jpg)
+
+![998eadac017abbbc1444f0e8202d7cd9cd66f9c2a66ef378109796494d9a407a.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/998eadac017abbbc1444f0e8202d7cd9cd66f9c2a66ef378109796494d9a407a.jpg)
+
+![baf3ca242e91e9edf17a08d2f7dc50cecc425d095418a14cedbc71e6886dee89.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/baf3ca242e91e9edf17a08d2f7dc50cecc425d095418a14cedbc71e6886dee89.jpg)
+
+![c09ac92846631797c8ad3b65effb7c7ae3fb37270a3213be71d93d1706a41667.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/c09ac92846631797c8ad3b65effb7c7ae3fb37270a3213be71d93d1706a41667.jpg)
+
+![c45232b5f47592db276384260970677be23e5a67abd8544b8291fee80268d1da.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/c45232b5f47592db276384260970677be23e5a67abd8544b8291fee80268d1da.jpg)
+
+![c7bf6da35ae7f655ef28bdc2fb9116845d97ee5436bac05fff4f5d04d05b167c.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/c7bf6da35ae7f655ef28bdc2fb9116845d97ee5436bac05fff4f5d04d05b167c.jpg)
+
+![cdc05110ca046b97c81fcfbe7a84475d1365ccd3a13820dfebb18faebeaf5ec8.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/cdc05110ca046b97c81fcfbe7a84475d1365ccd3a13820dfebb18faebeaf5ec8.jpg)
+
+![d1eab3de90bbf9d249e3352b97b1f3499d57195806ee0720c40dcdd30c29865b.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/d1eab3de90bbf9d249e3352b97b1f3499d57195806ee0720c40dcdd30c29865b.jpg)
+
+![d295386635ac8dd68c9dc208017fcb994d7b2c8fb1168f0935349294aa88c6fc.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/d295386635ac8dd68c9dc208017fcb994d7b2c8fb1168f0935349294aa88c6fc.jpg)
+
+![e2123354c2fc0576cb331e0dcf13c398ab67315db934689e368e788323a258ed.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/e2123354c2fc0576cb331e0dcf13c398ab67315db934689e368e788323a258ed.jpg)
+
+![e2ee311182b10c03adaf313b589128cfabc5b4ca5f5bf39622896e7cebc12993.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/e2ee311182b10c03adaf313b589128cfabc5b4ca5f5bf39622896e7cebc12993.jpg)
+
+![f2a3de19602eee32f4c8ef1a9931ab9f963d837392968bfe62eb7c0bf99c1fea.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/f2a3de19602eee32f4c8ef1a9931ab9f963d837392968bfe62eb7c0bf99c1fea.jpg)
+
+![fd867547129d80b22de9162e6d338c0b66465bd4f0926f3c462be0071710bab7.jpg](acl_results/1024_CAMI_ A Counselor Agent Supporting Motivational Interviewing through State Inference and Topic Explo/tables/fd867547129d80b22de9162e6d338c0b66465bd4f0926f3c462be0071710bab7.jpg)
+
+## Know You First and Be You Better: Modeling Human-Like User Simulators via Implicit Profiles
+
+### Images
+
+![2669db3b7e6989eea78c68cde020fb0174c64a2fbf141133a12cbbbc3bcb5d1e.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/images/2669db3b7e6989eea78c68cde020fb0174c64a2fbf141133a12cbbbc3bcb5d1e.jpg)
+
+![2b0a861a1d69f40b8521dd616a367466fe8347d237f388c049ecce9e3258e1ad.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/images/2b0a861a1d69f40b8521dd616a367466fe8347d237f388c049ecce9e3258e1ad.jpg)
+
+![53ac9771f78ef58519b771777eb0fa6106287a88dca2f128357dbb049a9ce42b.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/images/53ac9771f78ef58519b771777eb0fa6106287a88dca2f128357dbb049a9ce42b.jpg)
+
+![58179b296182051ba589cf67a6eb345950338ac384c2b3b66aed6154d3a0e72e.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/images/58179b296182051ba589cf67a6eb345950338ac384c2b3b66aed6154d3a0e72e.jpg)
+
+![5bdf7cfa484a595856fa20c70346db121b951896f8fec3f77c01ee45f6200bb2.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/images/5bdf7cfa484a595856fa20c70346db121b951896f8fec3f77c01ee45f6200bb2.jpg)
+
+![f7fe000d6eac8ac03cb398a406474e67de38ee6080c23ceb074c11b5f687ebbf.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/images/f7fe000d6eac8ac03cb398a406474e67de38ee6080c23ceb074c11b5f687ebbf.jpg)
+
+### Tables
+
+![020cbf953a29feeadef933623decbacb2fd8528117706ec27e9938efb4adf519.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/020cbf953a29feeadef933623decbacb2fd8528117706ec27e9938efb4adf519.jpg)
+
+![04ee344ca628bc732125f807e5b6e3776e9381b3b2bed6d2166d74bc4e59b5c5.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/04ee344ca628bc732125f807e5b6e3776e9381b3b2bed6d2166d74bc4e59b5c5.jpg)
+
+![18d5518b76563a912a50f1a35aa46af010797faaf5f809750810ca7cc9a853d6.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/18d5518b76563a912a50f1a35aa46af010797faaf5f809750810ca7cc9a853d6.jpg)
+
+![4233c6d82366b4edfaaf7b7722b66e62a4121f933b64d58e4f4baa5856a2b54e.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/4233c6d82366b4edfaaf7b7722b66e62a4121f933b64d58e4f4baa5856a2b54e.jpg)
+
+![58fc20942d982c4b6a4bc202235d8c852a97da362ddbe290d17b68c6fadeb97d.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/58fc20942d982c4b6a4bc202235d8c852a97da362ddbe290d17b68c6fadeb97d.jpg)
+
+![5929d44f365affb230187dca3dce21e9154cce683b938d7c4c2ada397e023e1f.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/5929d44f365affb230187dca3dce21e9154cce683b938d7c4c2ada397e023e1f.jpg)
+
+![93471e8ebdcefc8195845ac027e839e214287762a431221e83e66266e9440dba.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/93471e8ebdcefc8195845ac027e839e214287762a431221e83e66266e9440dba.jpg)
+
+![99a0c6b1d5c57157f541a3be63b1acc554fb4dd374bd72d9ec3ff037a7745866.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/99a0c6b1d5c57157f541a3be63b1acc554fb4dd374bd72d9ec3ff037a7745866.jpg)
+
+![a0cdf1909a5805c1a85352af1921288dab55ba78d2d5758e6865cc98e45343dd.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/a0cdf1909a5805c1a85352af1921288dab55ba78d2d5758e6865cc98e45343dd.jpg)
+
+![e08d4087919d7904b8a05d7220db7c1a82bc3d1370d732dc7e1d6b5f1294b7fc.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/e08d4087919d7904b8a05d7220db7c1a82bc3d1370d732dc7e1d6b5f1294b7fc.jpg)
+
+![ffc0de405aad6b67f0a904870b151068110531f8d6ebcce9bb65e2f0377aed48.jpg](acl_results/1025_Know You First and Be You Better_ Modeling Human-Like User Simulators via Implicit Profiles/tables/ffc0de405aad6b67f0a904870b151068110531f8d6ebcce9bb65e2f0377aed48.jpg)
