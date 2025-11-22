@@ -4,14 +4,14 @@
 
 > [!note]
 >
-> This project repository contains the long papers from ACL 2025. We extracted each paper’s framework diagrams, experimental figures, and other visuals to study their presentation techniques. Since the content is extensive and a single markdown file cannot render everything reliably, **we split it into fifty separate markdown files**, each covering around thirty two papers. The following section indexes where each paper is located😁😁. Hope we can make progress together！
+> This project repository contains the long papers from ACL 2025. We extracted each paper’s framework diagrams, experimental figures, and other visuals to study their presentation techniques. Since the content is extensive and a single markdown file cannot render everything reliably, **we split it into fifty separate markdown files**, each covering around thirty two papers. The following section indexes where each paper is located😁😁. Hope we can make progress together！Please help the children of Uganda!
 ---
+
 ## 📚 Complete Paper Index
 
 Total Papers: 1599
 
 Split into 50 parts for better browsing
-
 
 ### 📖 Parts Summary
 
