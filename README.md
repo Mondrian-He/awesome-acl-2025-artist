@@ -4,7 +4,7 @@
 
 > [!note]
 >
-> This project repository contains the long papers from ACL 2025. We extracted each paper’s framework diagrams, experimental figures, and other visuals to study their presentation techniques. Since the content is extensive and a single markdown file cannot render everything reliably, **we split it into fifty separate markdown files**, each covering around thirty two papers. The following section indexes where each paper is located😁😁. Hope we can make progress together！Please help the children of Uganda!
+> This project repository contains the long papers from ACL 2025. Each paper’s framework diagrams, experimental figures, and other visuals are extracted to study their presentation techniques. Since the content is extensive and a single Markdown file cannot render everything reliably, **we split it into fifty separate Markdown files**, each covering approximately thirty-two papers. The following section indexes where each paper is located😁😁. Hope we can make progress together! Please help the children of Uganda!
 ---
 
 ## 📚 Complete Paper Index
@@ -88,13 +88,13 @@ Split into 50 parts for better browsing
   18. [Statistical Deficiency for Task Inclusion Estimation](acl_src/ACL_2025_Long_Papers_Part_1.md#Statistical-Deficiency-for-Task-Inclusion-Estimation)
   19. [Towards Robust and Efficient Federated Low-Rank Adaptation with Heterogeneous Clients](acl_src/ACL_2025_Long_Papers_Part_1.md#Towards-Robust-and-Efficient-Federated-Low-Rank-Adaptation-with-Heterogeneous-Clients)
   20. [LLM-Powered Test Case Generation for Detecting Bugs in Plausible Programs](acl_src/ACL_2025_Long_Papers_Part_1.md#LLM-Powered-Test-Case-Generation-for-Detecting-Bugs-in-Plausible-Programs)
-  21. [Capture the Key in Reasoning to EnhanceCoTDistillation Generalization](acl_src/ACL_2025_Long_Papers_Part_1.md#Capture-the-Key-in-Reasoning-to-EnhanceCoTDistillation-Generalization)
-  22. [How to Enable Effective Cooperation Between Humans andNLPModels: A Survey of Principles, Formalizations, and Beyond](acl_src/ACL_2025_Long_Papers_Part_1.md#How-to-Enable-Effective-Cooperation-Between-Humans-andNLPModels-A-Survey-of-Principles-Formalizations-and-Beyond)
+  21. [Capture the Key in Reasoning to Enhance CoT Distillation Generalization](acl_src/ACL_2025_Long_Papers_Part_1.md#Capture-the-Key-in-Reasoning-to-EnhanceCoTDistillation-Generalization)
+  22. [How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond](acl_src/ACL_2025_Long_Papers_Part_1.md#How-to-Enable-Effective-Cooperation-Between-Humans-andNLPModels-A-Survey-of-Principles-Formalizations-and-Beyond)
   23. [Enhancing Hyperbole and Metaphor Detection with Their Bidirectional Dynamic Interaction and Emotion Knowledge](acl_src/ACL_2025_Long_Papers_Part_1.md#Enhancing-Hyperbole-and-Metaphor-Detection-with-Their-Bidirectional-Dynamic-Interaction-and-Emotion-Knowledge)
   24. [UniICL: An EfficientICLFramework Unifying Compression, Selection, and Generation](acl_src/ACL_2025_Long_Papers_Part_1.md#UniICL-An-EfficientICLFramework-Unifying-Compression-Selection-and-Generation)
-  25. [BelarusianGLUE: Towards a Natural Language Understanding Benchmark forBelarusian](acl_src/ACL_2025_Long_Papers_Part_1.md#BelarusianGLUE-Towards-a-Natural-Language-Understanding-Benchmark-forBelarusian)
+  25. [BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian](acl_src/ACL_2025_Long_Papers_Part_1.md#BelarusianGLUE-Towards-a-Natural-Language-Understanding-Benchmark-forBelarusian)
   26. [A Survey on Foundation Language Models for Single-cell Biology](acl_src/ACL_2025_Long_Papers_Part_1.md#A-Survey-on-Foundation-Language-Models-for-Single-cell-Biology)
-  27. [RuleArena: A Benchmark for Rule-Guided Reasoning withLLMs in Real-World Scenarios](acl_src/ACL_2025_Long_Papers_Part_1.md#RuleArena-A-Benchmark-for-Rule-Guided-Reasoning-withLLMs-in-Real-World-Scenarios)
+  27. [RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios](acl_src/ACL_2025_Long_Papers_Part_1.md#RuleArena-A-Benchmark-for-Rule-Guided-Reasoning-withLLMs-in-Real-World-Scenarios)
   28. [ExtendingLLMContext Window with Adaptive Grouped Positional Encoding: A Training-Free Method](acl_src/ACL_2025_Long_Papers_Part_1.md#ExtendingLLMContext-Window-with-Adaptive-Grouped-Positional-Encoding-A-Training-Free-Method)
   29. [Semantic Exploration with Adaptive Gating for Efficient Problem Solving with Language Models](acl_src/ACL_2025_Long_Papers_Part_1.md#Semantic-Exploration-with-Adaptive-Gating-for-Efficient-Problem-Solving-with-Language-Models)
   30. [HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval](acl_src/ACL_2025_Long_Papers_Part_1.md#HotelMatch-LLM-Joint-Multi-Task-Training-of-Small-and-Large-Language-Models-for-Efficient-Multimodal-Hotel-Retrieval)
@@ -105,17 +105,17 @@ Split into 50 parts for better browsing
   35. [Generating Diverse Training Samples for Relation Extraction with Large Language Models](acl_src/ACL_2025_Long_Papers_Part_2.md#Generating-Diverse-Training-Samples-for-Relation-Extraction-with-Large-Language-Models)
   36. [MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts](acl_src/ACL_2025_Long_Papers_Part_2.md#MultiSocial-Multilingual-Benchmark-of-Machine-Generated-Text-Detection-of-Social-Media-Texts)
   37. [Efficient and Accurate Prompt Optimization: the Benefit of Memory in Exemplar-Guided Reflection](acl_src/ACL_2025_Long_Papers_Part_2.md#Efficient-and-Accurate-Prompt-Optimization-the-Benefit-of-Memory-in-Exemplar-Guided-Reflection)
-  38. [Evaluation ofLLMVulnerabilities to Being Misused for Personalized Disinformation Generation](acl_src/ACL_2025_Long_Papers_Part_2.md#Evaluation-ofLLMVulnerabilities-to-Being-Misused-for-Personalized-Disinformation-Generation)
+  38. [Evaluation of LLM Vulnerabilities to Being Misused for Personalized Disinformation Generation](acl_src/ACL_2025_Long_Papers_Part_2.md#Evaluation-ofLLMVulnerabilities-to-Being-Misused-for-Personalized-Disinformation-Generation)
   39. [EscapeBench: Towards Advancing Creative Intelligence of Language Model Agents](acl_src/ACL_2025_Long_Papers_Part_2.md#EscapeBench-Towards-Advancing-Creative-Intelligence-of-Language-Model-Agents)
   40. [BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving](acl_src/ACL_2025_Long_Papers_Part_2.md#BPP-Search-Enhancing-Tree-of-Thought-Reasoning-for-Mathematical-Modeling-Problem-Solving)
-  41. [LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis withLLMData Augmentation](acl_src/ACL_2025_Long_Papers_Part_2.md#LACA-Improving-Cross-lingual-Aspect-Based-Sentiment-Analysis-withLLMData-Augmentation)
+  41. [LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation](acl_src/ACL_2025_Long_Papers_Part_2.md#LACA-Improving-Cross-lingual-Aspect-Based-Sentiment-Analysis-withLLMData-Augmentation)
   42. [Fusing Highly Specialized Language Models for Comprehensive Expertise](acl_src/ACL_2025_Long_Papers_Part_2.md#Fusing-Highly-Specialized-Language-Models-for-Comprehensive-Expertise)
   43. [HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases](acl_src/ACL_2025_Long_Papers_Part_2.md#HybGRAG-Hybrid-Retrieval-Augmented-Generation-on-Textual-and-Relational-Knowledge-Bases)
   44. [Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms](acl_src/ACL_2025_Long_Papers_Part_2.md#Re-ranking-Using-Large-Language-Models-for-Mitigating-Exposure-to-Harmful-Content-on-Social-Media-Platforms)
-  45. [AligningAIResearch with the Needs of Clinical Coding Workflows: Eight Recommendations Based onUSData Analysis and Critical Review](acl_src/ACL_2025_Long_Papers_Part_2.md#AligningAIResearch-with-the-Needs-of-Clinical-Coding-Workflows-Eight-Recommendations-Based-onUSData-Analysis-and-Critical-Review)
+  45. [AligningAIResearch with the Needs of Clinical Coding Workflows: Eight Recommendations Based on US Data Analysis and Critical Review](acl_src/ACL_2025_Long_Papers_Part_2.md#AligningAIResearch-with-the-Needs-of-Clinical-Coding-Workflows-Eight-Recommendations-Based-onUSData-Analysis-and-Critical-Review)
   46. [MIND: A Multi-agent Framework for Zero-shot Harmful Meme Detection](acl_src/ACL_2025_Long_Papers_Part_2.md#MIND-A-Multi-agent-Framework-for-Zero-shot-Harmful-Meme-Detection)
   47. [EvoWiki: EvaluatingLLMs on Evolving Knowledge](acl_src/ACL_2025_Long_Papers_Part_2.md#EvoWiki-EvaluatingLLMs-on-Evolving-Knowledge)
-  48. [Rethinking Repetition Problems ofLLMs in Code Generation](acl_src/ACL_2025_Long_Papers_Part_2.md#Rethinking-Repetition-Problems-ofLLMs-in-Code-Generation)
+  48. [Rethinking Repetition Problems of LLMs in Code Generation](acl_src/ACL_2025_Long_Papers_Part_2.md#Rethinking-Repetition-Problems-ofLLMs-in-Code-Generation)
   49. [PunchBench: BenchmarkingMLLMs in Multimodal Punchline Comprehension](acl_src/ACL_2025_Long_Papers_Part_2.md#PunchBench-BenchmarkingMLLMs-in-Multimodal-Punchline-Comprehension)
   50. [ProcessBench: Identifying Process Errors in Mathematical Reasoning](acl_src/ACL_2025_Long_Papers_Part_2.md#ProcessBench-Identifying-Process-Errors-in-Mathematical-Reasoning)
   51. [Model Extrapolation Expedites Alignment](acl_src/ACL_2025_Long_Papers_Part_2.md#Model-Extrapolation-Expedites-Alignment)
