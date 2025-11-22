@@ -1,6 +1,10 @@
 # awesome-acl-2025-artist
 
-**ACL 2025 Long Papers - Master Index**
+<img src="https://img.shields.io/badge/ACL 2025-green"> <img src="https://img.shields.io/badge/Artist-purple"> <img src="https://img.shields.io/badge/Long Paper-orange"> <img src="https://img.shields.io/badge/WorkFlow, Framwork, Table, etc.-pink">
+
+> [!note]
+>
+> This project repository contains the long papers from ACL 2025. We extracted each paper’s framework diagrams, experimental figures, and other visuals to study their presentation techniques. Since the content is extensive and a single markdown file cannot render everything reliably, **we split it into fifty separate markdown files**, each covering around thirty two papers. The following section indexes where each paper is located😁😁. Hope we can make progress together！
 ---
 ## 📚 Complete Paper Index
 
