@@ -15,57 +15,13 @@ Split into 50 parts for better browsing
 
 ### 📖 Parts Summary
 
-- **Part 1**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_1.md)
-- **Part 2**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_2.md)
-- **Part 3**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_3.md)
-- **Part 4**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_4.md)
-- **Part 5**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_5.md)
-- **Part 6**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_6.md)
-- **Part 7**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_7.md)
-- **Part 8**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_8.md)
-- **Part 9**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_9.md)
-- **Part 10**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_10.md)
-- **Part 11**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_11.md)
-- **Part 12**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_12.md)
-- **Part 13**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_13.md)
-- **Part 14**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_14.md)
-- **Part 15**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_15.md)
-- **Part 16**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_16.md)
-- **Part 17**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_17.md)
-- **Part 18**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_18.md)
-- **Part 19**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_19.md)
-- **Part 20**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_20.md)
-- **Part 21**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_21.md)
-- **Part 22**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_22.md)
-- **Part 23**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_23.md)
-- **Part 24**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_24.md)
-- **Part 25**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_25.md)
-- **Part 26**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_26.md)
-- **Part 27**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_27.md)
-- **Part 28**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_28.md)
-- **Part 29**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_29.md)
-- **Part 30**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_30.md)
-- **Part 31**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_31.md)
-- **Part 32**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_32.md)
-- **Part 33**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_33.md)
-- **Part 34**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_34.md)
-- **Part 35**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_35.md)
-- **Part 36**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_36.md)
-- **Part 37**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_37.md)
-- **Part 38**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_38.md)
-- **Part 39**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_39.md)
-- **Part 40**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_40.md)
-- **Part 41**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_41.md)
-- **Part 42**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_42.md)
-- **Part 43**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_43.md)
-- **Part 44**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_44.md)
-- **Part 45**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_45.md)
-- **Part 46**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_46.md)
-- **Part 47**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_47.md)
-- **Part 48**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_48.md)
-- **Part 49**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_49.md)
-- **Part 50**: [31 papers](acl_src/ACL_2025_Long_Papers_Part_50.md)
-
+| column1 | column2 | column3 | column4 | column5 | column6 | column7 | column8 | column9 | column10 |
+|---|---|---|---|---|---|---|---|---|---|
+| **Part 1**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_1.md) | **Part 2**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_2.md) | **Part 3**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_3.md) | **Part 4**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_4.md) | **Part 5**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_5.md) | **Part 6**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_6.md) | **Part 7**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_7.md) | **Part 8**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_8.md) | **Part 9**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_9.md) | **Part 10**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_10.md) |
+| **Part 11**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_11.md) | **Part 12**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_12.md) | **Part 13**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_13.md) | **Part 14**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_14.md) | **Part 15**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_15.md) | **Part 16**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_16.md) | **Part 17**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_17.md) | **Part 18**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_18.md) | **Part 19**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_19.md) | **Part 20**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_20.md) |
+| **Part 21**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_21.md) | **Part 22**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_22.md) | **Part 23**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_23.md) | **Part 24**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_24.md) | **Part 25**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_25.md) | **Part 26**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_26.md) | **Part 27**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_27.md) | **Part 28**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_28.md) | **Part 29**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_29.md) | **Part 30**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_30.md) |
+| **Part 31**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_31.md) | **Part 32**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_32.md) | **Part 33**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_33.md) | **Part 34**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_34.md) | **Part 35**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_35.md) | **Part 36**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_36.md) | **Part 37**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_37.md) | **Part 38**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_38.md) | **Part 39**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_39.md) | **Part 40**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_40.md) |
+| **Part 41**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_41.md) | **Part 42**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_42.md) | **Part 43**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_43.md) | **Part 44**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_44.md) | **Part 45**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_45.md) | **Part 46**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_46.md) | **Part 47**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_47.md) | **Part 48**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_48.md) | **Part 49**: [32 papers](acl_src/ACL_2025_Long_Papers_Part_49.md) | **Part 50**: [31 papers](acl_src/ACL_2025_Long_Papers_Part_50.md) |
 ### 📝 All Papers by Title
 
    1. [Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)](acl_src/ACL_2025_Long_Papers_Part_1.md#Proceedings-of-the-63rd-Annual-Meeting-of-the-Association-for-Computational-Linguistics-Volume-1-Long-Papers)
