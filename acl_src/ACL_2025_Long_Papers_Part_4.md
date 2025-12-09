@@ -1233,7 +1233,7 @@
 
 ### Images
 
-![04365a96a87a4a4f8746e5f6c70b0ca6fc3c6f0d453d98a501e727b7f1104459.jpg](../acl_results/128_Gender%20Inclusivity%20Fairness%20Index%20%28GIFI%29_ A Multilevel Framework for Evaluating Gender Diversity in /images/04365a96a87a4a4f8746e5f6c70b0ca6fc3c6f0d453d98a501e727b7f1104459.jpg)
+![04365a96a87a4a4f8746e5f6c70b0ca6fc3c6f0d453d98a501e727b7f1104459.jpg](../acl_results/128_Gender%20Inclusivity%20Fairness%20Index%20%28GIFI)_ A Multilevel Framework for Evaluating Gender Diversity in /images/04365a96a87a4a4f8746e5f6c70b0ca6fc3c6f0d453d98a501e727b7f1104459.jpg)
 
 ![21c32e268e5b1430cd4063481ec7014275a9dbd1128874732b9bda1b4a0fb13d.jpg](../acl_results/128_Gender%20Inclusivity%20Fairness%20Index%20%28GIFI)_ A Multilevel Framework for Evaluating Gender Diversity in /images/21c32e268e5b1430cd4063481ec7014275a9dbd1128874732b9bda1b4a0fb13d.jpg)
 
